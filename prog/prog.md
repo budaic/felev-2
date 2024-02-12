@@ -8,8 +8,9 @@ Teams-en vannak dolgok, meg moodle-en üres.
 2 db zh (20 p, 30 p) - 8./9. hét, illetve 14. hét
 vizsga (50 p)
 
+## Hasznos
+* [minden, amit vettünk](miket-tanultunk.md)
 
-# Mit kell tudni
-## [[includeok]]
-`\#define jegy 5`
-`sizeof(tipus)`
+## Labor jegyzék
+1. [Labor](labor-1.md)
+2. 

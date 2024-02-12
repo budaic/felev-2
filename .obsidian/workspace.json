@@ -11,8 +11,12 @@
             "id": "69500b134e6a9e8e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sziltan/sziltan.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "434710a99423aea6",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sziltan/sziltan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sziltan/sziltan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sziltan/sziltan.md"
+              }
             }
           }
         ]
@@ -141,18 +148,22 @@
   },
   "active": "69500b134e6a9e8e",
   "lastOpenFiles": [
-    "ergonomia/ergonomia-tortenelme.md",
-    "prog/miket-tanultunk.md",
-    "prog/labor-1.md",
-    "ergonomia/ember-gep-felulet.md",
-    "Untitled.canvas",
-    "ergonomia/eloadas-1.md",
-    "ergonomia/ergo.md",
-    "prog/includeok.md",
+    "sziltan/sziltan.md",
+    "sziltan",
     "prog/prog.md",
+    "ergonomia/ergo.md",
+    "prog/miket-tanultunk.md",
+    "ergonomia/eloadas-1.md",
+    "ergonomia/ember-gep-felulet.md",
+    "ergonomia/ergonomia-tortenelme.md",
+    "prog/labor-1.md",
+    "README.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "prog/includeok.md",
     "ergonomia",
     "prog/alap.md",
-    "README.md",
     "prog/incluedok.md",
     "prog/proba2.md",
     "prog/proba.md",
