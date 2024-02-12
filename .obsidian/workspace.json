@@ -11,7 +11,7 @@
             "id": "69500b134e6a9e8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "434710a99423aea6",
@@ -140,6 +141,12 @@
   },
   "active": "69500b134e6a9e8e",
   "lastOpenFiles": [
+    "ergonomia/ergonomia-tortenelme.md",
+    "prog/miket-tanultunk.md",
+    "prog/labor-1.md",
+    "ergonomia/ember-gep-felulet.md",
+    "Untitled.canvas",
+    "ergonomia/eloadas-1.md",
     "ergonomia/ergo.md",
     "prog/includeok.md",
     "prog/prog.md",

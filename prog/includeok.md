@@ -1,3 +1,0 @@
-# Includeok
-
-\# include <stdio.h>

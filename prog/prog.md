@@ -1,11 +1,15 @@
 # Prog alapjai
-2 zh (20 p, 30 p) - Mikor?
+
+## Linkek
+http://www.inflab.bme.hu/~joe/
+Teams-en vannak dolgok, meg moodle-en üres.
+
+## Számonkérések
+2 db zh (20 p, 30 p) - 8./9. hét, illetve 14. hét
 vizsga (50 p)
 
-http://www.inflab.bme.hu/~joe/
 
 # Mit kell tudni
-## ![[includeok]]
+## [[includeok]]
 `\#define jegy 5`
-
 `sizeof(tipus)`
