@@ -7,6 +7,10 @@ mm.bme.hu/~kossa/
 * Gyakorlati anyagok példatár - Teamsen - nyomtassuk ki, vigyük gyakorlatra
 * Konzultáció lehet, gyakvezzel egyeztetve.
 * Alkalmazott mechanika szakosztály youtube videók
+* A diákat Moodle-re tölti fel
+* Muttnyánszky Ádám: Szilárdságtan 1981
+* Csernák pdf - valahol fenn van
+* Efficient engineer
 
 ## Követelmények
 * Gyakorlati órák 70%-a - katalógus van
