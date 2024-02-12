@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "62181baaf710ba02",
+        "id": "3fe85f9264b9e6fe",
         "type": "tabs",
         "children": [
           {
-            "id": "276999245464499a",
+            "id": "69500b134e6a9e8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "prog/includeok.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prog/includeok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prog/includeok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "prog/includeok.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,9 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "276999245464499a",
+  "active": "69500b134e6a9e8e",
   "lastOpenFiles": [
+    "ergonomia/ergo.md",
     "prog/includeok.md",
+    "prog/prog.md",
+    "ergonomia",
     "prog/alap.md",
     "README.md",
     "prog/incluedok.md",

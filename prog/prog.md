@@ -2,7 +2,7 @@
 2 zh (20 p, 30 p) - Mikor?
 vizsga (50 p)
 
-[http://www.inflab.bme.hu/~joe/](http://www.inflab.bme.hu/~joe/)
+http://www.inflab.bme.hu/~joe/
 
 # Mit kell tudni
 ## ![[includeok]]
