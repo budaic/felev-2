@@ -13,24 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "prog/alap.md",
+                "file": "prog/includeok.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0597b810f4d1d56c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4188aba25fac35d3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "prog/alap.md",
+                "file": "prog/includeok.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "prog/alap.md",
+                "file": "prog/includeok.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "prog/alap.md"
+                "file": "prog/includeok.md"
               }
             }
           }
@@ -163,9 +149,10 @@
   "active": "276999245464499a",
   "lastOpenFiles": [
     "prog/includeok.md",
+    "prog/alap.md",
+    "README.md",
     "prog/incluedok.md",
     "prog/proba2.md",
-    "prog/alap.md",
     "prog/proba.md",
     "prog",
     "Welcome.md"
