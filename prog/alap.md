@@ -4,6 +4,6 @@ vizsga (50 p)
 
 # Mit kell tudni
 ## ![[includeok]]
-\#define jegy 5
+`\#define jegy 5`
 
-sizeof(tipus)
+`sizeof(tipus)`
