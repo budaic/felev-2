@@ -6,5 +6,4 @@ vizsga (50 p)
 ## ![[includeok]]
 \#define jegy 5
 
-
-adfkjakjsdhfaks
+sizeof(tipus)
