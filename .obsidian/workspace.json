@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sziltan/sziltan.md",
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sziltan/sziltan.md",
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sziltan/sziltan.md",
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sziltan/sziltan.md"
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "69500b134e6a9e8e",
   "lastOpenFiles": [
+    "sziltan/normal-feszultseg.md",
+    "sziltan/normal-feszultseg",
+    "sziltan/img/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
+    "sziltan/img/584fbcfc-3c56-97ab-9232-0e2738f4db0c.svg",
+    "sziltan/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
+    "sziltan/129b2960-7d5a-a82b-09f4-c863c3ef806f.svg",
+    "sziltan/eloadas-1.md",
+    "sziltan/izotrop.md",
     "sziltan/sziltan.md",
     "sziltan",
     "prog/prog.md",
