@@ -5,3 +5,6 @@ vizsga (50 p)
 # Mit kell tudni
 ## ![[includeok]]
 \#define jegy 5
+
+
+adfkjakjsdhfaks
