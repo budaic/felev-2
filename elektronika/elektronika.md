@@ -75,5 +75,10 @@ Példa: DC motor forgó tengelyének pozíció érzékelése
 
 Probléma: kiterjesztett NBCD-vel lehetséges nagyon nagy hiba
 
-gray kód: egymás mellett levő szektorokból mindig csak 1 cella változik
+**Gray-kód**: egymás mellett levő szektorokból mindig csak 1 cella változik
 ![alt text](img/image_3.png)
+
+Előállítása:
+0-val kezdve mindig tükrözzük az addigi számokat (egymás alá írva), a tükörtengely alatt levők elé egyest a felette lévők elő 0-t írunk.
+
+### Boole algebra
