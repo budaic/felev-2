@@ -1,7 +1,9 @@
 # Belső pont
 
-$\vec{x} \in \mathbb{R}^p$ belső pontja $A \subseteq \mathbb{R}^p$, hogyha:
-\[ \exists \varepsilon<0: B_{\varepsilon}(\vec{x})\subseteq A \]
+## Definició
+$\vec{x} \in \mathbb{R}^p$ belső pontja $A \subseteq \mathbb{R}^p$-nak, hogyha:
+$$ \exists \varepsilon>0: B_{\varepsilon}(\vec{x})\subseteq A $$
+Azaz létezik olyan $\varepsilon$ sugarú [környezete](kornyezet.md), ami teljesen $A$-ban van. 
 
-A belső pontok halmaza:
-$$ \text{int}\ A=  $$
+## Belső pontok halmaza
+$ \text{int}\ A$ 

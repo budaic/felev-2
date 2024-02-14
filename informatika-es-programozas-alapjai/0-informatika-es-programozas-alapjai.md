@@ -1,5 +1,14 @@
 # Prog alapjai
 
+# Tartalomjegyzék1. 
+1. [Általános tudnivalók](#általános-tudnivalók)
+2. [Jelölések](#jelölések)
+3. [Definíciók](#definiciók)
+4. [Tételek, állítások](#tételek-állítások)
+5. [Előadások](#előadás) \
+    1.1 [1. előadás](#1-előadás)
+
+
 ## Linkek
 http://www.inflab.bme.hu/~joe/
 Teams-en vannak dolgok, meg moodle-en üres.

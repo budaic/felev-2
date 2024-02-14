@@ -1,5 +1,13 @@
 # Elektronika
 
+# Tartalomjegyzék
+1. [Jelölések](#jelölések)
+2. [Definíciók](#Definiciók)
+3. [Tételek, állítások](#tételek-állítások)
+4. [Előadások](#előadás) \
+    1.1 [1. előadás](#1-előadás)
+
+
 AUT, Glöckner György
 Digitális Technika, Digitális Elektronika tárgy
 

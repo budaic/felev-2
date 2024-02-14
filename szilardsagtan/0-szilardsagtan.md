@@ -1,5 +1,15 @@
 # Szilárságtan
 
+# Tartalomjegyzék
+1. [Általános tudnivalók](#általános-tudnivalók)
+2. [Jelölések](#jelölések)
+3. [Definíciók](#definiciók)
+4. [Tételek, állítások](#tételek-állítások)
+5. [Előadások](#előadások) \
+    5.1 [1. Előadás](#1-előadás)
+
+# Általános tudnivalók
+
 Dr. Kossa Attila
 mm.bme.hu/~kossa/
 
@@ -20,5 +30,18 @@ mm.bme.hu/~kossa/
 * HF: 04.08., 05.13. - kötelező, valami python van benne
 * ZH 04.25. - féléves anyag 2/3-a (50 pont)
 
-## Tartalomjegyzék
-1. [Előadás](eloadas-1.md)
+# Előadásokok
+
+## 1. Előadás
+
+## Todo - berakni az osszefoglalast
+
+Statika - merev testek
+Sziltan - deformálható testek
+
+Cél: deformáció és feszültségek számítása
+
+Téma: Lineárisan rugalmas anyagok, kis alakváltozások, rudak, gerendák
+
+## [Rudak gerendák feszültségi állapota](rudak-gerendak-feszultsegi-allapota.md)
+

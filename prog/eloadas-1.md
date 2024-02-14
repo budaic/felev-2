@@ -1,1 +1,0 @@
-# Első előadás (valentin nap:)

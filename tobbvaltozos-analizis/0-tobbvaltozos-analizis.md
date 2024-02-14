@@ -1,30 +1,19 @@
 # Többváltozós analízis
 
 # Tartalomjegyzék
-1. [Előadások](#előadás) \
-    1.1 [1. előadás](#1-előadás)
-2. [Definíciók](#Definiciók)
+1. [Általános tudnivalók](#általános-tudnivalók)
+2. [Jelölések](#jelölések)
+3. [Definíciók](#definiciók)
+4. [Tételek, állítások](#tételek-állítások)
+5. [Előadások](#előadások)
+    5.1 [1. Előadás](#1-előadás)
 
-# Előadás
+# Általános tudnivalók
 
-## 1. előadás
+# Jelölések
+$A^C$ - $A$ halmaz komplementere
 
-$\mathbb{R}^P$ tér topológiája
-Jelölés: $\vec{x} \in \mathbb{R}^P$
-
-$$p=2, \Rightarrow \vec{x}=(x, y), p=3 \Rightarrow \vec{x}=(x, y, z)$$
-
-
-$$|\vec{x}| = \sqrt{x_1^2+x_2^2+\dots+x_p^2}$$
-
-$$d(\vec(x), \vec(y))=|\vec{y}-\vec{y}| \text{  x és y távoltásaga}$$
-
-
-Def: $\vec{x}$ pontnak $\varepsilon$ sugarú környezete
-$$ B_{\varepsilon}(\vec{x}) = \{\vec{y}:|\vec{y}-\vec{x}|<\varepsilon\} $$
-
-
-## Definiciók
+# Definiciók
 * [Pont környezete](kornyezet.md)
 * [Belső pont, belső ponthalmaz](belso-pont.md)
 * [Külső pont, külső ponthalmaz](kulso-pont.md)
@@ -44,6 +33,24 @@ $$ B_{\varepsilon}(\vec{x}) = \{\vec{y}:|\vec{y}-\vec{x}|<\varepsilon\} $$
 * [Szintvonal](szintvonal.md)
 
 
-## Tételek, állítások
+# Tételek, állítások
 * [+ random allitasok kellenek, amiket felirtunk?]
 * [Bolzano-Weierstrass tétel](bolzano-weierstrass.md)
+
+# Előadások
+
+## 1. előadás
+
+$\mathbb{R}^P$ tér topológiája
+Jelölés: $\vec{x} \in \mathbb{R}^P$
+
+$$p=2, \Rightarrow \vec{x}=(x, y), p=3 \Rightarrow \vec{x}=(x, y, z)$$
+
+
+$$|\vec{x}| = \sqrt{x_1^2+x_2^2+\dots+x_p^2}$$
+
+$$d(\vec(x), \vec(y))=|\vec{y}-\vec{y}| \text{  x és y távoltásaga}$$
+
+
+Def: $\vec{x}$ pontnak $\varepsilon$ sugarú környezete
+$$ B_{\varepsilon}(\vec{x}) = \{\vec{y}:|\vec{y}-\vec{x}|<\varepsilon\} $$

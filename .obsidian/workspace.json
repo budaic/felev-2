@@ -11,12 +11,8 @@
             "id": "cb0fb1d931625c96",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,43 +140,54 @@
   },
   "active": "cb0fb1d931625c96",
   "lastOpenFiles": [
+    "szilardsagtan/0-szilardsagtan.md",
+    "szilardsagtan/szilardsagtan.md",
+    "tobbvaltozos-analizis/img",
+    "ergonomia/img",
+    "informatika-es-programozas-alapjai/img",
+    "elektronika-1/0-elektronika-1.md",
+    "ergonomia/0-ergonomia.md",
+    "informatika-es-programozas-alapjai/0-informatika-es-programozas-alapjai.md",
+    "informatika-es-programozas-alapjai/informatika-es-programozas-alapjai.md",
+    "elektronika-1/img/image_3.png",
+    "elektronika-1/img/image_2.png",
+    "elektronika-1/img/image_1.png",
+    "elektronika-1/img",
+    "elektronika-1/elektronika.md",
+    "elektronika-1",
+    "informatika-es-programozas-alapjai/prog.md",
+    "informatika-es-programozas-alapjai/miket-tanultunk.md",
+    "informatika-es-programozas-alapjai/eloadas-1.md",
+    "informatika-es-programozas-alapjai/labor-1.md",
+    "informatika-es-programozas-alapjai",
+    "szilardsagtan/img/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
+    "szilardsagtan/img/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
+    "szilardsagtan/img/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg",
+    "szilardsagtan/img/584fbcfc-3c56-97ab-9232-0e2738f4db0c.svg",
+    "szilardsagtan/sziltan.md",
+    "szilardsagtan/rugalmassagi-modulusz.md",
+    "szilardsagtan/rudak-gerendak-feszultsegi-allapota.md",
+    "szilardsagtan/poisson-tenyezo.md",
+    "szilardsagtan/normal-feszultseg.md",
+    "szilardsagtan/izotrop.md",
+    "szilardsagtan/img",
+    "szilardsagtan/egyszeru-hooke-torveny.md",
+    "szilardsagtan/eloadas-1.md",
+    "szilardsagtan",
+    "sziltan/rudak-gerendak-feszultsegi-allapota.md",
     "sziltan/poisson-tenyezo.md",
     "sziltan/izotrop.md",
     "sziltan/egyszeru-hooke-torveny.md",
     "sziltan/eloadas-1.md",
     "prog/miket-tanultunk.md",
     "prog/labor-1.md",
-    "prog/prog.md",
-    "sziltan/rudak-gerendak-feszultsegi-allapota.md",
-    "sziltan/normal-feszultseg.md",
-    "sziltan/rugalmassagi-modulusz.md",
     "sziltan/rugalmassagi-modulusz",
     "sziltan/img/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg",
     "sziltan/img/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
     "sziltan/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
-    "sziltan/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg",
-    "sziltan/sziltan.md",
     "sziltan/normal-feszultseg",
-    "sziltan/img/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
-    "sziltan/img/584fbcfc-3c56-97ab-9232-0e2738f4db0c.svg",
-    "sziltan/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
-    "sziltan/129b2960-7d5a-a82b-09f4-c863c3ef806f.svg",
-    "sziltan",
-    "ergonomia/ergo.md",
-    "ergonomia/eloadas-1.md",
-    "ergonomia/ember-gep-felulet.md",
-    "ergonomia/ergonomia-tortenelme.md",
-    "README.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
-    "Untitled 2.canvas",
-    "prog/includeok.md",
-    "ergonomia",
-    "prog/alap.md",
-    "prog/incluedok.md",
-    "prog/proba2.md",
-    "prog/proba.md",
-    "prog",
-    "Welcome.md"
+    "Untitled 2.canvas"
   ]
 }
