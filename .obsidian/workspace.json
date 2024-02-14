@@ -11,8 +11,12 @@
             "id": "cb0fb1d931625c96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "sziltan/rudak-gerendak-feszultsegi-allapota.md"
+              }
             }
           }
         ]
@@ -140,18 +148,21 @@
   },
   "active": "cb0fb1d931625c96",
   "lastOpenFiles": [
+    "sziltan/poisson-tenyezo.md",
+    "sziltan/izotrop.md",
+    "sziltan/egyszeru-hooke-torveny.md",
+    "sziltan/eloadas-1.md",
+    "prog/miket-tanultunk.md",
+    "prog/labor-1.md",
+    "prog/prog.md",
     "sziltan/rudak-gerendak-feszultsegi-allapota.md",
     "sziltan/normal-feszultseg.md",
     "sziltan/rugalmassagi-modulusz.md",
     "sziltan/rugalmassagi-modulusz",
-    "sziltan/poisson-tenyezo.md",
     "sziltan/img/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg",
     "sziltan/img/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
-    "sziltan/egyszeru-hooke-torveny.md",
     "sziltan/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
     "sziltan/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg",
-    "sziltan/izotrop.md",
-    "sziltan/eloadas-1.md",
     "sziltan/sziltan.md",
     "sziltan/normal-feszultseg",
     "sziltan/img/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
@@ -159,13 +170,10 @@
     "sziltan/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
     "sziltan/129b2960-7d5a-a82b-09f4-c863c3ef806f.svg",
     "sziltan",
-    "prog/prog.md",
     "ergonomia/ergo.md",
-    "prog/miket-tanultunk.md",
     "ergonomia/eloadas-1.md",
     "ergonomia/ember-gep-felulet.md",
     "ergonomia/ergonomia-tortenelme.md",
-    "prog/labor-1.md",
     "README.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
