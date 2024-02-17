@@ -5,7 +5,7 @@
 2. [Jelölések](#jelölések)
 3. [Definíciók](#definiciók)
 4. [Tételek, állítások](#tételek-állítások)
-5. [Előadások](#előadások)
+5. [Előadások](#előadások) \
     5.1. [1. Előadás](#1-előadás)
 
 # Általános tudnivalók
@@ -35,6 +35,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * [Torlódási pont](torlodasi-pont.md)
 * [Összefüggőség](osszefuggoseg.md)
 * [Tartomány](tartomany.md)
+* [Korlátos halmaz](korlatos-halmaz.md)
 * [Sorozat határértéke](sorozat-hatarerteke.md)
 * [Konvergens sorozat](konvergens-sorozat.md)
 * [Függvény határértéke](fuggveny-hatarerteke.md)
@@ -75,6 +76,10 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 
 **Áll**.: 
 * $ \text{int } A\subseteq A \subseteq \bar{A} $
+* [$\text{ext }A$](kulso-pontok.md) mindig [nyílt](nyilt-halmaz.md)
+* [$\partial A$](hatarpont.md) mindig [zárt](zart-halmaz.md)
+* [$\text{int } A$](belso-pont.md), [$\text{ext } A$](kulso-pont.md), [$\partial A$](hatarpont.md) páronként diszjunkt halmazok
+* $ \text{int } \ A \cup \text{ ext } A \ \cup \partial A = \mathbb{R}^p $, ha $A \subseteq \mathbb{R}^p$ 
 
 **Példa**: $A=[0;1) \text{ esetén}$
 * $\text{int } A = (0; 1)$
@@ -82,37 +87,36 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * $\partial A = \{0; 1\}$
 * $\bar{A} = [0; 1]$
 
-
-
-**Áll**.:
-* [$\text{ext }A$](kulso-pontok.md) mindig [nyílt](nyilt-halmaz.md)
-* [$\partial A$](hatarpont.md) mindig [zárt](zart-halmaz.md)
-
 **Példa**: $ A = \{(x, y)\in \mathbb{R}^2: 0<x^2+y^2<1\} $ esetén
 * $\text{int } A = A$
 * $\text{ext } A = \{ x^2+y^2>1 \}$
 * $\partial A = \{ x^2+y^2=1\}\cup \{(0, 0)\}$
 
-**Áll**.:
-* [$\text{int } A$](belso-pont.md), [$\text{ext } A$](kulso-pont.md), [$\partial A$](hatarpont.md) páronként diszjunkt halmazok
-
-**Áll**.:
-* $ \text{int } \ A \cup \text{ ext } A \ \cup \partial A = \mathbb{R}^p $, ha $A \subseteq \mathbb{R}^p$ 
-
-**Def**.: [Izolált pont](izolalt-pont.md)
-
-**Def**.: [Torlódási pont](tortlodasi-pont.md)
+**Def**.: 
+* [Izolált pont](izolalt-pont.md)
+* [Torlódási pont](tortlodasi-pont.md)
 
 **Példa**: $A=\{ \frac{1}{n}:n\in \mathbb{N}^p \}$-nak $0$-ban van [torlódási pontja](torlodasi-pont.md)
 
 **Példa**: $A=(0;1]$-nak a [torlódási pontjai](torlodasi-pont.md) $[0;1]$
 
+**Áll**.:
+* Véges sok [nyílt halmaz](nyilt-halmaz.md) metszete nyílt
+* Akárhány [nyílt halmaz](nyilt-halmaz.md) uniója nyílt
+* Véges sok [zárt halmaz](zart-halmaz.md) uniója zárt
+* Akárhány [zárt halmaz](zart-halmaz.md) metszete zárt
 
-
-**Def**.: [Összefüggő halmaz](osszefuggoseg.md)
+**Def**.: 
+* [Összefüggő halmaz](osszefuggoseg.md)
+* [Tartomány](tartomany.md)
+* [Korlátos halmaz](korlatos-halmaz.md)
 
 **Példa**: 
 * $(1; 3]$ összefüggő
 * $A=(0;1) \cup (1;3]$ nem összefüggő, hiszen $B=(0; 1), C=(1; 4)$
 
-**Def**
+**Def**.:
+* [Sorozat határértéke](sorozat-hatarerteke.md)
+* [Konvergens sorozat](konvergens-sorozat.md)
+
+
