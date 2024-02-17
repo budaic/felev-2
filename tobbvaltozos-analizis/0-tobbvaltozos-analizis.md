@@ -54,5 +54,5 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 
 ## 1. előadás
 
-$\mathbb{R}^p$ tér topológiája
-Jelölés: $\vec{x} \in \mathbb{R}^p$
+### $\mathbb{R}^p$ tér topológiája
+**Jelölés**: $\vec{x} \in \mathbb{R}^p$
