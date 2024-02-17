@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7ef240a34a9897eb",
+        "id": "76417f3eb4ba5862",
         "type": "tabs",
         "children": [
           {
-            "id": "cb0fb1d931625c96",
+            "id": "4da28610486ab455",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "analízis/cauchy-tetel.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "analízis/cauchy-tetel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "analízis/cauchy-tetel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "analízis/cauchy-tetel.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,54 +138,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb0fb1d931625c96",
+  "active": "4da28610486ab455",
   "lastOpenFiles": [
-    "analízis/descartes-szorzat.md",
-    "analízis/cauchy-tetel.md",
-    "analízis/binomialis-tetel.md",
-    "analízis/bijektiv-lekepezes.md",
-    "analízis/reszsorozat.md",
-    "analízis/sorozat-konvergencia.md",
-    "analízis/cantor-tetel.md",
-    "analízis/img/Pasted image 20240108113927.png",
-    "analízis/img/Pasted image 20240105101821.png",
-    "analízis/arkhimedeszi-axioma.md",
+    "analizis/0-analizis.md",
+    "analizis/img/Pasted image 20240108133321.png",
+    "analizis/img/Pasted image 20240108130305.png",
+    "analizis/img/Pasted image 20240108130249.png",
+    "analizis/img/Pasted image 20240108130230.png",
+    "analizis/img/Pasted image 20240108120425.png",
+    "analizis/img/Pasted image 20240108115244.png",
+    "analizis/img/Pasted image 20240108113927.png",
+    "analizis/img/Pasted image 20240108110626.png",
+    "analizis/img/Pasted image 20240106160558.png",
+    "analizis/img/Pasted image 20240106154341.png",
+    "analizis/weierstrass-tetel.md",
+    "analizis/valos-szamok-axiomai.md",
+    "analizis/trigonometrikus-azonossagok-es-haterertekek.md",
+    "analizis/torlodasi-pont.md",
+    "analizis/test-axiomak.md",
+    "analizis/teljessegi-axioma.md",
+    "analizis/teljes-indukcio.md",
+    "analizis/szurjektiv.md",
+    "analizis/sorozat.md",
+    "analizis/szamtani-mertani-egyenlotlenseg.md",
+    "analizis/sorozat-konvergens-akkor-korlatos.md",
+    "analizis/sorozat-konvergencia.md",
+    "analizis/sorozat-hatarerteke.md",
+    "analizis/rolle-tetel.md",
+    "analizis/reszsorozat.md",
+    "analizis/rendezesi-axiomak.md",
+    "analizis/pascal-haromszog.md",
+    "analizis/metrikus-ter.md",
+    "analizis/megszamlalhatoan-vegtelen-szamossag.md",
+    "analizis/lagrange-tetel.md",
+    "analizis/l-hospital.md",
+    "analizis/injektiv.md",
+    "analizis/indirekt-bizonyitas.md",
+    "analizis/img",
+    "analizis/heine-tetel.md",
+    "analizis/hatvanyhalmaz.md",
+    "analizis",
     "analízis/img",
     "Untitled",
-    "analízis/weierstrass-tetel.md",
-    "analízis/valos-szamok-axiomai.md",
-    "analízis/trigonometrikus-azonossagok-es-haterertekek.md",
-    "analízis/torlodasi-pont.md",
-    "analízis/test-axiomak.md",
-    "analízis/teljessegi-axioma.md",
-    "analízis/teljes-indukcio.md",
-    "analízis/szurjektiv.md",
-    "analízis/szamtani-mertani-egyenlotlenseg.md",
-    "analízis/sorozat.md",
-    "analízis/soroza.md",
-    "analízis/sorozat-konvergens-akkor-korlatos.md",
-    "analízis/sorozat-hatarerteke.md",
-    "analízis/rolle-tetel.md",
-    "analízis/rendezesi-axiomak.md",
-    "analízis/pascal-haromszog.md",
-    "analízis/metrikus-ter.md",
-    "analízis/megszamlalhatoan-vegtelen-szamossag.md",
-    "analízis/img/Pasted image 20240108133321.png",
-    "analízis/img/Pasted image 20240108130305.png",
-    "analízis/img/Pasted image 20240108130249.png",
-    "analízis/img/Pasted image 20240108130230.png",
-    "analízis/img/Pasted image 20240108120425.png",
-    "analízis/img/Pasted image 20240108115244.png",
-    "analízis/img/Pasted image 20240108110626.png",
-    "analízis/img/Pasted image 20240106160558.png",
     "analízis/r",
     "analízis",
     "tobbvaltozos-analizis/analízis",
     "tobbvaltozos-analizis/img",
     "ergonomia/img",
     "informatika-es-programozas-alapjai/img",
-    "elektronika-1/img",
-    "elektronika-1",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

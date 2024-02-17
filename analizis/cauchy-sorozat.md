@@ -4,7 +4,7 @@
 $a_n$ [Sorozat](sorozat.md) Cauchy-sorozat, ha $\forall \epsilon > 0$ $\exists N: \forall n, m \geq N$ $|a_n-a_m| < \epsilon$
 Szavakkal: A [Sorozat](sorozat.md) elemei tetszőleges közel vannak egymáshoz elég nagy $N$ után
 
-## Minden [Sorozat konvergencia|konvergens sorozat](sorozat-konvergencia.md) Cauchy-sorozat
+## Minden [konvergens sorozat](sorozat-konvergencia.md) Cauchy-sorozat
 $\epsilon / 2$ távra tud lenni bármely két eleme elég nagy $N$ esetén. [Háromszög egyenlőtlenség](haromszog-egyenlotlenseg.md)
 
 ## $\mathbb{R}$-ben minden Cauchy-sorozat konvergens

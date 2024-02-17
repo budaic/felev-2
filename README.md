@@ -3,16 +3,20 @@ A BME Mechatronika Bsc második féléves jegyzetei Széles Tamás és Budai Csa
 
 # Tárgyak
 * Mechatronika mérnök Bsc második félév (2022-es tanterv szerint)
+    * [Analízis](analizis/0-analizis.md)
+
+* Mechatronika mérnök Bsc második félév (2022-es tanterv szerint)
     * [Többváltozós analízis mérnököknek](tobbvaltozos-analizis/0-tobbvaltozos-analizis.md) (emelt matekos G2)
     * [Szilárdságtan](szilardsagtan/0-szilardsagtan.md)
     * [Programozás alapjai](informatika-es-programozas-alapjai/0-informatika-es-programozas-alapjai.md)
-    * [Ergonómia](tobbvaltozos-analizis/0-ergonomia.md)
-    * [Elektronika I.](tobbvaltozos-analizis/0-elektronika-1.md)
+    * [Ergonómia](ergonomia/0-ergonomia.md)
+    * [Elektronika I.](elektronika-1/0-elektronika-1.md)
     
 
 # TODO
 * Rendezni a szabványírás helyzetet
 * [függvény folytonossága második definició](tobbvaltozos-analizis/fuggveny-folytonossaga.md#definíció-2) kérdéses, hogy $\geq$ kell, vagy $>$
+* Analízisnél az alap fájlt megcsinálni
 
 
 # Írás szabvány

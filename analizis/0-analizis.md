@@ -1,0 +1,3 @@
+# Analízis
+
+# TODO belinkelni mindent
