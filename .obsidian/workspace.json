@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "804836a63d9c5e1b",
+        "id": "7fb80219082997a0",
         "type": "tabs",
         "children": [
           {
-            "id": "a11abb9d4fe28217",
+            "id": "0a065ae67651bb5f",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -138,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a11abb9d4fe28217",
+  "active": "0a065ae67651bb5f",
   "lastOpenFiles": [
+    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
     "Sorozat konvergencia.md",
     "analizis/0-analizis.md",
     "analizis/img/Pasted image 20240108133321.png",
@@ -176,7 +177,6 @@
     "analizis/injektiv.md",
     "analizis/indirekt-bizonyitas.md",
     "analizis/img",
-    "analizis/heine-tetel.md",
     "analizis",
     "analízis/img",
     "Untitled",
