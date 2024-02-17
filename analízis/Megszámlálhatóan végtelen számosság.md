@@ -1,1 +1,0 @@
-Ha valamely $H$ halmaz elemei és a természetes számok között kölcsönösen egyértelmű ([[Bijektív leképezés|bijektív]]) létesíthetünk, akkor a $H$ halmazt megszámlálhatóan végtelen [[Halmazok számossága|számosságú halmaznak]] nevezzük.

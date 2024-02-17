@@ -11,8 +11,12 @@
             "id": "cb0fb1d931625c96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "analízis/cauchy-tetel.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "analízis/cauchy-tetel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "analízis/cauchy-tetel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "analízis/cauchy-tetel.md"
+              }
             }
           }
         ]
@@ -138,54 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0568b1ecb4aa689",
+  "active": "cb0fb1d931625c96",
   "lastOpenFiles": [
+    "analízis/descartes-szorzat.md",
+    "analízis/cauchy-tetel.md",
+    "analízis/binomialis-tetel.md",
+    "analízis/bijektiv-lekepezes.md",
+    "analízis/reszsorozat.md",
+    "analízis/sorozat-konvergencia.md",
+    "analízis/cantor-tetel.md",
+    "analízis/img/Pasted image 20240108113927.png",
+    "analízis/img/Pasted image 20240105101821.png",
+    "analízis/arkhimedeszi-axioma.md",
+    "analízis/img",
+    "Untitled",
+    "analízis/weierstrass-tetel.md",
+    "analízis/valos-szamok-axiomai.md",
+    "analízis/trigonometrikus-azonossagok-es-haterertekek.md",
+    "analízis/torlodasi-pont.md",
+    "analízis/test-axiomak.md",
+    "analízis/teljessegi-axioma.md",
+    "analízis/teljes-indukcio.md",
+    "analízis/szurjektiv.md",
+    "analízis/szamtani-mertani-egyenlotlenseg.md",
+    "analízis/sorozat.md",
+    "analízis/soroza.md",
+    "analízis/sorozat-konvergens-akkor-korlatos.md",
+    "analízis/sorozat-hatarerteke.md",
+    "analízis/rolle-tetel.md",
+    "analízis/rendezesi-axiomak.md",
+    "analízis/pascal-haromszog.md",
+    "analízis/metrikus-ter.md",
+    "analízis/megszamlalhatoan-vegtelen-szamossag.md",
+    "analízis/img/Pasted image 20240108133321.png",
+    "analízis/img/Pasted image 20240108130305.png",
+    "analízis/img/Pasted image 20240108130249.png",
+    "analízis/img/Pasted image 20240108130230.png",
+    "analízis/img/Pasted image 20240108120425.png",
+    "analízis/img/Pasted image 20240108115244.png",
+    "analízis/img/Pasted image 20240108110626.png",
+    "analízis/img/Pasted image 20240106160558.png",
     "analízis/r",
     "analízis",
     "tobbvaltozos-analizis/analízis",
-    "tobbvaltozos-analizis/hatarpont.md",
-    "tobbvaltozos-analizis/fuggveny-hatarerteke.md",
-    "tobbvaltozos-analizis/grafikon.md",
-    "tobbvaltozos-analizis/fuggveny-folytonossaga.md",
-    "tobbvaltozos-analizis/bolzano-weierstrass.md",
-    "tobbvaltozos-analizis/izolalt-pont.md",
-    "szilardsagtan/0-szilardsagtan.md",
-    "szilardsagtan/szilardsagtan.md",
     "tobbvaltozos-analizis/img",
     "ergonomia/img",
     "informatika-es-programozas-alapjai/img",
-    "elektronika-1/0-elektronika-1.md",
-    "ergonomia/0-ergonomia.md",
-    "informatika-es-programozas-alapjai/0-informatika-es-programozas-alapjai.md",
-    "informatika-es-programozas-alapjai/informatika-es-programozas-alapjai.md",
-    "elektronika-1/img/image_3.png",
-    "elektronika-1/img/image_2.png",
-    "elektronika-1/img/image_1.png",
     "elektronika-1/img",
-    "elektronika-1/elektronika.md",
     "elektronika-1",
-    "informatika-es-programozas-alapjai/prog.md",
-    "informatika-es-programozas-alapjai/miket-tanultunk.md",
-    "informatika-es-programozas-alapjai/eloadas-1.md",
-    "informatika-es-programozas-alapjai/labor-1.md",
-    "informatika-es-programozas-alapjai",
-    "szilardsagtan/img/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
-    "szilardsagtan/img/f3a0de46-0cc6-d407-3aa3-f4272f6c4d71.svg",
-    "szilardsagtan/img/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg",
-    "szilardsagtan/img/584fbcfc-3c56-97ab-9232-0e2738f4db0c.svg",
-    "szilardsagtan/sziltan.md",
-    "szilardsagtan/rugalmassagi-modulusz.md",
-    "szilardsagtan/rudak-gerendak-feszultsegi-allapota.md",
-    "szilardsagtan/poisson-tenyezo.md",
-    "szilardsagtan/normal-feszultseg.md",
-    "szilardsagtan/izotrop.md",
-    "szilardsagtan/img",
-    "szilardsagtan/egyszeru-hooke-torveny.md",
-    "szilardsagtan/eloadas-1.md",
-    "szilardsagtan",
-    "sziltan/img/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg",
-    "sziltan/img/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
-    "sziltan/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
