@@ -2,4 +2,4 @@
 
 ## Definíció
 
-$\vec{x}_n$ konvergens, ha létezik $\vec{x}$ [határértéke](sorozat-hatarerteke.md).
+$\vec{x}_n$ konvergens, ha létezik $\vec{A}$ [határértéke](sorozat-hatarerteke.md).

@@ -4,7 +4,7 @@ kapcsolatba hozzuk a kezdeti folyáshatárt a szakítószilárdsággal
 
 $$\sigma = E\cdot \varepsilon$$
 
-[Rugalmassági modulusz](rugalmassagi=modulusz.md)
+[Rugalmassági modulusz](rugalmassagi-modulusz.md)
 
 Átrendezve:
 $$\Delta L = \frac{F\cdot L_0}{A_0 \cdot E}$$

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76417f3eb4ba5862",
+        "id": "804836a63d9c5e1b",
         "type": "tabs",
         "children": [
           {
-            "id": "4da28610486ab455",
+            "id": "a11abb9d4fe28217",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -138,8 +138,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4da28610486ab455",
+  "active": "a11abb9d4fe28217",
   "lastOpenFiles": [
+    "Sorozat konvergencia.md",
     "analizis/0-analizis.md",
     "analizis/img/Pasted image 20240108133321.png",
     "analizis/img/Pasted image 20240108130305.png",
@@ -176,7 +177,6 @@
     "analizis/indirekt-bizonyitas.md",
     "analizis/img",
     "analizis/heine-tetel.md",
-    "analizis/hatvanyhalmaz.md",
     "analizis",
     "analízis/img",
     "Untitled",

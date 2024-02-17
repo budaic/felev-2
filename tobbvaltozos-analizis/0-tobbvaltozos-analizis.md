@@ -11,12 +11,17 @@
 # Általános tudnivalók
 
 # Jelölések
+$\mathbb{R}^p$ - $p$ dimenziós valós tér
 $A^C$ - $A$ halmaz komplementere
 $\text{ext } A$ - $A$ halmaz [külső pontjainak](kulso-pont.md) halmaza
 $\text{int } A$ - $A$ halmaz [belső pontjainak](belso-pont.md) halmaza
 $\partial A$ - $A$ halmaz [határpontjainak](hatarpont.md) halmaza
 $\bar{A}$ - $A$ halmaz [lezártja](halmaz-lezartja.md)
-
+$\text{graph } f$ - $f$ [grafikonja](grafikon.md)
+$\gamma_c$ - $f$ függvény $c$-hez tartozó [szintvonala](szintvonal.md)
+$\Gamma_c$ - $f$ függvény $c$-hez tartozó [kontúrvonala](konturvonal.md)
+$|\vec{x}|$ - $\vec{x}$ hossza
+$d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 
 
 # Definiciók
@@ -49,18 +54,5 @@ $\bar{A}$ - $A$ halmaz [lezártja](halmaz-lezartja.md)
 
 ## 1. előadás
 
-[grafikon.md](grafikon.md)
-
-$\mathbb{R}^P$ tér topológiája
-Jelölés: $\vec{x} \in \mathbb{R}^P$
-
-$$p=2, \Rightarrow \vec{x}=(x, y), p=3 \Rightarrow \vec{x}=(x, y, z)$$
-
-
-$$|\vec{x}| = \sqrt{x_1^2+x_2^2+\dots+x_p^2}$$
-
-$$d(\vec(x), \vec(y))=|\vec{x}-\vec{y}| \text{  x és y távoltásaga}$$
-
-
-Def: $\vec{x}$ pontnak $\varepsilon$ sugarú környezete
-$$ B_{\varepsilon}(\vec{x}) = \{\vec{y}:|\vec{y}-\vec{x}|<\varepsilon\} $$
+$\mathbb{R}^p$ tér topológiája
+Jelölés: $\vec{x} \in \mathbb{R}^p$
