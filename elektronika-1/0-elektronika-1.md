@@ -1,12 +1,14 @@
 # Elektronika
 
 # Tartalomjegyzék
-1. [Jelölések](#jelölések)
-2. [Definíciók](#Definiciók)
-3. [Tételek, állítások](#tételek-állítások)
-4. [Előadások](#előadás) \
-    1.1 [1. előadás](#1-előadás)
+1. [Általános tudnivalók](#általános-tudnivalók)
+2. [Jelölések](#jelölések)
+3. [Definíciók](#Definiciók)
+4. [Tételek, állítások](#tételek-állítások)
+5. [Előadások](#előadások) \
+    5.1 [1. előadás](#1-előadás)
 
+# Általános tudnivalók
 
 AUT, Glöckner György
 Digitális Technika, Digitális Elektronika tárgy
@@ -20,6 +22,8 @@ Digitális Technika, Digitális Elektronika tárgy
 Félévközi jegy
 
 Programozható áramkörök (FPGA - Field programmable gate array)
+
+# Előadások
 
 ## Első előadás
 ### Analóg és Digitális rendszer

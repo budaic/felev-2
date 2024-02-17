@@ -10,6 +10,11 @@ A BME Mechatronika Bsc második féléves jegyzetei Széles Tamás és Budai Csa
     * [Elektronika I.](tobbvaltozos-analizis/0-elektronika-1.md)
     
 
+# TODO
+* Rendezni a szabványírás helyzetet
+* [függvény folytonossága második definició](tobbvaltozos-analizis/fuggveny-folytonossaga.md#definíció-2) kérdéses, hogy $\geq$ kell, vagy $>$
+
+
 # Írás szabvány
 
 ## Fájlrendszer
