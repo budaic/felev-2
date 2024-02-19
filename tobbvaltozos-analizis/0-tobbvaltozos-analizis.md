@@ -8,6 +8,7 @@
 5. [Előadások](#előadások) \
     5.1. [1. Előadás](#1-előadás)
 
+
 # Általános tudnivalók
 
 # Jelölések
@@ -76,7 +77,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 
 **Áll**.: 
 * $ \text{int } A\subseteq A \subseteq \bar{A} $
-* [$\text{ext }A$](kulso-pontok.md) mindig [nyílt](nyilt-halmaz.md)
+* [$\text{ext }A$](kulso-pont.md) mindig [nyílt](nyilt-halmaz.md)
 * [$\partial A$](hatarpont.md) mindig [zárt](zart-halmaz.md)
 * [$\text{int } A$](belso-pont.md), [$\text{ext } A$](kulso-pont.md), [$\partial A$](hatarpont.md) páronként diszjunkt halmazok
 * $ \text{int } \ A \cup \text{ ext } A \ \cup \partial A = \mathbb{R}^p $, ha $A \subseteq \mathbb{R}^p$ 

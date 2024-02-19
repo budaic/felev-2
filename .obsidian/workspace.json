@@ -11,8 +11,20 @@
             "id": "0a065ae67651bb5f",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
+            }
+          },
+          {
+            "id": "6d29fa9f167367fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,8 +153,9 @@
   },
   "active": "0a065ae67651bb5f",
   "lastOpenFiles": [
-    "tobbvaltozos-analizis/korlatos-halmaz.md",
+    "tobbvaltozos-analizis/bolzano-weierstrass.md",
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
+    "tobbvaltozos-analizis/korlatos-halmaz.md",
     "Sorozat konvergencia.md",
     "analizis/0-analizis.md",
     "analizis/img/Pasted image 20240108133321.png",
@@ -175,7 +189,6 @@
     "analizis/megszamlalhatoan-vegtelen-szamossag.md",
     "analizis/lagrange-tetel.md",
     "analizis/l-hospital.md",
-    "analizis/injektiv.md",
     "analizis/img",
     "analizis",
     "analízis/img",
