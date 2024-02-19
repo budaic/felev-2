@@ -59,10 +59,10 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * [Bolzano-Weierstrass tétel](bolzano-weierstrass.md)
 
 # Előadások
-
+---
 ## 1. előadás
 
-### Félév tematikája
+> ### Félév tematikája
 * Többváltozós függvények: $f:\mathbb{R}^p \rightarrow \mathbb{R}$
 * Térgörbék: $f:\mathbb{R}\rightarrow \mathbb{R}^p$
 * Felületek: $f:\mathbb{R}^2\rightarrow \mathbb{R}^p$
@@ -70,7 +70,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * Függvénysorozatok/sorok, hatványsorok, Fourier-sorok
 * Komplex függvénytani bevezető
 
-### $\mathbb{R}^p$ tér topológiája
+> ### $\mathbb{R}^p$ tér topológiája
 **Jelölés**: $\vec{x} \in \mathbb{R}^p$
 
 **Def**.: 
@@ -142,7 +142,7 @@ $ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) 
 * $\mathbb{R}^p$-ben is igaz, hogy $\forall$ [Cauchy sorozat](../analizis/cauchy-sorozat.md) [konvergens](konvergens-sorozat.md)
 
 
-### Kétváltozós függvények
+> ### Kétváltozós függvények
 
 **Def**.:
 * [Grafikon](grafikon.md)
@@ -156,7 +156,7 @@ $ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) 
 * Síkmetszés $[x,\ z]$ síkkal, (ekkor $y=0$): $\sqrt{x^2}=|x|=z$
 * Tehát minden vízszintes szintvonal kör, és az egyik függőleges egy abszolútérték, így ez egy forgáskúp lesz.
 
-
+---
 
 ## 2. előadás
 
@@ -170,6 +170,5 @@ $ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) 
 * [Érintősík](erintosik.md)
 * [Totális derivált](totalis-derivalt.md)
 * [Gradiens vektor](gradiens-vektor.md)
-
 
 
