@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7fb80219082997a0",
+        "id": "49f4e6ac073de125",
         "type": "tabs",
         "children": [
           {
-            "id": "0a065ae67651bb5f",
+            "id": "d726cacb319574bc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,10 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a065ae67651bb5f",
+  "active": "d726cacb319574bc",
   "lastOpenFiles": [
-    "tobbvaltozos-analizis/korlatos-halmaz.md",
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
+    "tobbvaltozos-analizis/korlatos-halmaz.md",
     "Sorozat konvergencia.md",
     "analizis/0-analizis.md",
     "analizis/img/Pasted image 20240108133321.png",
