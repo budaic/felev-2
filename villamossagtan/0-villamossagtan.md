@@ -25,6 +25,8 @@
     * Második házi feladat leadási határidő: május 24. 12:00.
     * Házi feladatok pótleadási határideje: május 31. 12:00.
 
+**__Nem kötelezők a gyakok__**
+
 # Előadások
 
 ## 1. Előadás
