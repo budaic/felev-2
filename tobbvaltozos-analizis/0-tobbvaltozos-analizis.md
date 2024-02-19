@@ -7,6 +7,7 @@
 4. [Tételek, állítások](#tételek-állítások)
 5. [Előadások](#előadások) \
     5.1. [1. Előadás](#1-előadás)
+    5.2. [2. Előadás](#2-előadás)
 
 # Általános tudnivalók
 
@@ -40,10 +41,17 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * [Konvergens sorozat](konvergens-sorozat.md)
 * [Függvény határértéke](fuggveny-hatarerteke.md)
 * [Függvény folytonossága](fuggveny-folytonossaga.md)
+* [Korlátos sorozat](korlatos-sorozat.md)
 * [Grafikon](grafikon.md)
 * [Kontúrvonal](konturvonal.md)
 * [Szintvonal](szintvonal.md)
-
+* [Két út módszer](ket-ut-modszer.md)
+* [Parciális derivált](parcialis-derivalt.md)
+* [Young tétel](young-tetel.md)
+* [Iránymenti deriválit](iranymenti-derivalt.md)
+* [Érintősík](erintosik.md)
+* [Totális derivált](totalis-derivalt.md)
+* [Gradiens vektor](gradiens-vektor.md)
 
 
 # Tételek, állítások
@@ -118,5 +126,50 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 **Def**.:
 * [Sorozat határértéke](sorozat-hatarerteke.md)
 * [Konvergens sorozat](konvergens-sorozat.md)
+
+
+
+* [Függvény határértéke](fuggveny-hatarerteke.md)
+* [Függvény folytonossága](fuggveny-folytonossaga.md)
+
+**Áll**.: $\lim{\vec{x}_n}=A \Leftrightarrow \forall i<p: (\vec{x}_n)_i\to A_i$
+
+**Példa**:
+$ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) = (1, e)$
+
+**Áll**.: 
+* [Bolzano-Weierstrass tétel](../analizis/bolzano-weierstrass-tetel.md): $\forall$ [korlátos sorozatnak](korlatos-sorozat.md) $\exists$ [konvergens](konvergens-sorozat.md) [részsorozata](../analizis/reszsorozat.md)
+* $\mathbb{R}^p$-ben is igaz, hogy $\forall$ [Cauchy sorozat](../analizis/cauchy-sorozat.md) [konvergens](konvergens-sorozat.md)
+
+
+### Kétváltozós függvények
+
+**Def**.:
+* [Grafikon](grafikon.md)
+* [Kontúrvonal](konturvonal.md)
+* [Szintvonal](szintvonal.md)
+
+**Példa**: $f(x, y) = \sqrt{x^2+y^2} = z$, Mi lehet ez?
+
+**Medoldás**:
+* Szintvonalak: $\sqrt{x^2+y^2}=c$ - minden szintvonal kör
+* Síkmetszés $[x,\ z]$ síkkal, (ekkor $y=0$): $\sqrt{x^2}=|x|=z$
+* Tehát minden vízszintes szintvonal kör, és az egyik függőleges egy abszolútérték, így ez egy forgáskúp lesz.
+
+
+
+## 2. előadás
+
+**Példa**: $\lim_{(x,y)\rightarrow(0,0)}\frac{2xy}{x^2+y^2} = \lim_{(x,y)\rightarrow(0,0)} f(x,y)$
+
+**Def**.:
+* [Két út módszer](ket-ut-modszer.md)
+* [Parciális derivált](parcialis-derivalt.md)
+* [Young tétel](young-tetel.md)
+* [Iránymenti deriválit](iranymenti-derivalt.md)
+* [Érintősík](erintosik.md)
+* [Totális derivált](totalis-derivalt.md)
+* [Gradiens vektor](gradiens-vektor.md)
+
 
 
