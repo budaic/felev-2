@@ -11,18 +11,10 @@
             "id": "0a065ae67651bb5f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "6d29fa9f167367fb",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -73,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md"
+              }
             }
           }
         ]
@@ -153,8 +148,10 @@
   },
   "active": "0a065ae67651bb5f",
   "lastOpenFiles": [
-    "tobbvaltozos-analizis/bolzano-weierstrass.md",
+    "tobbvaltozos-analizis/osszefuggoseg.md",
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
+    "tobbvaltozos-analizis/kulso-pont.md",
+    "tobbvaltozos-analizis/bolzano-weierstrass.md",
     "tobbvaltozos-analizis/korlatos-halmaz.md",
     "Sorozat konvergencia.md",
     "analizis/0-analizis.md",
@@ -187,8 +184,6 @@
     "analizis/pascal-haromszog.md",
     "analizis/metrikus-ter.md",
     "analizis/megszamlalhatoan-vegtelen-szamossag.md",
-    "analizis/lagrange-tetel.md",
-    "analizis/l-hospital.md",
     "analizis/img",
     "analizis",
     "analízis/img",

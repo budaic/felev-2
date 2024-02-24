@@ -49,7 +49,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * [Két út módszer](ket-ut-modszer.md)
 * [Parciális derivált](parcialis-derivalt.md)
 * [Young tétel](young-tetel.md)
-* [Iránymenti deriválit](iranymenti-derivalt.md)
+* [Iránymenti derivált](iranymenti-derivalt.md)
 * [Érintősík](erintosik.md)
 * [Totális derivált](totalis-derivalt.md)
 * [Gradiens vektor](gradiens-vektor.md)
@@ -84,7 +84,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * [Halmaz lezártja](halmaz-lezartja.md)
 
 **Áll**.: 
-* $ \text{int } A\subseteq A \subseteq \bar{A} $
+* $\text{int } A\subseteq A \subseteq \bar{A}$
 * [$\text{ext }A$](kulso-pont.md) mindig [nyílt](nyilt-halmaz.md)
 * [$\partial A$](hatarpont.md) mindig [zárt](zart-halmaz.md)
 * [$\text{int } A$](belso-pont.md), [$\text{ext } A$](kulso-pont.md), [$\partial A$](hatarpont.md) páronként diszjunkt halmazok
@@ -96,14 +96,14 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * $\partial A = \{0; 1\}$
 * $\bar{A} = [0; 1]$
 
-**Példa**: $ A = \{(x, y)\in \mathbb{R}^2: 0<x^2+y^2<1\} $ esetén
+**Példa**: $A = \{(x, y)\in \mathbb{R}^2: 0<x^2+y^2<1\}$ esetén
 * $\text{int } A = A$
 * $\text{ext } A = \{ x^2+y^2>1 \}$
 * $\partial A = \{ x^2+y^2=1\}\cup \{(0, 0)\}$
 
 **Def**.: 
 * [Izolált pont](izolalt-pont.md)
-* [Torlódási pont](tortlodasi-pont.md)
+* [Torlódási pont](torlodasi-pont.md)
 
 **Példa**: $A=\{ \frac{1}{n}:n\in \mathbb{N}^p \}$-nak $0$-ban van [torlódási pontja](torlodasi-pont.md)
 
