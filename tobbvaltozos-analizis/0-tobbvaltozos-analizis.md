@@ -84,7 +84,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * [Halmaz lezártja](halmaz-lezartja.md)
 
 **Áll**.: 
-* $ \text{int } A\subseteq A \subseteq \bar{A} $
+* $ \text{int} A\subseteq A \subseteq \bar{A} $
 * [$\text{ext }A$](kulso-pont.md) mindig [nyílt](nyilt-halmaz.md)
 * [$\partial A$](hatarpont.md) mindig [zárt](zart-halmaz.md)
 * [$\text{int } A$](belso-pont.md), [$\text{ext } A$](kulso-pont.md), [$\partial A$](hatarpont.md) páronként diszjunkt halmazok
@@ -173,3 +173,19 @@ $ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) 
 * [Gradiens vektor](gradiens-vektor.md)
 
 
+---
+
+## 3. előadás
+
+**Def**.:
+* [Totális differenciálhatóság](totalis-diffhatosag.md)
+* [Folytonos differenciálhatóság](folytonos-diffhatosag.md)
+
+**Áll**.: Ha $f$ [differenciálható](totalis-diffhatosag.md) $\vec{x}_0$ akkor:
+* $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x}_0$-ban
+* $f$ [parciális deriváltjai](parcialis-derivalt.md) $\exists$-nek, és $ \vec{f}'(\vec{x}_0)=^{\text{áll}} \vec{\nabla}f(\vec{x}_0)=^{\text{def}} \left( f'_{x_1}(\vec{x}_0), f'_{x_2}(\vec{x}_0), f'_{x_3}(\vec{x}_0) \right)$ 
+* $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) $\exists$-nek, és: $ f'_{\vec{v}}(\vec{x}_0)=\vec{\nabla}f(\vec{x}_0)\cdot \frac{\vec{v}}{|\vec{v}|}$, ahol $\vec{v}\in \mathbb{R}^p\setminus \{0\} $
+
+**Áll**.: Ha $f$ [folytonosan differenciálható](folytonos-diffhatosag.md), akkor [totálisan differenciálható](totalis-diffhatosag.md).
+
+**Áll**.: Ha $f$ kétszer [folytonosan diffható](folytonos-diffhatosag.md) akkor $f''_{xy}=f''_{yx}$, ez a [Young tétel](young-tetel.md)

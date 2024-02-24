@@ -11,8 +11,12 @@
             "id": "0a065ae67651bb5f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md"
+              }
             }
           }
         ]
@@ -153,6 +161,7 @@
   },
   "active": "0a065ae67651bb5f",
   "lastOpenFiles": [
+    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.html",
     "tobbvaltozos-analizis/bolzano-weierstrass.md",
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
     "tobbvaltozos-analizis/korlatos-halmaz.md",
@@ -188,7 +197,6 @@
     "analizis/metrikus-ter.md",
     "analizis/megszamlalhatoan-vegtelen-szamossag.md",
     "analizis/lagrange-tetel.md",
-    "analizis/l-hospital.md",
     "analizis/img",
     "analizis",
     "analízis/img",
