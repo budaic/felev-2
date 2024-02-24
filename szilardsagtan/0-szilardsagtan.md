@@ -130,7 +130,13 @@ Hogyan találom meg azt a tengelyt, amelyre a legnagyobb a másodrendű nyomaté
 
 > ### Főmásodrendű nyomatékok
 
+Koordinátarendszer elforgatása
+Nem kell fejből tudni sem zhn sem vizsgán.
+Levezetés a ppt-ben
 
+#TODO megcsinálni ezt a pptből
+
+Főirányok helyzetére adódik
 
 
 
