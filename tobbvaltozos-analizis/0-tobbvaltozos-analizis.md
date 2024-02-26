@@ -136,7 +136,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 **Áll**.: $\lim{\vec{x}_n}=A \Leftrightarrow \forall i<p: (\vec{x}_n)_i\to A_i$
 
 **Példa**:
-$ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) = (1, e)$
+$\lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) = (1, e)$
 
 **Áll**.: 
 * [Bolzano-Weierstrass tétel](../analizis/bolzano-weierstrass-tetel.md): $\forall$ [korlátos sorozatnak](korlatos-sorozat.md) $\exists$ [konvergens](konvergens-sorozat.md) [részsorozata](../analizis/reszsorozat.md)
@@ -167,11 +167,21 @@ $ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) 
 * [Két út módszer](ket-ut-modszer.md)
 * [Parciális derivált](parcialis-derivalt.md)
 * [Young tétel](young-tetel.md)
-* [Iránymenti deriválit](iranymenti-derivalt.md)
+* [Iránymenti derivált](iranymenti-derivalt.md)
 * [Érintősík](erintosik.md)
 * [Totális derivált](totalis-derivalt.md)
+
+**Áll**.:
+$f$ [totálisan diffható](totalis-derivalt.md) $x_0$ pontban és $f'(\vec{x_0})=\vec{A} \Leftrightarrow \lim_{\vec{x} \rightarrow \vec{x_0}}{\frac{f(\vec{x})-f(\vec{x_0}) - \vec{A}(\vec{x}-\vec{x_0})}{|\vec{x}-\vec{x_0|}}} = 0$
+
+**Def**.:
 * [Gradiens vektor](gradiens-vektor.md)
 
+**Áll**.:
+Tegyük fel, hogy $f$ [totálisan diffható](totalis-derivalt.md) $\vec{x_0}$ pontban $f: \mathbb{R}^p \rightarrow \mathbb{R}$. Ekkor:
+    1. $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x_0}$-ban 
+    2. $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) léteznek az $\vec{x_0}$-ban és $f_{\vec{v}}' = \vec{f'}(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|} = \vec{\nabla} f(\vec{x_0})\frac{\vec{v}}{|\vec{v}|}$
+    3. $\vec{f'} = \vec{\nabla} f(x_0)$ [totálisan diffható](totalis-derivalt.md) $f \Rightarrow f$ [parciális deriváltjai](parcialis-derivalt.md) is léteznek.
 
 ---
 
@@ -183,8 +193,8 @@ $ \lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) 
 
 **Áll**.: Ha $f$ [differenciálható](totalis-diffhatosag.md) $\vec{x}_0$ akkor:
 * $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x}_0$-ban
-* $f$ [parciális deriváltjai](parcialis-derivalt.md) $\exists$-nek, és $ \vec{f}'(\vec{x}_0)=^{\text{áll}} \vec{\nabla}f(\vec{x}_0)=^{\text{def}} \left( f'_{x_1}(\vec{x}_0), f'_{x_2}(\vec{x}_0), f'_{x_3}(\vec{x}_0) \right)$ 
-* $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) $\exists$-nek, és: $ f'_{\vec{v}}(\vec{x}_0)=\vec{\nabla}f(\vec{x}_0)\cdot \frac{\vec{v}}{|\vec{v}|}$, ahol $\vec{v}\in \mathbb{R}^p\setminus \{0\} $
+* $f$ [parciális deriváltjai](parcialis-derivalt.md) $\exists$-nek, és $\vec{f}'(\vec{x}_0)=^{\text{áll}} \vec{\nabla}f(\vec{x}_0)=^{\text{def}} \left( f'_{x_1}(\vec{x}_0), f'_{x_2}(\vec{x}_0), f'_{x_3}(\vec{x}_0) \right)$ 
+* $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) $\exists$-nek, és: $f'_{\vec{v}}(\vec{x}_0)=\vec{\nabla}f(\vec{x}_0)\cdot \frac{\vec{v}}{|\vec{v}|}$, ahol $\vec{v}\in \mathbb{R}^p\setminus \{0\}$
 
 **Áll**.: Ha $f$ [folytonosan differenciálható](folytonos-diffhatosag.md), akkor [totálisan differenciálható](totalis-diffhatosag.md).
 

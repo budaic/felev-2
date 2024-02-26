@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "derivált",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,13 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a065ae67651bb5f",
+  "active": "fbcc8edbb5d32204",
   "lastOpenFiles": [
+    "tobbvaltozos-analizis/img/image-2.png",
+    "tobbvaltozos-analizis/image-2.png",
+    "tobbvaltozos-analizis/image.png",
+    "tobbvaltozos-analizis/ket-ut-modszer.md",
+    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.html",
     "cad-alapjai/0-cad-alapjai.md",
     "cad-alapjai",
     "tobbvaltozos-analizis/osszefuggoseg.md",
-    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
     "tobbvaltozos-analizis/kulso-pont.md",
     "tobbvaltozos-analizis/bolzano-weierstrass.md",
     "tobbvaltozos-analizis/korlatos-halmaz.md",
@@ -166,8 +171,6 @@
     "analizis/img/Pasted image 20240108115244.png",
     "analizis/img/Pasted image 20240108113927.png",
     "analizis/img/Pasted image 20240108110626.png",
-    "analizis/img/Pasted image 20240106160558.png",
-    "analizis/img/Pasted image 20240106154341.png",
     "analizis/weierstrass-tetel.md",
     "analizis/valos-szamok-axiomai.md",
     "analizis/trigonometrikus-azonossagok-es-haterertekek.md",
@@ -184,7 +187,6 @@
     "analizis/rolle-tetel.md",
     "analizis/reszsorozat.md",
     "analizis/rendezesi-axiomak.md",
-    "analizis/pascal-haromszog.md",
     "analizis/img",
     "analizis",
     "analízis/img",
@@ -193,7 +195,6 @@
     "analízis",
     "tobbvaltozos-analizis/analízis",
     "tobbvaltozos-analizis/img",
-    "ergonomia/img",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"
