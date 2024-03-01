@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootmark": "^0.8.0",
+    "showdown-katex": "^0.8.0"
+  }
+}
