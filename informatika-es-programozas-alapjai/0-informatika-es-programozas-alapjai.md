@@ -13,6 +13,8 @@
 http://www.inflab.bme.hu/~joe/
 Teams-en vannak dolgok, meg moodle-en üres.
 
+https://www.freecodecamp.org/news/format-specifiers-in-c
+
 ## Számonkérések
 2 db zh (20 p, 30 p, 40% min) - 8./9. hét, illetve 14. hét
 vizsga (50 p)

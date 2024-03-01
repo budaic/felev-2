@@ -62,6 +62,9 @@ int main() {
     double le = log10(2.7);
 
     printf("le=%g\n", le);
+
+    byte acc = 0;
+    printf("acc=0x%02x", acc);
     return 0;
 }
 
