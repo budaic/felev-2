@@ -2,7 +2,7 @@
 A BME Mechatronika Bsc második féléves jegyzetei Széles Tamás és Budai Csanád által.
 
 # Tárgyak
-* Mechatronika mérnök Bsc második félév (2022-es tanterv szerint)
+* Mechatronika mérnök Bsc első félév (2022-es tanterv szerint)
     * [Analízis](analizis/0-analizis.md)
 
 * Mechatronika mérnök Bsc második félév (2022-es tanterv szerint)
