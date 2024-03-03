@@ -14,8 +14,5 @@ Lényegében megnézzük, hogy nagyon kicsit $v$ irányába mozdulunk a függvé
 $f: \mathbb{R}^p \rightarrow \mathbb{R}$
 $\vec{v} \in \mathbb{R}^p \backslash \{0\}$
 
-$$f'_{\vec{v}}(\vec{x_0}) = \lim_{t \rightarrow 0}{\frac{f(\vec{x_0} + t \frac{v}{|\vec{v}|}) - f(\vec{x_0})}{t}}$$
-
-## Állítás
-$f_{c\vec{v}}' = f_{\vec{v}}'$, ha $c > 0$
+$$f'_{\vec{v}}(\vec{x_0}) = \lim_{t \rightarrow 0}{\frac{f(\vec{x_0} + t \frac{\vec{v}}{|\vec{v}|}) - f(\vec{x_0})}{t}}$$
 

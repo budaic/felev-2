@@ -168,11 +168,14 @@ $\lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) =
 * [Parciális derivált](parcialis-derivalt.md)
 * [Young tétel](young-tetel.md)
 * [Iránymenti derivált](iranymenti-derivalt.md)
-* [Érintősík](erintosik.md)
 * [Totális derivált](totalis-derivalt.md)
+* [Érintősík](erintosik.md)
 
 **Áll**.:
-$f$ [totálisan diffható](totalis-derivalt.md) $x_0$ pontban és $f'(\vec{x_0})=\vec{A} \Leftrightarrow \lim_{\vec{x} \rightarrow \vec{x_0}}{\frac{f(\vec{x})-f(\vec{x_0}) - \vec{A}(\vec{x}-\vec{x_0})}{|\vec{x}-\vec{x_0|}}} = 0$
+* $f_{c\vec{v}}' = f_{\vec{v}}'$, ha $c > 0$
+* $f'_{-v}(\vec{x}_0)=-f'_{v}(\vec{x}_0)$
+* $f$ [totálisan diffható](totalis-derivalt.md) $x_0$ pontban és $f'(\vec{x_0})=\vec{A} \Leftrightarrow \lim_{\vec{x} \rightarrow \vec{x_0}}{\frac{f(\vec{x})-f(\vec{x_0}) - \vec{A}(\vec{x}-\vec{x_0})}{|\vec{x}-\vec{x_0|}}} = 0$
+
 
 **Def**.:
 * [Gradiens vektor](gradiens-vektor.md)
