@@ -4,37 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "7fb80219082997a0",
+        "id": "258d4c9d3cebbae5",
         "type": "tabs",
         "children": [
           {
-            "id": "0a065ae67651bb5f",
-            "type": "leaf",
-            "state": {
-<<<<<<< HEAD
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "6d29fa9f167367fb",
+            "id": "bcc20bce52fe1c56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
                 "mode": "source",
-=======
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac478a3ece722fd9",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
+                "file": "tobbvaltozos-analizis/ket-ut-modszer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38dc1453d5bd671f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tobbvaltozos-analizis/totalis-derivalt.md",
                 "mode": "preview",
->>>>>>> d36ab022a99465c46c72b850543449460265da90
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "derivált",
+                "query": "szintvonal",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tobbvaltozos-analizis/ket-ut-modszer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tobbvaltozos-analizis/ket-ut-modszer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tobbvaltozos-analizis/ket-ut-modszer.md"
+              }
             }
           }
         ]
@@ -158,54 +171,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fbcc8edbb5d32204",
+  "active": "ac478a3ece722fd9",
   "lastOpenFiles": [
-<<<<<<< HEAD
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
-    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.html",
-    "tobbvaltozos-analizis/node_modules/bootmark/dist/bootmark.min.js.map",
-    "tobbvaltozos-analizis/node_modules/bootmark/dist/bootmark.min.js",
-    "tobbvaltozos-analizis/node_modules/bootmark/dist/bootmark.min.css.map",
-    "tobbvaltozos-analizis/node_modules/bootmark/dist/bootmark.min.css",
-    "tobbvaltozos-analizis/node_modules/bootmark/dist/bootmark.bundle.min.js",
-    "tobbvaltozos-analizis/node_modules/bootmark/dist",
-    "tobbvaltozos-analizis/node_modules/bootmark/CHANGELOG.md",
-    "tobbvaltozos-analizis/node_modules/bootmark/LICENSE",
-    "tobbvaltozos-analizis/node_modules/bootmark/README.md",
-    "tobbvaltozos-analizis/node_modules/bootmark/package.json",
-    "tobbvaltozos-analizis/node_modules/color-themes-for-google-code-prettify/LICENSE.md",
-    "tobbvaltozos-analizis/node_modules/color-themes-for-google-code-prettify/dist/themes/vibrant-ink.min.css",
-    "tobbvaltozos-analizis/node_modules/showdown-prettify/test/cases/indentation.md",
-    "tobbvaltozos-analizis/node_modules/showdown-prettify/test/cases/inline.md",
-    "tobbvaltozos-analizis/node_modules/showdown-prettify/test/cases/github-style.md",
-    "tobbvaltozos-analizis/node_modules/showdown-prettify/CHANGELOG.md",
-    "tobbvaltozos-analizis/node_modules/showdown-prettify/README.md",
-    "tobbvaltozos-analizis/node_modules/color-themes-for-google-code-prettify/README.md",
-    "tobbvaltozos-analizis/node_modules/jquery/README.md",
-    "tobbvaltozos-analizis/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg",
-    "tobbvaltozos-analizis/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg",
-    "tobbvaltozos-analizis/node_modules/whatwg-fetch/README.md",
-    "tobbvaltozos-analizis/node_modules/google-code-prettify/README.md",
-    "tobbvaltozos-analizis/node_modules/es6-promise/README.md",
-    "tobbvaltozos-analizis/node_modules/es6-promise/CHANGELOG.md",
-    "tobbvaltozos-analizis/node_modules/bootstrap/README.md",
-    "tobbvaltozos-analizis/node_modules/bootstrap/CHANGELOG.md",
-    "tobbvaltozos-analizis/node_modules/showdown-katex/README.md",
-    "tobbvaltozos-analizis/node_modules/showdown-katex/CHANGELOG.md",
-    "tobbvaltozos-analizis/node_modules/katex/contrib/mhchem/README.md",
-    "tobbvaltozos-analizis/node_modules/katex/contrib/mathtex-script-type/README.md",
-    "tobbvaltozos-analizis/node_modules/katex/contrib/copy-tex/README.md",
-    "tobbvaltozos-analizis/node_modules/katex/contrib/auto-render/README.md",
-    "tobbvaltozos-analizis/node_modules/showdown-katex/dist/README.md",
-    "tobbvaltozos-analizis/node_modules/showdown-katex/dist/examples.md",
-    "tobbvaltozos-analizis/node_modules/showdown-katex/dist/CHANGELOG.md",
-    "tobbvaltozos-analizis/node_modules/psl/browserstack-logo.svg",
-=======
+    "tobbvaltozos-analizis/totalis-derivalt.md",
+    "tobbvaltozos-analizis/fuggveny-hatarerteke.md",
+    "analizis/0-analizis.md",
+    "tobbvaltozos-analizis/szintvonal.md",
+    "tobbvaltozos-analizis/package.json",
+    "tobbvaltozos-analizis/package-lock.json",
+    "tobbvaltozos-analizis/img/parcialis-derivalt.jpeg",
+    "tobbvaltozos-analizis/img/erintosik.jpeg",
+    "file_checker/main.py",
+    "file_checker",
     "tobbvaltozos-analizis/img/image-2.png",
     "tobbvaltozos-analizis/image-2.png",
     "tobbvaltozos-analizis/image.png",
     "tobbvaltozos-analizis/ket-ut-modszer.md",
-    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.html",
     "cad-alapjai/0-cad-alapjai.md",
     "cad-alapjai",
@@ -214,18 +196,11 @@
     "tobbvaltozos-analizis/bolzano-weierstrass.md",
     "tobbvaltozos-analizis/korlatos-halmaz.md",
     "Sorozat konvergencia.md",
-    "analizis/0-analizis.md",
->>>>>>> d36ab022a99465c46c72b850543449460265da90
     "analizis/img/Pasted image 20240108133321.png",
     "analizis/img/Pasted image 20240108130305.png",
     "analizis/img/Pasted image 20240108130249.png",
     "analizis/img/Pasted image 20240108130230.png",
     "analizis/img/Pasted image 20240108120425.png",
-    "analizis/img/Pasted image 20240108115244.png",
-    "analizis/img/Pasted image 20240108113927.png",
-<<<<<<< HEAD
-=======
-    "analizis/img/Pasted image 20240108110626.png",
     "analizis/weierstrass-tetel.md",
     "analizis/valos-szamok-axiomai.md",
     "analizis/trigonometrikus-azonossagok-es-haterertekek.md",
@@ -240,17 +215,10 @@
     "analizis/sorozat-konvergencia.md",
     "analizis/sorozat-hatarerteke.md",
     "analizis/rolle-tetel.md",
-    "analizis/reszsorozat.md",
-    "analizis/rendezesi-axiomak.md",
     "analizis/img",
     "analizis",
     "analízis/img",
     "Untitled",
-    "analízis/r",
-    "analízis",
-    "tobbvaltozos-analizis/analízis",
-    "tobbvaltozos-analizis/img",
->>>>>>> d36ab022a99465c46c72b850543449460265da90
     "Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled 2.canvas"

@@ -88,7 +88,7 @@ $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 * [$\text{ext }A$](kulso-pont.md) mindig [nyílt](nyilt-halmaz.md)
 * [$\partial A$](hatarpont.md) mindig [zárt](zart-halmaz.md)
 * [$\text{int } A$](belso-pont.md), [$\text{ext } A$](kulso-pont.md), [$\partial A$](hatarpont.md) páronként diszjunkt halmazok
-* $ \text{int } \ A \cup \text{ ext } A \ \cup \partial A = \mathbb{R}^p $, ha $A \subseteq \mathbb{R}^p$ 
+* $\text{int } \ A \cup \text{ ext } A \ \cup \partial A = \mathbb{R}^p$, ha $A \subseteq \mathbb{R}^p$ 
 
 **Példa**: $A=[0;1) \text{ esetén}$
 * $\text{int } A = (0; 1)$
