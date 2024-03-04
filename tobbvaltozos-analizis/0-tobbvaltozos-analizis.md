@@ -170,6 +170,7 @@ $\lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) =
 * [Iránymenti derivált](iranymenti-derivalt.md)
 * [Totális derivált](totalis-derivalt.md)
 * [Érintősík](erintosik.md)
+* [Gradiens vektor](gradiens-vektor.md)
 
 **Áll**.:
 * $f_{c\vec{v}}' = f_{\vec{v}}'$, ha $c > 0$
@@ -177,14 +178,42 @@ $\lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) =
 * $f$ [totálisan diffható](totalis-derivalt.md) $x_0$ pontban és $f'(\vec{x_0})=\vec{A} \Leftrightarrow \lim_{\vec{x} \rightarrow \vec{x_0}}{\frac{f(\vec{x})-f(\vec{x_0}) - \vec{A}(\vec{x}-\vec{x_0})}{|\vec{x}-\vec{x_0|}}} = 0$
 
 
-**Def**.:
-* [Gradiens vektor](gradiens-vektor.md)
-
 **Áll**.:
 Tegyük fel, hogy $f$ [totálisan diffható](totalis-derivalt.md) $\vec{x_0}$ pontban $f: \mathbb{R}^p \rightarrow \mathbb{R}$. Ekkor:
-    1. $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x_0}$-ban 
-    2. $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) léteznek az $\vec{x_0}$-ban és $f_{\vec{v}}' = \vec{f'}(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|} = \vec{\nabla} f(\vec{x_0})\frac{\vec{v}}{|\vec{v}|}$
-    3. $\vec{f'} = \vec{\nabla} f(x_0)$ [totálisan diffható](totalis-derivalt.md) $f \Rightarrow f$ [parciális deriváltjai](parcialis-derivalt.md) is léteznek.
+1. $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x_0}$-ban 
+2. $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) léteznek az $\vec{x_0}$-ban és $f_{\vec{v}}'(\vec{x_0}) = \vec{f'}(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|} = \vec{\nabla} f(\vec{x_0})\frac{\vec{v}}{|\vec{v}|}$
+3. $\vec{f'}(\vec{x_0}) = \vec{\nabla} f(x_0)$ [totálisan diffható](totalis-derivalt.md) $f \Rightarrow f$ [parciális deriváltjai](parcialis-derivalt.md) is léteznek.
+
+**Bizonyítások**.:
+1. A [totális derivált definíciója](totalis-derivalt.md) szerint a [folytonosság](fuggveny-folytonossaga.md) így teljesül:
+
+$$ \lim_{\vec{x} \rightarrow \vec{x_0}}f(\vec{x})=\lim_{\vec{x} \rightarrow \vec{x_0}}f(\vec{x_0})+\lim_{\vec{x} \rightarrow \vec{x_0}}\vec{A} \cdot (\vec{x}-\vec{x_0})+\lim_{\vec{x} \rightarrow \vec{x_0}}\varepsilon(\vec{x}) |\vec{x}-\vec{x_0}| \newline
+=f(\vec{x_0})+\vec{A}\cdot\vec{0}+0=f(\vec{x}_0)$$
+
+
+2. [Iránymenti derivált](iranymenti-derivalt.md) átírható ha [totálisan diffható](totalis-derivalt.md) a függvényünk: 
+$$f'_{\vec{v}}=\lim_{t \rightarrow 0}\frac{f(\vec{x_0} + t \frac{\vec{v}}{|\vec{v}|})}{t}=\lim_{t \rightarrow 0}\frac{f(\vec{x_0}) + \vec{A}t\frac{\vec{v}}{|\vec{v}|} + \varepsilon(\vec{x})t\frac{\vec{v}}{|\vec{v}|} - f(\vec{x_0})}{t} \newline =
+\lim_{t \rightarrow 0}\vec{A}\frac{\vec{v}}{|\vec{v}|} + \varepsilon(\vec{x})\frac{\vec{v}}{|\vec{v}|}$$
+A [totálisan deriválhatóság](totalis-derivalt.md) miatt $\varepsilon(\vec{x})=\varepsilon(\vec{x_0}+t\frac{\vec{v}}{|\vec{v}|})$, ami $0$-ba tart.
+$$f'_{\vec{v}}(\vec{x_0})=\vec{A}\frac{\vec{v}}{|\vec{v}|} = f'(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|}$$
+
+3. A 2. pontból, illetve a [totális derivált](totalis-derivalt.md), [iránymenti derivált](iranymenti-derivalt.md), és [parciális derivált](parcialis-derivalt.md) definícióiból következik:
+Tekintsük az $1$-es dimenzió irányvektorát:
+$$
+    \vec{v} = \begin{bmatrix}
+           1 \\
+           0 \\
+           \vdots \\
+           0
+         \end{bmatrix},\ f'_{\vec{v}}=\vec{A}\cdot\vec{v}=A_1=f'_{x_1}
+$$ 
+Tehát a [parciális derivált](parcialis-derivalt.md) egy speciális [iránymenti derivált](iranymenti-derivalt.md).
+Hasonlóan megismételhetjük minden $x_1,\ x_2,\ \dots$-al. Így megkapjuk $\vec{A}$ minden koordinátáját:
+
+$$\vec{A}=(f'_{x_1},f'_{x_2},\dots, f'_{x_p})=\vec{f'}=\vec{\nabla} f$$
+
+
+
 
 ---
 
