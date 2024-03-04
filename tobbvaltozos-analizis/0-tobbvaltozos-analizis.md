@@ -24,6 +24,7 @@ $\gamma_c$ - $f$ függvény $c$-hez tartozó [szintvonala](szintvonal.md) \
 $\Gamma_c$ - $f$ függvény $c$-hez tartozó [kontúrvonala](konturvonal.md) \
 $|\vec{x}|$ - $\vec{x}$ hossza \
 $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
+$\text{grad }{f}=\vec{\nabla}f$ - $f$ függvény [gradiens vektora](gradiens-vektor.md)
 
 # Definíciók
 * [Pont környezete](kornyezet.md)
@@ -208,7 +209,7 @@ $$
          \end{bmatrix},\ f'_{\vec{v}}=\vec{A}\cdot\vec{v}=A_1=f'_{x_1}
 $$ 
 Tehát a [parciális derivált](parcialis-derivalt.md) egy speciális [iránymenti derivált](iranymenti-derivalt.md).
-Hasonlóan megismételhetjük minden $x_1,\ x_2,\ \dots$-al. Így megkapjuk $\vec{A}$ minden koordinátáját:
+Hasonlóan megismételhetjük minden $x_1,\ x_2,\ \dots,\ x_p$-vel. Így megkapjuk $\vec{A}$ minden koordinátáját:
 
 $$\vec{A}=(f'_{x_1},f'_{x_2},\dots, f'_{x_p})=\vec{f'}=\vec{\nabla} f$$
 
@@ -221,13 +222,40 @@ $$\vec{A}=(f'_{x_1},f'_{x_2},\dots, f'_{x_p})=\vec{f'}=\vec{\nabla} f$$
 
 **Def**.:
 * [Totális differenciálhatóság](totalis-diffhatosag.md)
+
+**Megj**.:
+[Érintő hipersík](erintosik.md) egyenlete: $z = f(\vec{x_0}) + f'(\vec{x_0})(\vec{x}-\vec{x_0})$, ez a hipersík átmegy az $(\vec{x_0}, f(\vec{x_0})) \in \mathbb{R}^{p+1}$ ponton $\mathbb{R}^{p+1}$-ben
+
+**Def**.:
 * [Folytonos differenciálhatóság](folytonos-diffhatosag.md)
 
 **Áll**.: Ha $f$ [differenciálható](totalis-diffhatosag.md) $\vec{x}_0$ akkor:
 * $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x}_0$-ban
-* $f$ [parciális deriváltjai](parcialis-derivalt.md) $\exists$-nek, és $\vec{f}'(\vec{x}_0)=^{\text{áll}} \vec{\nabla}f(\vec{x}_0)=^{\text{def}} \left( f'_{x_1}(\vec{x}_0), f'_{x_2}(\vec{x}_0), f'_{x_3}(\vec{x}_0) \right)$ 
+* $f$ [parciális deriváltjai](parcialis-derivalt.md) $\exists$-nek, és $\vec{f}'(\vec{x}_0)=^{\text{áll}} \vec{\nabla}f(\vec{x}_0)=^{\text{def}} \left( f'_{x_1}(\vec{x}_0), f'_{x_2}(\vec{x}_0), \dots ,f'_{x_p}(\vec{x}_0) \right)^T$ 
 * $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) $\exists$-nek, és: $f'_{\vec{v}}(\vec{x}_0)=\vec{\nabla}f(\vec{x}_0)\cdot \frac{\vec{v}}{|\vec{v}|}$, ahol $\vec{v}\in \mathbb{R}^p\setminus \{0\}$
 
 **Áll**.: Ha $f$ [folytonosan differenciálható](folytonos-diffhatosag.md), akkor [totálisan differenciálható](totalis-diffhatosag.md).
 
-**Áll**.: Ha $f$ kétszer [folytonosan diffható](folytonos-diffhatosag.md) akkor $f''_{xy}=f''_{yx}$, ez a [Young tétel](young-tetel.md)
+**Biz**.: 
+Tfh. $f$ [folytonosan diffható](folytonos-diffhatosag.md) $(x_0, y_0)$ pontban, ekkor definícióból tudjuk, hogy a [parciális deriváltak](parcialis-derivalt.md) ($f'_x$, $f'_y$) léteznek ott.
+
+Kell: $f$ [totálisan diffható](totalis-diffhatosag.md) $(x_0, y_0)$-ban, azaz kell: $$\lim_{(x, y) \rightarrow (x_0, y_0)}\textcolor{red}{\alpha}:=\lim_{(x, y) \rightarrow (x_0, y_0)}{\frac{f(x, y)-f(x_0, y_0) - f'_x(x_0, y_0)(x-x_0)-f'_y(x_0, y_0)(y-y_0)}{\sqrt{(x-x_0)^2+(y-y_0)^2}}}\stackrel{?}{=}0$$ 
+Most hozzáadtunk és kivonunk $f(x_0, y)$-t.
+$$\lim_{(x, y) \rightarrow (x_0, y_0)}{\frac{f(x, y) \boxed{\textcolor{purple}{-f(x_0, y)}} - f'_x(x_0, y_0)(x-x_0) \boxed{\textcolor{purple}{+f(x_0, y)}}-f(x_0, y_0)-f'_y(x_0, y_0)(y-y_0)}{\sqrt{(x-x_0)^2+(y-y_0)^2}}}=0 \newline$$
+A [Lagrange-tétel](../analizis/lagrange-tetel.md)-ből következik, hogy $\exists \tilde{x}$ az $x,\ x_0$ között:
+$$f(x, y)-f(x_0, y)=g(x)-f(x_0)=g(\tilde{x})(x-x_0)=f'_x(\tilde{x}, y)(x-x_0)$$
+Hasonlóan működik az $f'_y$-al is.
+Visszahelyettesítve:
+$$\lim_{(x, y) \rightarrow (x_0, y_0)}{\frac{\boxed{\textcolor{green}{f'_x(\tilde{x}, y)(x-x_0)}} - f'_x(x_0, y_0)(x-x_0) \boxed{\textcolor{green}{f'_y(x_0, \tilde{y})(y-y_0)}}-f'_y(x_0, y_0)(y-y_0)}{\sqrt{(x-x_0)^2+(y-y_0)^2}}}=0$$
+Szétbontva:
+$$\lim_{(x, y) \rightarrow (x_0, y_0)} \left[ f'_x(\tilde{x}, y)-f'_x(x_0, y_0) \right]\frac{x-x_0}{\sqrt{(x-x_0)^2+(y-y_0)^2}}+\left[f'_y(x_0, \tilde{y})-f'_y(x_0, y_0) \right]\frac{y-y_0}{\sqrt{(x-x_0)^2+(y-y_0)^2}}$$
+[Háromszög egyenlőtlenség](../analizis/haromszog-egyenlotlenseg.md) miatt:
+$$\lim_{(x, y) \rightarrow (x_0, y_0)} \left|\frac{x-x_0}{\sqrt{(x-x_0)^2+(y-y_0)^2}}\right|<1,\ \lim_{(x, y) \rightarrow (x_0, y_0)} \left|\frac{y-y_0}{\sqrt{(x-x_0)^2+(y-y_0)^2}}\right|<1, $$
+Illetve:
+$$ \lim_{(x, y) \rightarrow (x_0, y_0)}f'_x(\tilde{x}, y)-f'_x(x_0, y_0)=f'_x(x_0, y_0)-f'_x(x_0, y_0)=0 \newline
+\lim_{(x, y) \rightarrow (x_0, y_0)}f'_y(x_0, \tilde{y})-f'_y(x_0, y_0)=f'_y(x_0, y_0)-f'_y(x_0, y_0)=0 $$
+Tehát:
+$$ \lim_{(x, y) \rightarrow (x_0, y_0)} |\textcolor{red}{\alpha}|\leq 0\cdot 1+0\cdot1=0 \newline \textcolor{red}{\alpha}\to 0$$
+Tehát ekkor $f$ [totálisan diffható](totalis-diffhatosag.md)
+
+**Áll**.: Ha $f$ kétszer [folytonosan diffható](folytonos-diffhatosag.md) akkor $f''_{xy}=f''_{yx}$, ez a [Young tétel](young-tetel.md).

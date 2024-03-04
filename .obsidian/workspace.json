@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "258d4c9d3cebbae5",
+        "id": "488627e002663a55",
         "type": "tabs",
         "children": [
           {
-            "id": "bcc20bce52fe1c56",
+            "id": "3576bc23f9826a1f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac478a3ece722fd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tobbvaltozos-analizis/ket-ut-modszer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38dc1453d5bd671f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tobbvaltozos-analizis/totalis-derivalt.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "szintvonal",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tobbvaltozos-analizis/ket-ut-modszer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tobbvaltozos-analizis/ket-ut-modszer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tobbvaltozos-analizis/ket-ut-modszer.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,10 +139,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ac478a3ece722fd9",
+  "active": "3576bc23f9826a1f",
   "lastOpenFiles": [
-    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
     "tobbvaltozos-analizis/totalis-derivalt.md",
+    "tobbvaltozos-analizis/0-tobbvaltozos-analizis.md",
+    "tobbvaltozos-analizis/ket-ut-modszer.md",
     "tobbvaltozos-analizis/fuggveny-hatarerteke.md",
     "analizis/0-analizis.md",
     "tobbvaltozos-analizis/szintvonal.md",
@@ -187,7 +156,6 @@
     "tobbvaltozos-analizis/img/image-2.png",
     "tobbvaltozos-analizis/image-2.png",
     "tobbvaltozos-analizis/image.png",
-    "tobbvaltozos-analizis/ket-ut-modszer.md",
     "tobbvaltozos-analizis/0-tobbvaltozos-analizis.html",
     "cad-alapjai/0-cad-alapjai.md",
     "cad-alapjai",
