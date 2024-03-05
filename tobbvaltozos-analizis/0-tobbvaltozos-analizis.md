@@ -272,3 +272,27 @@ $$(\vec{\nabla}g)(\vec{x_0}) \cdot (\vec{x}-\vec{x_0}) = 0$$
 **Biz**.: Mivel $g$ [totálisan diffható](./totalis-diffhatosag.md) az $\vec{x_0}$ pontban, ezért $(\vec{\nabla}g)(\vec{x_0})$ merőleges az $\vec{x_0}$ ponton átmenő szintfelületre, így $\vec{n} = \vec{\nabla}g(\vec{x_0})$ az [érintősíknak](./erintosik.md) normálvektora.
 
 ![alt text](./img/erintosik-egyenlet.png)
+
+> ### [Gradiensvektor](./gradiens-vektor.md) tulajdonságai
+
+**Áll**.: Tfh. $\mathbb{R}^p \rightarrow \mathbb{R}$ totálisan diffható $\vec{x_0} \in \mathbb{R}^p$ pontban. Ekkor:
+1. $\vec{\nabla}f(\vec{x_0})$ a legnagyobb növekedés iránya $\vec{x_0}$ pontban
+2. $-\vec{\nabla}f(\vec{x_0})$ a legnagyobb csökkenés iránya $\vec{x_0}$ pontban
+3. $|f'_{\vec{\nabla}f(\vec{x_0})}(\vec{x_0})| = |\vec{\nabla}f(\vec{x_0})|$, $|f'_{-\vec{\nabla}f(\vec{x_0})}(\vec{x_0})| = |\vec{\nabla}f(\vec{x_0})|$
+4. $\vec{\nabla}f(\vec{x_0}) \perp f=f(\vec{x_0})$ szintvonalra
+5. $\max_{\vec{v}} f'_{\vec{v}}(\vec{x_0})=|\vec{\nabla}f(\vec{x_0})|$
+6. $\min_{\vec{v}} f'_{\vec{v}}(\vec{x_0})=-|\vec{\nabla}f(\vec{x_0})|$
+
+
+**Biz**.: $\vec{v} \in \mathbb{R}^p$
+$\vec{f'}_{\vec{v}}(\vec{x_0}) = \vec{\nabla}f(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|} = |\vec{\nabla}f(\vec{x_0})| \cdot |\frac{\vec{v}}{|\vec{v}|}| \cdot \cos \alpha$
+
+![alt text](./img/cosinus.png)
+
+Látható, hogy akkor lesz maximális $\vec{f'}_{\vec{v}}(\vec{x_0})$ , ha $cos \alpha = 1$, tehát $\alpha = 0°$. Ezzel ekvivalens, hogy $\vec{\nabla}f || \vec{v}$ és $\vec{\nabla}f || c \cdot \vec{v} \ \ (c > 0)$. Ilyenkor $|f'_{\vec{v}}(\vec{x_0})|=|\vec{\nabla}f(\vec{x_0})|$. (5. állítás)
+Minimum esetén hasonlóan eljárva, csak $\alpha = -1$ és $c < 0$ azt kapjuk, hogy $|f'_{\vec{v}}(\vec{x_0})|= -|\vec{\nabla}f(\vec{x_0})|$. (6. állítás)
+
+**Áll**.: Ha $\vec{\nabla} f (\vec{x_0}) \neq \vec{0}$ és $f$ [totálisan diffható](totalis-diffhatosag.md) $\vec{x_0}$-ban, akkor $f=c$, $c=f(\vec{x_0})$ [szintvonal](./szintvonal.md) $\vec{x_0}$ egy kis [környezetében](./kornyezet.md) paraméterezhető $x(t)$, $y(t)$ [diffható](./totalis-diffhatosag.md) függvényekkel.
+
+**Áll**.: Tfh. $f: \mathbb{R}^2 \rightarrow \mathbb{R}$, $x, y: \mathbb{R} \rightarrow \mathbb{R}$ diffhatóak. $t \in \mathbb{R}$
+Ekkor $\frac{d}{dt}$
