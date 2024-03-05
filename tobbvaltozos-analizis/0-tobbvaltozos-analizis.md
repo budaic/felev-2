@@ -25,6 +25,8 @@ $\Gamma_c$ - $f$ függvény $c$-hez tartozó [kontúrvonala](konturvonal.md) \
 $|\vec{x}|$ - $\vec{x}$ hossza \
 $d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
 $\text{grad }{f}=\vec{\nabla}f$ - $f$ függvény [gradiens vektora](gradiens-vektor.md)
+$f'_x$ függvény $x$ szerinti [parciális deriváltja](parcialis-derivalt.md)
+$f'$ függvény [totális deriváltja](totalis-derivalt.md)
 
 # Definíciók
 * [Pont környezete](kornyezet.md)
@@ -259,3 +261,14 @@ $$ \lim_{(x, y) \rightarrow (x_0, y_0)} |\textcolor{red}{\alpha}|\leq 0\cdot 1+0
 Tehát ekkor $f$ [totálisan diffható](totalis-diffhatosag.md)
 
 **Áll**.: Ha $f$ kétszer [folytonosan diffható](folytonos-diffhatosag.md) akkor $f''_{xy}=f''_{yx}$, ez a [Young tétel](young-tetel.md).
+
+---
+
+## 4. Előadás
+
+**Áll**.: Tegyük fel, hogy $g:\mathbb{R}^3 \rightarrow \mathbb{R}$ [totálisan diffható](totalis-diffhatosag.md) az $\vec{x_0}$ pontban. Ekkor a $g(\vec{x})=g(\vec{x_0})$ szintfelület $\vec{x_0}$ pontbeli [érintősíkja](./erintosik.md):
+$$(\vec{\nabla}g)(\vec{x_0}) \cdot (\vec{x}-\vec{x_0}) = 0$$
+
+**Biz**.: Mivel $g$ [totálisan diffható](./totalis-diffhatosag.md) az $\vec{x_0}$ pontban, ezért $(\vec{\nabla}g)(\vec{x_0})$ merőleges az $\vec{x_0}$ ponton átmenő szintfelületre, így $\vec{n} = \vec{\nabla}g(\vec{x_0})$ az [érintősíknak](./erintosik.md) normálvektora.
+
+![alt text](./img/erintosik-egyenlet.png)
