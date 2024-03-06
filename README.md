@@ -14,7 +14,6 @@ A BME Mechatronika Bsc második féléves jegyzetei Széles Tamás és Budai Csa
     
 
 # TODO
-* Rendezni a szabványírás helyzetet
 * [függvény folytonossága második definició](tobbvaltozos-analizis/fuggveny-folytonossaga.md#definíció-2) kérdéses, hogy $\geq$ kell, vagy $>$
 * Analízisnél az alap fájlt megcsinálni
 
