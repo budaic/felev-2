@@ -18,3 +18,14 @@ Ekkor: $$\vec{f'}(\vec{x_0}) := \vec{A}$$
 Az $f'(\vec{x}_0)=\vec{A}$ állítás egyenértékű a következővel:
 $$\lim_{\vec{x}\to \vec{x}_0} \frac{f(\vec{x})-f(\vec{x}_0)-\vec{A}\cdot(\vec{x}- \vec{x}_0)}{|\vec{x}- \vec{x}_0|}=0=\lim_{\vec{x}\to \vec{x}_0}\varepsilon(\vec{x})$$
 
+### Feltételei
+
+* $f$ [folytonos](./fuggveny-folytonossaga.md) $\vec{x_0}$-ban
+* $f$ [parciális deriváltjai](./parcialis-derivalt.md) léteznek $\vec{x_0}$-ban
+* Definíció szerinti határérték létezik és megfelel
+
+## Szemléletesebb magyarázat
+
+A totális derivált lényegében a függvény [érintősíkját](erintosik.md) írja le. Ahogy 1 dimenzióban a derivált a legjobb lináris közelítés volt, úgy több dimenzióban a totális derivált a legjobb lineáris közelítés.
+
+
