@@ -295,4 +295,18 @@ Minimum esetén hasonlóan eljárva, csak $\alpha = -1$ és $c < 0$ azt kapjuk, 
 **Áll**.: Ha $\vec{\nabla} f (\vec{x_0}) \neq \vec{0}$ és $f$ [totálisan diffható](totalis-diffhatosag.md) $\vec{x_0}$-ban, akkor $f=c$, $c=f(\vec{x_0})$ [szintvonal](./szintvonal.md) $\vec{x_0}$ egy kis [környezetében](./kornyezet.md) paraméterezhető $x(t)$, $y(t)$ [diffható](./totalis-diffhatosag.md) függvényekkel.
 
 **Áll**.: Tfh. $f: \mathbb{R}^2 \rightarrow \mathbb{R}$, $x, y: \mathbb{R} \rightarrow \mathbb{R}$ diffhatóak. $t \in \mathbb{R}$
-Ekkor $\frac{d}{dt}$
+Ekkor $\frac{d}{dt} f(x(t), y(t)): \mathbb{R} \rightarrow \mathbb{R} = \boxed{\textcolor{green}{\vec{f}'(x(t), y(t))}} \cdot (x'(t), y'(t))$
+$\textcolor{green}{\vec{f}'(x(t), y(t))} = \left( f'_x(x(t), y(t)), f'_y(x(t), y(t)) \right) = \textcolor{orange}{f'_x|_{(x(t), y(t)) = p(t)} \cdot x'(t) + f'_y|_{(x(t), y(t)) = p(t)} \cdot y'(t)}$
+
+$c = f(x(t), y(t)) \ / \frac{d}{dt}$
+$0 = \textcolor{orange}{f'_x|_{p(t)} \cdot x'(t) + f'_y|_{p(t)} \cdot y'(t)} = \vec{\nabla}f(\vec{x_0}) \cdot(x'(t_0), y'(t_0))$ azért teljesül, mert $\vec{\nabla} f(\vec{x_0})$ merőleges $(x'(t_0), y'(t_0))$ érintővektorra.
+
+**Áll**.: Tfh.: $g:\mathbb{R}^3 \rightarrow \mathbb{R}$ [totálisan diffható](./totalis-diffhatosag.md) $\vec{x_0} \in \mathbb{R}^3$ pontban, és $\vec{\nabla}g(\vec{x_0}) \neq \vec{0}$.
+Ekkor a $g=c, c=g(\vec{x_0})$ szintfelületnek (hasonló a szintvonalhoz [szintvonal](./szintvonal.md)) az $\vec{x_0}$ pontban van érintősíkja, és ez $\vec{\nabla}g(\vec{x_0}) \cdot (\vec{x} - \vec{x_0}) = 0$
+
+**Biz**.:
+A [gradiens vektor](./gradiens-vektor.md) egyik tulajdonsága, hogy a $\vec{0} \neq \vec{\nabla}g(\vec{x_0})$ merőleges a $g=c$ szintfelületre, így a szintfelület [érintősíkjának](./erintosik.md) normálvektora pontosan $\vec{\nabla}g(\vec{x_0})$. Tehát a sík egyenlete: $\vec{n} \cdot (\vec{x} - \vec{x_0}) = \vec{\nabla}g(\vec{x_0}) \cdot (\vec{x} - \vec{x_0}) =  0$.
+
+![alt text](./img/normal_vektor.png)
+
+
