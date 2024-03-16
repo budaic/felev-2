@@ -310,3 +310,15 @@ A [gradiens vektor](./gradiens-vektor.md) egyik tulajdonsága, hogy a $\vec{0} \
 ![alt text](./img/normal_vektor.png)
 
 
+> ### Diff. egyenletek
+[Definíciók](./differencial-egyenlet.md)
+
+**Példa**.:
+Tfh $f(x, y)=-\frac{P(x,y)}{Q(x,y)}$. Tfh $D\subseteq\mathbb{R}^2$ [tartományon](tartomany.md) $Q\neq0$. Ekkor:
+$$y'=-\frac{P(x,y)}{Q(x,y)} \newline
+Qy'=-P \newline
+P+qy'=0 \newline
+P+Q\frac{dy}{dx}=0
+$$
+Azaz formálisan átírva:
+$$Pdx+Qdy=0 $$
