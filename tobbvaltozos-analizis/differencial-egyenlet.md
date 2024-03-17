@@ -64,3 +64,59 @@ $$F'_xdx+F'_ydy=0 \Leftrightarrow F'_x+F'_yy'=0$$
 Tehát a diffegyenlet egyenértékű:
 $$\frac{d}{dt}F(x, y(x))=0 \Leftrightarrow F(x, y(x))=C\in \mathbb{R}$$
 
+## Majdnem egzakt diffegyenlet megoldása
+**Kérdés**
+Mi van azonban, ha a [diffegyenlet](./differencial-egyenlet.md) nem [egzakt](./differencial-egyenlet.md#egzakt-diffegyenletek), azaz $P'_y \neq Q'_x$?
+[Jó videó a témáról](https://www.youtube.com/watch?v=u5NGfwNNqHw)
+
+**Ötlet**.: Megpróbálunk keresni egy $\phi (x, y)$ függvényt, úgy, hogy
+$\textcolor{orange}{\phi(x, y) P(x, y)}dx + \textcolor{green}{\phi(x, y) Q(x,y)}dy = 0$ már egzakt.
+$\textcolor{orange}{\widetilde{P}(x, y)}dx + \textcolor{green}{\widetilde{Q}(x,y)}dy = 0$
+
+Tehát kell 
+$$
+\begin{alignat*}{2}
+\widetilde{P}'_y &= \widetilde{Q}'_x \\
+\phi'_y \cdot P + \phi \cdot P'_y &= \phi'_x \cdot Q + \phi \cdot Q'_x
+\end{alignat*}
+$$
+Rossz hír: nehezebb megoldani, mint az eredetit. De [nem adjuk fel](https://www.youtube.com/watch?v=dQw4w9WgXcQ)!
+Ötlet: Speciál alakú $\phi(x, y)$ függvényekkel próbálkozunk.
+Pl.: $$
+\begin{alignat*}{3}
+\phi(x, y) &= m(x) \\
+\phi(x, y) &= m(y) \\
+\phi(x, y) &= m(x+y) \\ 
+\phi(x, y) &= m(xy) \\
+\phi(x, y) &= m(\frac{x}{y}) \\
+\phi(x, y) &= m(x^2+y^2) \\
+\end{alignat*}
+$$
+Itt $m: \mathbb{R} \rightarrow \mathbb{R}$
+
+**Áll**.: Tfh. $P, Q: \mathbb{R}^2 \rightarrow \mathbb{R}$ [folytonosan diffható](./folytonos-diffhatosag.md) egy $D \subseteq \mathbb{R}^2$ [egyszeresen összefüggő tartományon](./egyszeresen-osszefuggo-tartomany.md). Tfh. $P \neq 0$ $D$-n.
+Ekkor $m(y)$ csak $y$-tól függő **integráló tényező** a $Pdx + Qdy = 0$ [diffegyenlethez](./differencial-egyenlet.md) $D$-n:
+$\frac{Q'_x-P'_y}{P}dy$ csak $y$-tól függ, és $=m(y)=e^{\int{\frac{Q'_x-P'_y}{P}dy}}$
+
+**Biz**.:
+Ahhoz, hogy a $\phi(x, y) P(x, y)dx + \phi(x, y) Q(x,y)dy = 0$ [egzakt](#egzakt-diffegyenletek) legyen szükséges: $(m(y) P(x, y)dx)'_y = (m(y) Q(x,y)dy)'_x$
+$$
+\begin{alignat*}{3}
+(m(y) P(x, y))'_y &= (m(y) Q(x,y))'_x \\
+m(y)' P + m(y) P'_y &= m(y) Q'_x \\
+m(y)' P &= m(y) (Q'_x - P'_y) \\
+\frac{m(y)'}{m(y)} &= \frac{Q'_x - P'_y}{P}
+\end{alignat*}
+$$
+Ha ez csak $y$-tól függő kifejezés, akkor
+
+$$
+\begin{alignat*}{3}
+\frac{m(y)'}{m(y)} &= \frac{Q'_x - P'_y}{P} \\
+\frac{1}{m} \frac{dm}{dy} &= \frac{Q'_x - P'_y}{P} \\
+\int{\frac{1}{m} {dm}} &= \int{\frac{Q'_x - P'_y}{P}dy} \\
+\ln|m| &= \int{\frac{Q'_x - P'_y}{P}dy} \\
+m &= e^{\int{\frac{Q'_x - P'_y}{P}dy}}
+\end{alignat*}
+$$
+

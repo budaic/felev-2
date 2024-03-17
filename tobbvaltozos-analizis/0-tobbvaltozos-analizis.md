@@ -311,7 +311,7 @@ A [gradiens vektor](./gradiens-vektor.md) egyik tulajdonsága, hogy a $\vec{0} \
 
 ![alt text](./img/normal_vektor.png)
 
-
+## 6. Előadás
 > ### Diff. egyenletek
 [Definíciók](./differencial-egyenlet.md)
 
@@ -359,35 +359,11 @@ $x^2y + y^2 = c$, $c \in \mathbb{R}$ ($c = \widetilde{\widetilde{c}} - \widetild
 $x=1, y=2$ rajta van a megfelelő [szintvonalon](./szintvonal.md) $\Rightarrow$ $1^2 \cdot 2 + 2^2 = 6 = c$
 A megoldás: $x^2y + y^2 = 6$
 
-**Kérdés**
-Mi van azonban, ha a [diffegyenlet](./differencial-egyenlet.md) nem [egzakt](./differencial-egyenlet.md#egzakt-diffegyenletek), azaz $P'_y \neq Q'_x$?
-[Jó videó a témáról](https://www.youtube.com/watch?v=u5NGfwNNqHw)
+[Mi van, ha a diffegyenlet nem egzakt?](./differencial-egyenlet.md#majdnem-egzakt-diffegyenlet-megoldása)
 
-**Ötlet**.: Megpróbálunk keresni egy $\phi (x, y)$ függvényt, úgy, hogy
-$\textcolor{orange}{\phi(x, y) P(x, y)}dx + \textcolor{green}{\phi(x, y) Q(x,y)}dy = 0$ már egzakt.
-$\textcolor{orange}{\widetilde{P}(x, y)}dx + \textcolor{green}{\widetilde{Q}(x,y)}dy = 0$
+**Def**.:
+- [első differenciál](./elso-differencial.md)
+- [teljes differenciál](./teljes-differencial.md)
 
-Tehát kell 
-$$
-\begin{alignat*}{2}
-\widetilde{P}'_y &= \widetilde{Q}'_x \\
-\phi'_y \cdot P + \phi \cdot P'_y &= \phi'_x \cdot Q + \phi \cdot Q'_x
-\end{alignat*}
-$$
-Rossz hír: nehezebb megoldani, mint az eredetit. De [nem adjuk fel](https://www.youtube.com/watch?v=dQw4w9WgXcQ)!
-Ötlet: Speciál alakú $\phi(x, y)$ függvényekkel próbálkozunk.
-Pl.: $$
-\begin{alignat*}{3}
-\phi(x, y) &= m(x) \\
-\phi(x, y) &= m(y) \\
-\phi(x, y) &= m(x+y) \\ 
-\phi(x, y) &= m(xy) \\
-\phi(x, y) &= m(\frac{x}{y}) \\
-\phi(x, y) &= m(x^2+y^2) \\
-\end{alignat*}
-$$
-Itt $m: \mathbb{R} \rightarrow \mathbb{R}
-
-
-
-**Def**.:[első differenciál](./elso-differencial.md)
+**Áll**.:
+Tfh. $P, Q: \mathbb{R}^2 \rightarrow \mathbb{R}$ [folytonosan diffható](./folytonos-diffhatosag.md) egy $D \subseteq \mathbb{R}^2$ [egyszeresen összefüggő tartományban](./egyszeresen-osszefuggo-tartomany.md), azaz $f'_x = P$ és $f'_y = Q$ Ekkor $Pdx+Qdy$ [teljes differenciál](./teljes-differencial.md) $\Leftrightarrow$ $P'_y = Q'_x$.
