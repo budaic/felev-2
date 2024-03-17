@@ -1,11 +1,11 @@
 # Függvény folytonossága
 
 ## Definíció 1
-$f$ folytonos $\vec{A}$-ban, ha:
-$$\lim_{\vec{x}\to \vec{A}} f(\vec{x})=f(\vec{A})$$
+$f$ folytonos $\underline{A}$-ban, ha:
+$$\lim_{\underline{x}\to \underline{A}} f(\underline{x})=f(\underline{A})$$
 
-Azaz a függvényérték megegyezik a [határtékkel](fuggveny-hatarerteke.md) az $\vec{A}$ pontban.
+Azaz a függvényérték megegyezik a [határtékkel](fuggveny-hatarerteke.md) az $\underline{A}$ pontban.
 
 ## Definíció 2
 
-$$\forall \varepsilon >0: \exists \delta > 0,\ \text{ahol } 0<|\vec{x}-\vec{A}|<\delta \Rightarrow |f(\vec{x})-f(\vec{A})|<\varepsilon$$
+$$\forall \varepsilon >0: \exists \delta > 0,\ \text{ahol } 0<|\underline{x}-\underline{A}|<\delta \Rightarrow |f(\underline{x})-f(\underline{A})|<\varepsilon$$

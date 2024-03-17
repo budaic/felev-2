@@ -10,18 +10,18 @@ $$A \in \mathbb{R} = f'(x_0)  \Leftrightarrow \frac{f(x)-f(x_0)}{x - x_0} - A = 
 
 ## Több dimenzióban
 
-$f: \mathbb{R}^p \rightarrow \mathbb{R}$ függvény totálisan differenciálható $\vec{x_0} \in \mathbb{R}^p$ pontban, ha 
-$$\exists \vec{A} \in \mathbb{R}^p, \varepsilon: \mathbb{R}^p \rightarrow \mathbb{R}, \lim_{\vec{x} \rightarrow \vec{x_0}}{\varepsilon(\vec{x})}=0 \newline f(\vec{x}) = f(\vec{x_0}) + \vec{A} \cdot (\vec{x}-\vec{x_0}) + \varepsilon(\vec{x}) |\vec{x}-\vec{x_0}|, \forall x \in D_f$$
-Ekkor: $$\vec{f'}(\vec{x_0}) := \vec{A}$$
+$f: \mathbb{R}^p \rightarrow \mathbb{R}$ függvény totálisan differenciálható $\underline{x}_0 \in \mathbb{R}^p$ pontban, ha 
+$$\exists \underline{A} \in \mathbb{R}^p, \varepsilon: \mathbb{R}^p \rightarrow \mathbb{R}, \lim_{\underline{x} \rightarrow \underline{x}_0}{\varepsilon(\underline{x})}=0 \newline f(\underline{x}) = f(\underline{x}_0) + \underline{A} \cdot (\underline{x}-\underline{x}_0) + \varepsilon(\underline{x}) |\underline{x}-\underline{x}_0|, \forall x \in D_f$$
+Ekkor: $$\underline{f'}(\underline{x}_0) := \underline{A}$$
 
 ## Egyenértékű definíció
-Az $f'(\vec{x}_0)=\vec{A}$ állítás egyenértékű a következővel:
-$$\lim_{\vec{x}\to \vec{x}_0} \frac{f(\vec{x})-f(\vec{x}_0)-\vec{A}\cdot(\vec{x}- \vec{x}_0)}{|\vec{x}- \vec{x}_0|}=0=\lim_{\vec{x}\to \vec{x}_0}\varepsilon(\vec{x})$$
+Az $f'(\underline{x}_0)=\underline{A}$ állítás egyenértékű a következővel:
+$$\lim_{\underline{x}\to \underline{x}_0} \frac{f(\underline{x})-f(\underline{x}_0)-\underline{A}\cdot(\underline{x}- \underline{x}_0)}{|\underline{x}- \underline{x}_0|}=0=\lim_{\underline{x}\to \underline{x}_0}\varepsilon(\underline{x})$$
 
 ### Feltételei
 
-* $f$ [folytonos](./fuggveny-folytonossaga.md) $\vec{x_0}$-ban
-* $f$ [parciális deriváltjai](./parcialis-derivalt.md) léteznek $\vec{x_0}$-ban
+* $f$ [folytonos](./fuggveny-folytonossaga.md) $\underline{x}_0$-ban
+* $f$ [parciális deriváltjai](./parcialis-derivalt.md) léteznek $\underline{x}_0$-ban
 * Definíció szerinti határérték létezik és megfelel
 
 ## Szemléletesebb magyarázat

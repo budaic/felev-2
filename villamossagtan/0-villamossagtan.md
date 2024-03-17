@@ -37,7 +37,7 @@ Ha két anyag töltése ugyanaz, akkor taszítják egymást, különben vonzzák
 Töltés jellemzi az anyag tulajdonságát.
 
 **Coulomb-törvény** 
-$$ \vec{F} = \frac{1}{4 \pi \varepsilon_0} \frac{Q_1 \cdot Q_2}{r^2} $$
+$$ \underline{F} = \frac{1}{4 \pi \varepsilon_0} \frac{Q_1 \cdot Q_2}{r^2} $$
 
 Töltés mértékegysége Coulomb
 
@@ -50,7 +50,7 @@ A két töltés egy közvetítő térrel hat kölcsön
 
 **Villamos térerősség**
 
-$\vec{E}= \frac{\vec{F}}{Q}$ - Az egységnyi pozitív pontszerű töltésre ható erő
+$\underline{E}= \frac{\underline{F}}{Q}$ - Az egységnyi pozitív pontszerű töltésre ható erő
 
 $$ [E] = \frac{V}{m} $$
 
@@ -83,12 +83,12 @@ munka, mely ahhoz szükséges, hogy egy pozitív egységnyi töltést a
 villamos tér ellenében a referenciapontból az `1` pontba mozgassuk. A
 referenciapont potenciálját 0-nak vesszük
 
-$$ V_1 - V_0 = V_1 = - \int_0^1{\vec{E}d\vec{l}} = \int_1^0{\vec{E}d\vec{l}}$$
+$$ V_1 - V_0 = V_1 = - \int_0^1{\underline{E}d\underline{l}} = \int_1^0{\underline{E}d\underline{l}}$$
 
 Differenciális alak:
 $\nabla$ - vektor aminek minden koordinátája egy-egy deriválás
 $$\nabla = (\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z})$$
-$$\vec{E} = -\text{grad(V)}$$
+$$\underline{E} = -\text{grad(V)}$$
 
 $$[V] = V \text{(Volt)}$$
 
@@ -104,20 +104,20 @@ Azon pontok halmaza, amelyek azonos potenciálértékkel rendelkeznek
 
 A feszültség ($U$) két pont közötti potenciálkülönbség
 
-$$U_{12} = V_1 - V_2 = \int_1^2{\vec{E}d\vec{l}}$$
+$$U_{12} = V_1 - V_2 = \int_1^2{\underline{E}d\underline{l}}$$
 
 Magasabb-ból mutat az alacsonyabb felé
 
 **Eltolási vektor**
 
-$\vec{D}$, villamos tér jellemzésére használjuk a térerősség mellett
+$\underline{D}$, villamos tér jellemzésére használjuk a térerősség mellett
 
-$$\vec{D}=\varepsilon_0 \vec{E}$$
+$$\underline{D}=\varepsilon_0 \underline{E}$$
 $$[D] = \frac{C}{m^2}$$
 
 **Térerősség fluxusa**
 
-$$\Phi = \int_A{\vec{E}d\vec{A}}$$
+$$\Phi = \int_A{\underline{E}d\underline{A}}$$
 
 **Felületi integrál**
 

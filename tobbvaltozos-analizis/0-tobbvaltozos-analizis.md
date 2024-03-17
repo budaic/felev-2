@@ -27,9 +27,9 @@ $\bar{A}$ - $A$ halmaz [lezártja](halmaz-lezartja.md) \
 $\text{graph } f$ - $f$ [grafikonja](grafikon.md) \
 $\gamma_c$ - $f$ függvény $c$-hez tartozó [szintvonala](szintvonal.md) \
 $\Gamma_c$ - $f$ függvény $c$-hez tartozó [kontúrvonala](konturvonal.md) \
-$|\vec{x}|$ - $\vec{x}$ hossza \
-$d(\vec{x}, \vec{y})=|\vec{x}-\vec{y}|$ - $\vec{x}$ és $\vec{y}$ távolsága
-$\text{grad }{f}=\vec{\nabla}f$ - $f$ függvény [gradiens vektora](gradiens-vektor.md)
+$|\underline{x}|$ - $\underline{x}$ hossza \
+$d(\underline{x}, \underline{y})=|\underline{x}-\underline{y}|$ - $\underline{x}$ és $\underline{y}$ távolsága
+$\text{grad }{f}=\underline{\nabla}f$ - $f$ függvény [gradiens vektora](gradiens-vektor.md)
 $f'_x$ függvény $x$ szerinti [parciális deriváltja](parcialis-derivalt.md)
 $f'$ függvény [totális deriváltja](totalis-derivalt.md)
 
@@ -80,7 +80,7 @@ $f'$ függvény [totális deriváltja](totalis-derivalt.md)
 * Komplex függvénytani bevezető
 
 > ### $\mathbb{R}^p$ tér topológiája
-**Jelölés**: $\vec{x} \in \mathbb{R}^p$
+**Jelölés**: $\underline{x} \in \mathbb{R}^p$
 
 **Def**.: 
 * [Pont környezete](kornyezet.md)
@@ -141,7 +141,7 @@ $f'$ függvény [totális deriváltja](totalis-derivalt.md)
 * [Függvény határértéke](fuggveny-hatarerteke.md)
 * [Függvény folytonossága](fuggveny-folytonossaga.md)
 
-**Áll**.: $\lim{\vec{x}_n}=A \Leftrightarrow \forall i<p: (\vec{x}_n)_i\to A_i$
+**Áll**.: $\lim{\underline{x}_n}=A \Leftrightarrow \forall i<p: (\underline{x}_n)_i\to A_i$
 
 **Példa**:
 $\lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) = (1, e)$
@@ -181,44 +181,44 @@ $\lim_{n\to \infty} \left( \frac{n-1}{n}, \left( 1+\frac{1}{n}\right)^n\right) =
 * [Gradiens vektor](gradiens-vektor.md)
 
 **Áll**.:
-* $f_{c\vec{v}}' = f_{\vec{v}}'$, ha $c > 0$
-* $f'_{-v}(\vec{x}_0)=-f'_{v}(\vec{x}_0)$
-* $f$ [totálisan diffható](totalis-derivalt.md) $x_0$ pontban és $f'(\vec{x_0})=\vec{A} \Leftrightarrow \lim_{\vec{x} \rightarrow \vec{x_0}}{\frac{f(\vec{x})-f(\vec{x_0}) - \vec{A}(\vec{x}-\vec{x_0})}{|\vec{x}-\vec{x_0|}}} = 0$
+* $f_{c\underline{v}}' = f_{\underline{v}}'$, ha $c > 0$
+* $f'_{-v}(\underline{x}_0)=-f'_{v}(\underline{x}_0)$
+* $f$ [totálisan diffható](totalis-derivalt.md) $x_0$ pontban és $f'(\underline{x}_0)=\underline{A} \Leftrightarrow \lim_{\underline{x} \rightarrow \underline{x}_0}{\frac{f(\underline{x})-f(\underline{x}_0) - \underline{A}(\underline{x}-\underline{x}_0)}{|\underline{x}-\underline{x}_0|}} = 0$
 
 
 **Áll**.:
-Tegyük fel, hogy $f$ [totálisan diffható](totalis-derivalt.md) $\vec{x_0}$ pontban $f: \mathbb{R}^p \rightarrow \mathbb{R}$. Ekkor:
-1. $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x_0}$-ban 
-2. $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) léteznek az $\vec{x_0}$-ban és $f_{\vec{v}}'(\vec{x_0}) = \vec{f'}(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|} = \vec{\nabla} f(\vec{x_0})\frac{\vec{v}}{|\vec{v}|}$
-3. $\vec{f'}(\vec{x_0}) = \vec{\nabla} f(x_0)$ [totálisan diffható](totalis-derivalt.md) $f \Rightarrow f$ [parciális deriváltjai](parcialis-derivalt.md) is léteznek.
+Tegyük fel, hogy $f$ [totálisan diffható](totalis-derivalt.md) $\underline{x}_0$ pontban $f: \mathbb{R}^p \rightarrow \mathbb{R}$. Ekkor:
+1. $f$ [folytonos](fuggveny-folytonossaga.md) $\underline{x}_0$-ban 
+2. $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) léteznek az $\underline{x}_0$-ban és $f_{\underline{v}}'(\underline{x}_0) = \underline{f'}(\underline{x}_0) \cdot \frac{\underline{v}}{|\underline{v}|} = \underline{\nabla} f(\underline{x}_0)\frac{\underline{v}}{|\underline{v}|}$
+3. $\underline{f'}(\underline{x}_0) = \underline{\nabla} f(x_0)$ [totálisan diffható](totalis-derivalt.md) $f \Rightarrow f$ [parciális deriváltjai](parcialis-derivalt.md) is léteznek.
 
 **Bizonyítások**.:
 1. A [totális derivált definíciója](totalis-derivalt.md) szerint a [folytonosság](fuggveny-folytonossaga.md) így teljesül:
 
-$$ \lim_{\vec{x} \rightarrow \vec{x_0}}f(\vec{x})=\lim_{\vec{x} \rightarrow \vec{x_0}}f(\vec{x_0})+\lim_{\vec{x} \rightarrow \vec{x_0}}\vec{A} \cdot (\vec{x}-\vec{x_0})+\lim_{\vec{x} \rightarrow \vec{x_0}}\varepsilon(\vec{x}) |\vec{x}-\vec{x_0}| \newline
-=f(\vec{x_0})+\vec{A}\cdot\vec{0}+0=f(\vec{x}_0)$$
+$$ \lim_{\underline{x} \rightarrow \underline{x}_0}f(\underline{x})=\lim_{\underline{x} \rightarrow \underline{x}_0}f(\underline{x}_0)+\lim_{\underline{x} \rightarrow \underline{x}_0}\underline{A} \cdot (\underline{x}-\underline{x}_0)+\lim_{\underline{x} \rightarrow \underline{x}_0}\varepsilon(\underline{x}) |\underline{x}-\underline{x}_0| \newline
+=f(\underline{x}_0)+\underline{A}\cdot\underline{0}+0=f(\underline{x}_0)$$
 
 
 2. [Iránymenti derivált](iranymenti-derivalt.md) átírható ha [totálisan diffható](totalis-derivalt.md) a függvényünk: 
-$$f'_{\vec{v}}=\lim_{t \rightarrow 0}\frac{f(\vec{x_0} + t \frac{\vec{v}}{|\vec{v}|})}{t}=\lim_{t \rightarrow 0}\frac{f(\vec{x_0}) + \vec{A}t\frac{\vec{v}}{|\vec{v}|} + \varepsilon(\vec{x})t\frac{\vec{v}}{|\vec{v}|} - f(\vec{x_0})}{t} \newline =
-\lim_{t \rightarrow 0}\vec{A}\frac{\vec{v}}{|\vec{v}|} + \varepsilon(\vec{x})\frac{\vec{v}}{|\vec{v}|}$$
-A [totálisan deriválhatóság](totalis-derivalt.md) miatt $\varepsilon(\vec{x})=\varepsilon(\vec{x_0}+t\frac{\vec{v}}{|\vec{v}|})$, ami $0$-ba tart.
-$$f'_{\vec{v}}(\vec{x_0})=\vec{A}\frac{\vec{v}}{|\vec{v}|} = f'(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|}$$
+$$f'_{\underline{v}}=\lim_{t \rightarrow 0}\frac{f(\underline{x}_0 + t \frac{\underline{v}}{|\underline{v}|})}{t}=\lim_{t \rightarrow 0}\frac{f(\underline{x}_0) + \underline{A}t\frac{\underline{v}}{|\underline{v}|} + \varepsilon(\underline{x})t\frac{\underline{v}}{|\underline{v}|} - f(\underline{x}_0)}{t} \newline =
+\lim_{t \rightarrow 0}\underline{A}\frac{\underline{v}}{|\underline{v}|} + \varepsilon(\underline{x})\frac{\underline{v}}{|\underline{v}|}$$
+A [totálisan deriválhatóság](totalis-derivalt.md) miatt $\varepsilon(\underline{x})=\varepsilon(\underline{x}_0+t\frac{\underline{v}}{|\underline{v}|})$, ami $0$-ba tart.
+$$f'_{\underline{v}}(\underline{x}_0)=\underline{A}\frac{\underline{v}}{|\underline{v}|} = f'(\underline{x}_0) \cdot \frac{\underline{v}}{|\underline{v}|}$$
 
 3. A 2. pontból, illetve a [totális derivált](totalis-derivalt.md), [iránymenti derivált](iranymenti-derivalt.md), és [parciális derivált](parcialis-derivalt.md) definícióiból következik:
 Tekintsük az $1$-es dimenzió irányvektorát:
 $$
-    \vec{v} = \begin{bmatrix}
+    \underline{v} = \begin{bmatrix}
            1 \\
            0 \\
            \vdots \\
            0
-         \end{bmatrix},\ f'_{\vec{v}}=\vec{A}\cdot\vec{v}=A_1=f'_{x_1}
+         \end{bmatrix},\ f'_{\underline{v}}=\underline{A}\cdot\underline{v}=A_1=f'_{x_1}
 $$ 
 Tehát a [parciális derivált](parcialis-derivalt.md) egy speciális [iránymenti derivált](iranymenti-derivalt.md).
-Hasonlóan megismételhetjük minden $x_1,\ x_2,\ \dots,\ x_p$-vel. Így megkapjuk $\vec{A}$ minden koordinátáját:
+Hasonlóan megismételhetjük minden $x_1,\ x_2,\ \dots,\ x_p$-vel. Így megkapjuk $\underline{A}$ minden koordinátáját:
 
-$$\vec{A}=(f'_{x_1},f'_{x_2},\dots, f'_{x_p})=\vec{f'}=\vec{\nabla} f$$
+$$\underline{A}=(f'_{x_1},f'_{x_2},\dots, f'_{x_p})=\underline{f'}=\underline{\nabla} f$$
 
 
 
@@ -231,15 +231,15 @@ $$\vec{A}=(f'_{x_1},f'_{x_2},\dots, f'_{x_p})=\vec{f'}=\vec{\nabla} f$$
 * [Totális differenciálhatóság](totalis-diffhatosag.md)
 
 **Megj**.:
-[Érintő hipersík](erintosik.md) egyenlete: $z = f(\vec{x_0}) + f'(\vec{x_0})(\vec{x}-\vec{x_0})$, ez a hipersík átmegy az $(\vec{x_0}, f(\vec{x_0})) \in \mathbb{R}^{p+1}$ ponton $\mathbb{R}^{p+1}$-ben
+[Érintő hipersík](erintosik.md) egyenlete: $z = f(\underline{x}_0) + f'(\underline{x}_0)(\underline{x}-\underline{x}_0)$, ez a hipersík átmegy az $(\underline{x}_0, f(\underline{x}_0)) \in \mathbb{R}^{p+1}$ ponton $\mathbb{R}^{p+1}$-ben
 
 **Def**.:
 * [Folytonos differenciálhatóság](folytonos-diffhatosag.md)
 
-**Áll**.: Ha $f$ [differenciálható](totalis-diffhatosag.md) $\vec{x}_0$ akkor:
-* $f$ [folytonos](fuggveny-folytonossaga.md) $\vec{x}_0$-ban
-* $f$ [parciális deriváltjai](parcialis-derivalt.md) $\exists$-nek, és $\vec{f}'(\vec{x}_0)=^{\text{áll}} \vec{\nabla}f(\vec{x}_0)=^{\text{def}} \left( f'_{x_1}(\vec{x}_0), f'_{x_2}(\vec{x}_0), \dots ,f'_{x_p}(\vec{x}_0) \right)^T$ 
-* $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) $\exists$-nek, és: $f'_{\vec{v}}(\vec{x}_0)=\vec{\nabla}f(\vec{x}_0)\cdot \frac{\vec{v}}{|\vec{v}|}$, ahol $\vec{v}\in \mathbb{R}^p\setminus \{0\}$
+**Áll**.: Ha $f$ [differenciálható](totalis-diffhatosag.md) $\underline{x}_0$ akkor:
+* $f$ [folytonos](fuggveny-folytonossaga.md) $\underline{x}_0$-ban
+* $f$ [parciális deriváltjai](parcialis-derivalt.md) $\exists$-nek, és $\underline{f}'(\underline{x}_0)=^{\text{áll}} \underline{\nabla}f(\underline{x}_0)=^{\text{def}} \left( f'_{x_1}(\underline{x}_0), f'_{x_2}(\underline{x}_0), \dots ,f'_{x_p}(\underline{x}_0) \right)^T$ 
+* $f$ [iránymenti deriváltjai](iranymenti-derivalt.md) $\exists$-nek, és: $f'_{\underline{v}}(\underline{x}_0)=\underline{\nabla}f(\underline{x}_0)\cdot \frac{\underline{v}}{|\underline{v}|}$, ahol $\underline{v}\in \mathbb{R}^p\setminus \{0\}$
 
 **Áll**.: Ha $f$ [folytonosan differenciálható](folytonos-diffhatosag.md), akkor [totálisan differenciálható](totalis-diffhatosag.md).
 
@@ -271,46 +271,46 @@ Tehát ekkor $f$ [totálisan diffható](totalis-diffhatosag.md)
 
 ## 4. Előadás
 
-**Áll**.: Tegyük fel, hogy $g:\mathbb{R}^3 \rightarrow \mathbb{R}$ [totálisan diffható](totalis-diffhatosag.md) az $\vec{x_0}$ pontban. Ekkor a $g(\vec{x})=g(\vec{x_0})$ szintfelület $\vec{x_0}$ pontbeli [érintősíkja](./erintosik.md):
-$$(\vec{\nabla}g)(\vec{x_0}) \cdot (\vec{x}-\vec{x_0}) = 0$$
+**Áll**.: Tegyük fel, hogy $g:\mathbb{R}^3 \rightarrow \mathbb{R}$ [totálisan diffható](totalis-diffhatosag.md) az $\underline{x}_0$ pontban. Ekkor a $g(\underline{x})=g(\underline{x}_0)$ szintfelület $\underline{x}_0$ pontbeli [érintősíkja](./erintosik.md):
+$$(\underline{\nabla}g)(\underline{x}_0) \cdot (\underline{x}-\underline{x}_0) = 0$$
 
-**Biz**.: Mivel $g$ [totálisan diffható](./totalis-diffhatosag.md) az $\vec{x_0}$ pontban, ezért $(\vec{\nabla}g)(\vec{x_0})$ merőleges az $\vec{x_0}$ ponton átmenő szintfelületre, így $\vec{n} = \vec{\nabla}g(\vec{x_0})$ az [érintősíknak](./erintosik.md) normálvektora.
+**Biz**.: Mivel $g$ [totálisan diffható](./totalis-diffhatosag.md) az $\underline{x}_0$ pontban, ezért $(\underline{\nabla}g)(\underline{x}_0)$ merőleges az $\underline{x}_0$ ponton átmenő szintfelületre, így $\underline{n} = \underline{\nabla}g(\underline{x}_0)$ az [érintősíknak](./erintosik.md) normálvektora.
 
 ![alt text](./img/erintosik-egyenlet.png)
 
 > ### [Gradiensvektor](./gradiens-vektor.md) tulajdonságai
 
-**Áll**.: Tfh. $\mathbb{R}^p \rightarrow \mathbb{R}$ totálisan diffható $\vec{x_0} \in \mathbb{R}^p$ pontban. Ekkor:
-1. $\vec{\nabla}f(\vec{x_0})$ a legnagyobb növekedés iránya $\vec{x_0}$ pontban
-2. $-\vec{\nabla}f(\vec{x_0})$ a legnagyobb csökkenés iránya $\vec{x_0}$ pontban
-3. $|f'_{\vec{\nabla}f(\vec{x_0})}(\vec{x_0})| = |\vec{\nabla}f(\vec{x_0})|$, $|f'_{-\vec{\nabla}f(\vec{x_0})}(\vec{x_0})| = |\vec{\nabla}f(\vec{x_0})|$
-4. $\vec{\nabla}f(\vec{x_0}) \perp f=f(\vec{x_0})$ szintvonalra
-5. $\max_{\vec{v}} f'_{\vec{v}}(\vec{x_0})=|\vec{\nabla}f(\vec{x_0})|$
-6. $\min_{\vec{v}} f'_{\vec{v}}(\vec{x_0})=-|\vec{\nabla}f(\vec{x_0})|$
+**Áll**.: Tfh. $\mathbb{R}^p \rightarrow \mathbb{R}$ totálisan diffható $\underline{x}_0 \in \mathbb{R}^p$ pontban. Ekkor:
+1. $\underline{\nabla}f(\underline{x}_0)$ a legnagyobb növekedés iránya $\underline{x}_0$ pontban
+2. $-\underline{\nabla}f(\underline{x}_0)$ a legnagyobb csökkenés iránya $\underline{x}_0$ pontban
+3. $|f'_{\underline{\nabla}f(\underline{x}_0)}(\underline{x}_0)| = |\underline{\nabla}f(\underline{x}_0)|$, $|f'_{-\underline{\nabla}f(\underline{x}_0)}(\underline{x}_0)| = |\underline{\nabla}f(\underline{x}_0)|$
+4. $\underline{\nabla}f(\underline{x}_0) \perp f=f(\underline{x}_0)$ szintvonalra
+5. $\max_{\underline{v}} f'_{\underline{v}}(\underline{x}_0)=|\underline{\nabla}f(\underline{x}_0)|$
+6. $\min_{\underline{v}} f'_{\underline{v}}(\underline{x}_0)=-|\underline{\nabla}f(\underline{x}_0)|$
 
 
-**Biz**.: $\vec{v} \in \mathbb{R}^p$
-$\vec{f'}_{\vec{v}}(\vec{x_0}) = \vec{\nabla}f(\vec{x_0}) \cdot \frac{\vec{v}}{|\vec{v}|} = |\vec{\nabla}f(\vec{x_0})| \cdot |\frac{\vec{v}}{|\vec{v}|}| \cdot \cos \alpha$
+**Biz**.: $\underline{v} \in \mathbb{R}^p$
+$\underline{f'}_{\underline{v}}(\underline{x}_0) = \underline{\nabla}f(\underline{x}_0) \cdot \frac{\underline{v}}{|\underline{v}|} = |\underline{\nabla}f(\underline{x}_0)| \cdot |\frac{\underline{v}}{|\underline{v}|}| \cdot \cos \alpha$
 
 ![alt text](./img/cosinus.png)
 
-Látható, hogy akkor lesz maximális $\vec{f'}_{\vec{v}}(\vec{x_0})$ , ha $cos \alpha = 1$, tehát $\alpha = 0°$. Ezzel ekvivalens, hogy $\vec{\nabla}f || \vec{v}$ és $\vec{\nabla}f || c \cdot \vec{v} \ \ (c > 0)$. Ilyenkor $|f'_{\vec{v}}(\vec{x_0})|=|\vec{\nabla}f(\vec{x_0})|$. (5. állítás)
-Minimum esetén hasonlóan eljárva, csak $\alpha = -1$ és $c < 0$ azt kapjuk, hogy $|f'_{\vec{v}}(\vec{x_0})|= -|\vec{\nabla}f(\vec{x_0})|$. (6. állítás)
+Látható, hogy akkor lesz maximális $\underline{f'}_{\underline{v}}(\underline{x}_0)$ , ha $cos \alpha = 1$, tehát $\alpha = 0°$. Ezzel ekvivalens, hogy $\underline{\nabla}f || \underline{v}$ és $\underline{\nabla}f || c \cdot \underline{v} \ \ (c > 0)$. Ilyenkor $|f'_{\underline{v}}(\underline{x}_0)|=|\underline{\nabla}f(\underline{x}_0)|$. (5. állítás)
+Minimum esetén hasonlóan eljárva, csak $\alpha = -1$ és $c < 0$ azt kapjuk, hogy $|f'_{\underline{v}}(\underline{x}_0)|= -|\underline{\nabla}f(\underline{x}_0)|$. (6. állítás)
 
-**Áll**.: Ha $\vec{\nabla} f (\vec{x_0}) \neq \vec{0}$ és $f$ [totálisan diffható](totalis-diffhatosag.md) $\vec{x_0}$-ban, akkor $f=c$, $c=f(\vec{x_0})$ [szintvonal](./szintvonal.md) $\vec{x_0}$ egy kis [környezetében](./kornyezet.md) paraméterezhető $x(t)$, $y(t)$ [diffható](./totalis-diffhatosag.md) függvényekkel.
+**Áll**.: Ha $\underline{\nabla} f (\underline{x}_0) \neq \underline{0}$ és $f$ [totálisan diffható](totalis-diffhatosag.md) $\underline{x}_0$-ban, akkor $f=c$, $c=f(\underline{x}_0)$ [szintvonal](./szintvonal.md) $\underline{x}_0$ egy kis [környezetében](./kornyezet.md) paraméterezhető $x(t)$, $y(t)$ [diffható](./totalis-diffhatosag.md) függvényekkel.
 
 **Áll**.: Tfh. $f: \mathbb{R}^2 \rightarrow \mathbb{R}$, $x, y: \mathbb{R} \rightarrow \mathbb{R}$ diffhatóak. $t \in \mathbb{R}$
-Ekkor $\frac{d}{dt} f(x(t), y(t)): \mathbb{R} \rightarrow \mathbb{R} = \boxed{\textcolor{green}{\vec{f}'(x(t), y(t))}} \cdot (x'(t), y'(t))$
-$\textcolor{green}{\vec{f}'(x(t), y(t))} = \left( f'_x(x(t), y(t)), f'_y(x(t), y(t)) \right) = \textcolor{orange}{f'_x|_{(x(t), y(t)) = p(t)} \cdot x'(t) + f'_y|_{(x(t), y(t)) = p(t)} \cdot y'(t)}$
+Ekkor $\frac{d}{dt} f(x(t), y(t)): \mathbb{R} \rightarrow \mathbb{R} = \boxed{\textcolor{green}{\underline{f}'(x(t), y(t))}} \cdot (x'(t), y'(t))$
+$\textcolor{green}{\underline{f}'(x(t), y(t))} = \left( f'_x(x(t), y(t)), f'_y(x(t), y(t)) \right) = \textcolor{orange}{f'_x|_{(x(t), y(t)) = p(t)} \cdot x'(t) + f'_y|_{(x(t), y(t)) = p(t)} \cdot y'(t)}$
 
 $c = f(x(t), y(t)) \ / \frac{d}{dt}$
-$0 = \textcolor{orange}{f'_x|_{p(t)} \cdot x'(t) + f'_y|_{p(t)} \cdot y'(t)} = \vec{\nabla}f(\vec{x_0}) \cdot(x'(t_0), y'(t_0))$ azért teljesül, mert $\vec{\nabla} f(\vec{x_0})$ merőleges $(x'(t_0), y'(t_0))$ érintővektorra.
+$0 = \textcolor{orange}{f'_x|_{p(t)} \cdot x'(t) + f'_y|_{p(t)} \cdot y'(t)} = \underline{\nabla}f(\underline{x}_0) \cdot(x'(t_0), y'(t_0))$ azért teljesül, mert $\underline{\nabla} f(\underline{x}_0)$ merőleges $(x'(t_0), y'(t_0))$ érintővektorra.
 
-**Áll**.: Tfh.: $g:\mathbb{R}^3 \rightarrow \mathbb{R}$ [totálisan diffható](./totalis-diffhatosag.md) $\vec{x_0} \in \mathbb{R}^3$ pontban, és $\vec{\nabla}g(\vec{x_0}) \neq \vec{0}$.
-Ekkor a $g=c, c=g(\vec{x_0})$ szintfelületnek (hasonló a szintvonalhoz [szintvonal](./szintvonal.md)) az $\vec{x_0}$ pontban van érintősíkja, és ez $\vec{\nabla}g(\vec{x_0}) \cdot (\vec{x} - \vec{x_0}) = 0$
+**Áll**.: Tfh.: $g:\mathbb{R}^3 \rightarrow \mathbb{R}$ [totálisan diffható](./totalis-diffhatosag.md) $\underline{x}_0 \in \mathbb{R}^3$ pontban, és $\underline{\nabla}g(\underline{x}_0) \neq \underline{0}$.
+Ekkor a $g=c, c=g(\underline{x}_0)$ szintfelületnek (hasonló a szintvonalhoz [szintvonal](./szintvonal.md)) az $\underline{x}_0$ pontban van érintősíkja, és ez $\underline{\nabla}g(\underline{x}_0) \cdot (\underline{x} - \underline{x}_0) = 0$
 
 **Biz**.:
-A [gradiens vektor](./gradiens-vektor.md) egyik tulajdonsága, hogy a $\vec{0} \neq \vec{\nabla}g(\vec{x_0})$ merőleges a $g=c$ szintfelületre, így a szintfelület [érintősíkjának](./erintosik.md) normálvektora pontosan $\vec{\nabla}g(\vec{x_0})$. Tehát a sík egyenlete: $\vec{n} \cdot (\vec{x} - \vec{x_0}) = \vec{\nabla}g(\vec{x_0}) \cdot (\vec{x} - \vec{x_0}) =  0$.
+A [gradiens vektor](./gradiens-vektor.md) egyik tulajdonsága, hogy a $\underline{0} \neq \underline{\nabla}g(\underline{x}_0)$ merőleges a $g=c$ szintfelületre, így a szintfelület [érintősíkjának](./erintosik.md) normálvektora pontosan $\underline{\nabla}g(\underline{x}_0)$. Tehát a sík egyenlete: $\underline{n} \cdot (\underline{x} - \underline{x}_0) = \underline{\nabla}g(\underline{x}_0) \cdot (\underline{x} - \underline{x}_0) =  0$.
 
 ![alt text](./img/normal_vektor.png)
 
@@ -383,37 +383,37 @@ Tfh. $P, Q: \mathbb{R}^2 \rightarrow \mathbb{R}$ [folytonosan diffható](./folyt
 - [többdimenziós diffhatóság](./tobbdimenzios-diffhatosag.md)
 
 **Emlékeztető**:
-$f: \mathbb{R}^n \rightarrow \mathbb{R}$, ha $f$ [diffható](./totalis-diffhatosag.md), akkor $\vec{f}' = \vec{\nabla}f(\vec{a})=(f'_{x_1}, f'_{x_2}, \cdots, f'_{x_n})(\vec{a})$, azaz a derivált megegyezeik a [gradiensével](./gradiens-vektor.md).
+$f: \mathbb{R}^n \rightarrow \mathbb{R}$, ha $f$ [diffható](./totalis-diffhatosag.md), akkor $\underline{f}' = \underline{\nabla}f(\underline{a})=(f'_{x_1}, f'_{x_2}, \cdots, f'_{x_n})(\underline{a})$, azaz a derivált megegyezeik a [gradiensével](./gradiens-vektor.md).
 
 
 **Áll**.:
-$\vec{f}: \mathbb{R}^n \rightarrow \mathbb{R}^m$
-$$\vec{f} = \begin{pmatrix}f_1 \\ \vdots \\ f_m \\ \end{pmatrix}$$
-$f$ [diffható](./tobbdimenzios-diffhatosag.md) $\vec{a}$-ban $\Leftrightarrow$ $f_1, \cdots, f_m: \mathbb{R}^n \rightarrow \mathbb{R}$ [diffható](./totalis-diffhatosag.md)(másik definícióra visz ez a link) $\vec{a}$-ban és 
+$\underline{f}: \mathbb{R}^n \rightarrow \mathbb{R}^m$
+$$\underline{f} = \begin{pmatrix}f_1 \\ \vdots \\ f_m \\ \end{pmatrix}$$
+$f$ [diffható](./tobbdimenzios-diffhatosag.md) $\underline{a}$-ban $\Leftrightarrow$ $f_1, \cdots, f_m: \mathbb{R}^n \rightarrow \mathbb{R}$ [diffható](./totalis-diffhatosag.md)(másik definícióra visz ez a link) $\underline{a}$-ban és 
 
 $$
 \begin{alignat*}{3}
-\vec{f}'|_{\vec{a}} &= \left. \begin{pmatrix}f'_1 \\ \vdots \\ f'_m \end{pmatrix}\right|_{\vec{a}} \\
-&= \left. \begin{pmatrix}\vec{\nabla}f_1 \\ \vdots \\ \vec{\nabla}f_m \end{pmatrix}\right|_{\vec{a}} \\
-&= \left. \begin{pmatrix}\vec{\nabla}f_1 \\ \vdots \\ \vec{\nabla}f_m \end{pmatrix} \right|_{\vec{a}} \\
+\underline{f}'|_{\underline{a}} &= \left. \begin{pmatrix}f'_1 \\ \vdots \\ f'_m \end{pmatrix}\right|_{\underline{a}} \\
+&= \left. \begin{pmatrix}\underline{\nabla}f_1 \\ \vdots \\ \underline{\nabla}f_m \end{pmatrix}\right|_{\underline{a}} \\
+&= \left. \begin{pmatrix}\underline{\nabla}f_1 \\ \vdots \\ \underline{\nabla}f_m \end{pmatrix} \right|_{\underline{a}} \\
 &= \left. \begin{pmatrix}
 \frac{\partial f_1}{\partial x_1} & \cdots & \frac{\partial f_1}{\partial x_n} \\
 \vdots & \ddots & \vdots \\
 \frac{\partial f_m}{\partial x_1} & \cdots & \frac{\partial f_m}{\partial x_n} \\
-\end{pmatrix} \right|_{\vec{a}}
+\end{pmatrix} \right|_{\underline{a}}
 \end{alignat*}
 $$
 
 **Áll**.: (Összetett függvény deriválási szabálya)
-Tfh. $g: \mathbb{R}^n \rightarrow \mathbb{R}^m$ $f: \mathbb{R}^m \rightarrow \mathbb{R}^e$. $g$ [diffható](./tobbdimenzios-diffhatosag.md) $\vec{a} \in \mathbb{R}^n$ pontban, $f$ [diffható](./tobbdimenzios-diffhatosag.md) $g(\vec{a}) \in \mathbb{R}^m$ pontban.
-Ekkor $f \circ g: \mathbb{R}^n \rightarrow \mathbb{R}^e$ is [diffható](./tobbdimenzios-diffhatosag.md) $\vec{a} \in \mathbb{R}^n$-ben és
-$$(f \circ g)'(\vec{a}) = \underline{\underline{f'}}(\vec{g}(\vec{a})) \circ \underline{\underline{g'}}(\vec{a})$$
+Tfh. $g: \mathbb{R}^n \rightarrow \mathbb{R}^m$ $f: \mathbb{R}^m \rightarrow \mathbb{R}^e$. $g$ [diffható](./tobbdimenzios-diffhatosag.md) $\underline{a} \in \mathbb{R}^n$ pontban, $f$ [diffható](./tobbdimenzios-diffhatosag.md) $g(\underline{a}) \in \mathbb{R}^m$ pontban.
+Ekkor $f \circ g: \mathbb{R}^n \rightarrow \mathbb{R}^e$ is [diffható](./tobbdimenzios-diffhatosag.md) $\underline{a} \in \mathbb{R}^n$-ben és
+$$(f \circ g)'(\underline{a}) = \underline{\underline{f'}}(\underline{g}(\underline{a})) \circ \underline{\underline{g'}}(\underline{a})$$
 
 **Alkalmazás**.: Láncszabály különböző alakjai
 1. $f: \mathbb{R}^2 \rightarrow \mathbb{R}$ [diffható](./totalis-diffhatosag.md), $g: \mathbb{R} \rightarrow \mathbb{R}^2$ [diffható](./totalis-derivalt.md), tehát $f \circ g$ is [diffható](./tobbdimenzios-diffhatosag.md) és 
 $$
 \begin{alignat*}{3}
-(f \circ g)'(t) &= \vec{f}'(\vec{g}(t)) \cdot \vec{g}'(t) \\
+(f \circ g)'(t) &= \underline{f}'(\underline{g}(t)) \cdot \underline{g}'(t) \\
 &= \left. (f'_x, f'_y) \right|_{(x(t), y(t))} \\
 &= f'_x(x(t), y(t)) \cdot x'(t) + f'_y(x(t), y(t)) \cdot y'(t)
 \end{alignat*}
