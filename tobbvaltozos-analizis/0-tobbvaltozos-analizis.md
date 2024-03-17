@@ -10,6 +10,9 @@
     5.2. [2. Előadás](#2-előadás)
     5.3. [3. Előadás](#3-előadás)
     5.4. [4. Előadás](#4-előadás)
+    5.5. [5. Előadás](#5-előadás)
+    5.6. [6. Előadás](#6-előadás)
+    5.7. [7. Előadás](#7-előadás)
 
 
 # Általános tudnivalók
@@ -311,9 +314,12 @@ A [gradiens vektor](./gradiens-vektor.md) egyik tulajdonsága, hogy a $\vec{0} \
 
 ![alt text](./img/normal_vektor.png)
 
+## 5. Előadás
+Elmaradt
+
 ## 6. Előadás
 > ### Diff. egyenletek
-[Definíciók](./differencial-egyenlet.md)
+[Diffegyenlet definíciók](./differencial-egyenlet.md)
 
 **Példa**.:
 Tfh $f(x, y)=-\frac{P(x,y)}{Q(x,y)}$. Tfh. $D\subseteq\mathbb{R}^2$ [tartományon](tartomany.md) $Q\neq0$. Ekkor:
@@ -367,3 +373,48 @@ A megoldás: $x^2y + y^2 = 6$
 
 **Áll**.:
 Tfh. $P, Q: \mathbb{R}^2 \rightarrow \mathbb{R}$ [folytonosan diffható](./folytonos-diffhatosag.md) egy $D \subseteq \mathbb{R}^2$ [egyszeresen összefüggő tartományban](./egyszeresen-osszefuggo-tartomany.md), azaz $f'_x = P$ és $f'_y = Q$ Ekkor $Pdx+Qdy$ [teljes differenciál](./teljes-differencial.md) $\Leftrightarrow$ $P'_y = Q'_x$.
+
+## 7. Előadás
+
+> ### $\mathbb{R}^n \rightarrow \mathbb{R}^m$ függvények differenciálása
+
+**Def**.:
+- [lineáris leképezés](./linearis-lekepezes.md)
+- [többdimenziós diffhatóság](./tobbdimenzios-diffhatosag.md)
+
+**Emlékeztető**:
+$f: \mathbb{R}^n \rightarrow \mathbb{R}$, ha $f$ [diffható](./totalis-diffhatosag.md), akkor $\vec{f}' = \vec{\nabla}f(\vec{a})=(f'_{x_1}, f'_{x_2}, \cdots, f'_{x_n})(\vec{a})$, azaz a derivált megegyezeik a [gradiensével](./gradiens-vektor.md).
+
+
+**Áll**.:
+$\vec{f}: \mathbb{R}^n \rightarrow \mathbb{R}^m$
+$$\vec{f} = \begin{pmatrix}f_1 \\ \vdots \\ f_m \\ \end{pmatrix}$$
+$f$ [diffható](./tobbdimenzios-diffhatosag.md) $\vec{a}$-ban $\Leftrightarrow$ $f_1, \cdots, f_m: \mathbb{R}^n \rightarrow \mathbb{R}$ [diffható](./totalis-diffhatosag.md)(másik definícióra visz ez a link) $\vec{a}$-ban és 
+
+$$
+\begin{alignat*}{3}
+\vec{f}'|_{\vec{a}} &= \left. \begin{pmatrix}f'_1 \\ \vdots \\ f'_m \end{pmatrix}\right|_{\vec{a}} \\
+&= \left. \begin{pmatrix}\vec{\nabla}f_1 \\ \vdots \\ \vec{\nabla}f_m \end{pmatrix}\right|_{\vec{a}} \\
+&= \left. \begin{pmatrix}\vec{\nabla}f_1 \\ \vdots \\ \vec{\nabla}f_m \end{pmatrix} \right|_{\vec{a}} \\
+&= \left. \begin{pmatrix}
+\frac{\partial f_1}{\partial x_1} & \cdots & \frac{\partial f_1}{\partial x_n} \\
+\vdots & \ddots & \vdots \\
+\frac{\partial f_m}{\partial x_1} & \cdots & \frac{\partial f_m}{\partial x_n} \\
+\end{pmatrix} \right|_{\vec{a}}
+\end{alignat*}
+$$
+
+**Áll**.: (Összetett függvény deriválási szabálya)
+Tfh. $g: \mathbb{R}^n \rightarrow \mathbb{R}^m$ $f: \mathbb{R}^m \rightarrow \mathbb{R}^e$. $g$ [diffható](./tobbdimenzios-diffhatosag.md) $\vec{a} \in \mathbb{R}^n$ pontban, $f$ [diffható](./tobbdimenzios-diffhatosag.md) $g(\vec{a}) \in \mathbb{R}^m$ pontban.
+Ekkor $f \circ g: \mathbb{R}^n \rightarrow \mathbb{R}^e$ is [diffható](./tobbdimenzios-diffhatosag.md) $\vec{a} \in \mathbb{R}^n$-ben és
+$$(f \circ g)'(\vec{a}) = \underline{\underline{f'}}(\vec{g}(\vec{a})) \circ \underline{\underline{g'}}(\vec{a})$$
+
+**Alkalmazás**.: Láncszabály különböző alakjai
+1. $f: \mathbb{R}^2 \rightarrow \mathbb{R}$ [diffható](./totalis-diffhatosag.md), $g: \mathbb{R} \rightarrow \mathbb{R}^2$ [diffható](./totalis-derivalt.md), tehát $f \circ g$ is [diffható](./tobbdimenzios-diffhatosag.md) és 
+$$
+\begin{alignat*}{3}
+(f \circ g)'(t) &= \vec{f}'(\vec{g}(t)) \cdot \vec{g}'(t) \\
+&= \left. (f'_x, f'_y) \right|_{(x(t), y(t))} \\
+&= f'_x(x(t), y(t)) \cdot x'(t) + f'_y(x(t), y(t)) \cdot y'(t)
+\end{alignat*}
+$$

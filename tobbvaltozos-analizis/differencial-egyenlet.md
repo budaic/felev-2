@@ -69,27 +69,27 @@ $$\frac{d}{dt}F(x, y(x))=0 \Leftrightarrow F(x, y(x))=C\in \mathbb{R}$$
 Mi van azonban, ha a [diffegyenlet](./differencial-egyenlet.md) nem [egzakt](./differencial-egyenlet.md#egzakt-diffegyenletek), azaz $P'_y \neq Q'_x$?
 [Jó videó a témáról](https://www.youtube.com/watch?v=u5NGfwNNqHw)
 
-**Ötlet**.: Megpróbálunk keresni egy $\phi (x, y)$ függvényt, úgy, hogy
-$\textcolor{orange}{\phi(x, y) P(x, y)}dx + \textcolor{green}{\phi(x, y) Q(x,y)}dy = 0$ már egzakt.
+**Ötlet**.: Megpróbálunk keresni egy $\varphi (x, y)$ függvényt, úgy, hogy
+$\textcolor{orange}{\varphi(x, y) P(x, y)}dx + \textcolor{green}{\varphi(x, y) Q(x,y)}dy = 0$ már egzakt.
 $\textcolor{orange}{\widetilde{P}(x, y)}dx + \textcolor{green}{\widetilde{Q}(x,y)}dy = 0$
 
 Tehát kell 
 $$
 \begin{alignat*}{2}
 \widetilde{P}'_y &= \widetilde{Q}'_x \\
-\phi'_y \cdot P + \phi \cdot P'_y &= \phi'_x \cdot Q + \phi \cdot Q'_x
+\varphi'_y \cdot P + \varphi \cdot P'_y &= \varphi'_x \cdot Q + \varphi \cdot Q'_x
 \end{alignat*}
 $$
 Rossz hír: nehezebb megoldani, mint az eredetit. De [nem adjuk fel](https://www.youtube.com/watch?v=dQw4w9WgXcQ)!
-Ötlet: Speciál alakú $\phi(x, y)$ függvényekkel próbálkozunk.
+Ötlet: Speciál alakú $\varphi(x, y)$ függvényekkel próbálkozunk.
 Pl.: $$
 \begin{alignat*}{3}
-\phi(x, y) &= m(x) \\
-\phi(x, y) &= m(y) \\
-\phi(x, y) &= m(x+y) \\ 
-\phi(x, y) &= m(xy) \\
-\phi(x, y) &= m(\frac{x}{y}) \\
-\phi(x, y) &= m(x^2+y^2) \\
+\varphi(x, y) &= m(x) \\
+\varphi(x, y) &= m(y) \\
+\varphi(x, y) &= m(x+y) \\ 
+\varphi(x, y) &= m(xy) \\
+\varphi(x, y) &= m(\frac{x}{y}) \\
+\varphi(x, y) &= m(x^2+y^2) \\
 \end{alignat*}
 $$
 Itt $m: \mathbb{R} \rightarrow \mathbb{R}$
@@ -99,7 +99,7 @@ Ekkor $m(y)$ csak $y$-tól függő **integráló tényező** a $Pdx + Qdy = 0$ [
 $\frac{Q'_x-P'_y}{P}dy$ csak $y$-tól függ, és $=m(y)=e^{\int{\frac{Q'_x-P'_y}{P}dy}}$
 
 **Biz**.:
-Ahhoz, hogy a $\phi(x, y) P(x, y)dx + \phi(x, y) Q(x,y)dy = 0$ [egzakt](#egzakt-diffegyenletek) legyen szükséges: $(m(y) P(x, y)dx)'_y = (m(y) Q(x,y)dy)'_x$
+Ahhoz, hogy a $\varphi(x, y) P(x, y)dx + \varphi(x, y) Q(x,y)dy = 0$ [egzakt](#egzakt-diffegyenletek) legyen szükséges: $(m(y) P(x, y)dx)'_y = (m(y) Q(x,y)dy)'_x$
 $$
 \begin{alignat*}{3}
 (m(y) P(x, y))'_y &= (m(y) Q(x,y))'_x \\
