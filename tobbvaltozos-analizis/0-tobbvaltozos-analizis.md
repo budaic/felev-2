@@ -8,6 +8,8 @@
 5. [Előadások](#előadások) \
     5.1. [1. Előadás](#1-előadás)
     5.2. [2. Előadás](#2-előadás)
+    5.3. [3. Előadás](#3-előadás)
+    5.4. [4. Előadás](#4-előadás)
 
 
 # Általános tudnivalók
@@ -314,7 +316,7 @@ A [gradiens vektor](./gradiens-vektor.md) egyik tulajdonsága, hogy a $\vec{0} \
 [Definíciók](./differencial-egyenlet.md)
 
 **Példa**.:
-Tfh $f(x, y)=-\frac{P(x,y)}{Q(x,y)}$. Tfh $D\subseteq\mathbb{R}^2$ [tartományon](tartomany.md) $Q\neq0$. Ekkor:
+Tfh $f(x, y)=-\frac{P(x,y)}{Q(x,y)}$. Tfh. $D\subseteq\mathbb{R}^2$ [tartományon](tartomany.md) $Q\neq0$. Ekkor:
 $$y'=-\frac{P(x,y)}{Q(x,y)} \newline
 Qy'=-P \newline
 P+qy'=0 \newline
@@ -322,3 +324,70 @@ P+Q\frac{dy}{dx}=0
 $$
 Azaz formálisan átírva:
 $$Pdx+Qdy=0 $$
+
+##
+
+**Def**.: [egyszeresen összefüggő tartomány](./egyszeresen-osszefuggo-tartomany.md)
+
+**Példa**.: Adjuk meg a $(2xy)dx + (2y + x^2)dy = 0$ [differenciálegyenlet](./differencial-egyenlet.md) általános megoldását és az $y(1) = 2$ kezdeti feltételt teljesítő megoldást.
+
+**Megoldás**.: 
+A $P(x, y)dx + Q(x, y)dy = 0$ formában $P(x, y) = 2xy$, $Q(x, y) = (2y + x^2)$
+
+Ellenőrizzük, hogy a [diffegyenlet](./differencial-egyenlet.md) [egzakt](./differencial-egyenlet.md#egzakt-diffegyenletek)-e. Ennek két feltétele van:
+1. $P, Q$ [folytonosan diffhatóak](./folytonos-diffhatosag.md) az egész $R^2$-en: 
+Ez a feltétel **teljesül**.
+2. $P'_y \stackrel{?}{=} Q'_x$
+$P'_y = 2x = Q'_x$, tehát ez a feltétel is **teljesül**.
+
+Ez azt jelenti, hogy [egzakt diffegyenlettel](./differencial-egyenlet.md#egzakt-diffegyenletek) van dolgunk.
+
+Kell egy olyan $F$, aminek az $x$ szerinti [parciális deriváltja](./parcialis-derivalt.md) $P$-vel, az $y$ szerinti $Q$-val egyenlő.
+$F'_x = P = 2xy \Rightarrow F(x, y) = \int{2xydx} = x^2y + A(y)$
+$$
+\begin{alignat*}{3}
+F'_y = Q = 2y + x^2 &= F'y = x^2 + A'y \\
+x^2 + A'(y) &= 2y + x^2 \\
+A(y) &= y^2 + \widetilde{c} \quad (\widetilde{c} \in \mathbb{R})
+\end{alignat*}
+$$
+
+Tehát $F(x, y) = x^2y + y^2 + \widetilde{c} = \widetilde{\widetilde{c}}$
+- A [diffegyenlet](./differencial-egyenlet.md) általános megoldása: 
+$x^2y + y^2 = c$, $c \in \mathbb{R}$ ($c = \widetilde{\widetilde{c}} - \widetilde{c}$)
+- $y(1) = 2$ kezdeti feltételt teljesítő megoldás:
+$x=1, y=2$ rajta van a megfelelő [szintvonalon](./szintvonal.md) $\Rightarrow$ $1^2 \cdot 2 + 2^2 = 6 = c$
+A megoldás: $x^2y + y^2 = 6$
+
+**Kérdés**
+Mi van azonban, ha a [diffegyenlet](./differencial-egyenlet.md) nem [egzakt](./differencial-egyenlet.md#egzakt-diffegyenletek), azaz $P'_y \neq Q'_x$?
+[Jó videó a témáról](https://www.youtube.com/watch?v=u5NGfwNNqHw)
+
+**Ötlet**.: Megpróbálunk keresni egy $\phi (x, y)$ függvényt, úgy, hogy
+$\textcolor{orange}{\phi(x, y) P(x, y)}dx + \textcolor{green}{\phi(x, y) Q(x,y)}dy = 0$ már egzakt.
+$\textcolor{orange}{\widetilde{P}(x, y)}dx + \textcolor{green}{\widetilde{Q}(x,y)}dy = 0$
+
+Tehát kell 
+$$
+\begin{alignat*}{2}
+\widetilde{P}'_y &= \widetilde{Q}'_x \\
+\phi'_y \cdot P + \phi \cdot P'_y &= \phi'_x \cdot Q + \phi \cdot Q'_x
+\end{alignat*}
+$$
+Rossz hír: nehezebb megoldani, mint az eredetit. De [nem adjuk fel](https://www.youtube.com/watch?v=dQw4w9WgXcQ)!
+Ötlet: Speciál alakú $\phi(x, y)$ függvényekkel próbálkozunk.
+Pl.: $$
+\begin{alignat*}{3}
+\phi(x, y) &= m(x) \\
+\phi(x, y) &= m(y) \\
+\phi(x, y) &= m(x+y) \\ 
+\phi(x, y) &= m(xy) \\
+\phi(x, y) &= m(\frac{x}{y}) \\
+\phi(x, y) &= m(x^2+y^2) \\
+\end{alignat*}
+$$
+Itt $m: \mathbb{R} \rightarrow \mathbb{R}
+
+
+
+**Def**.:[első differenciál](./elso-differencial.md)

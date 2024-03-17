@@ -49,7 +49,7 @@ Ezzel egy [explicit diffegyenletet](#elsőrendű-közönséges-explicit-diffegye
 
 ### Definíció 2
 **Áll**.: Tfh.: $P, Q: \mathbb{R}^2 \rightarrow \mathbb{R}$ adott [folytonosan diffható](./folytonos-diffhatosag.md) függvények.
-Ekkor $P(x, y)dx + Q(x, y)dy=0$ egzakt $\Leftrightarrow$ $P'_y=Q'_x$ $D$-n, feltéve, hogy $D$ [egyszeresen összefüggő](./osszefuggoseg.md) [tartomány](./tartomany.md)
+Ekkor $P(x, y)dx + Q(x, y)dy=0$ egzakt $\Leftrightarrow$ $P'_y=Q'_x$ $D$-n, feltéve, hogy $D$ [egyszeresen összefüggő tartomány](./egyszeresen-osszefuggo-tartomany.md)
 **Biz**.: Csak a $\Rightarrow$ esetet bizonyítjuk
 Ha egzakt, akkor $\exists F: \mathbb{R}^2 \rightarrow \mathbb{R}$ kétszer [folytonosan diffható](./folytonos-diffhatosag.md), amelyre $F'_x=P$ és $F'_y=Q$. Ekkor $P'_y=F''_{xy}$ és $Q'_x=F''_{yx}$. $F''_{xy}=F''_{yx}$ a [Young-tétel](./young-tetel.md) miatt.
 
