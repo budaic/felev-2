@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hover Page Demo</title>
+</head>
+<body>
+    <div class="container">
+<h1>Elektronika</h1><h1>Tartalomjegyzék</h1>
+<ol>
+<li><a href="#általános-tudnivalók">Általános tudnivalók</a></li>
+<li><a href="#jelölések">Jelölések</a></li>
+<li><a href="#Definiciók">Definíciók</a></li>
+<li><a href="#tételek-állítások">Tételek, állítások</a></li>
+<li><a href="#előadások">Előadások</a> \
+    5.1 <a href="#1-előadás">1. előadás</a></li>
+</ol><h1>Általános tudnivalók</h1><p>AUT, Glöckner György
+Digitális Technika, Digitális Elektronika tárgy</p><ul>
+<li>portal.vik.bme.hu/kepzes/targyak/VIAUA050</li>
+<li>edu.vik.bme.hu</li>
+<li>https://edu.vik.bme.hu/mod/folder/view.php?id=118967</li>
+</ul><p><strong>Minden labor kötelező</strong> (2 pótolható) - nincs beugró az 5 laborfoglalkozáshoz - az összes feladatot meg kell oldani mérési útmutatóban
+2 zh - délután estefele csütörtökön 18-19:30
+Félévközi jegy</p><p>Programozható áramkörök (FPGA - Field programmable gate array)</p><h1>Előadások</h1><h2>Első előadás</h2>
+<h3>Analóg és Digitális rendszer</h3><ul>
+<li>Rendszer működését bemenő és kimenő jelek közötti kapcsolat adja meg</li>
+<li>Jelátvitel egy átviteli függvénnyel írható le:<ul>
+<li>ha ez egy folytonos transzformáció, akkor analóg</li>
+<li>ha diszkrét értékek, akkor digitális</li>
+</ul>
+</li>
+<li>Digitalizált (mintavételezett jel)<ul>
+<li>Kvantálás, felbontás mértéke</li>
+</ul>
+</li>
+</ul><p>|Analóg | Digitális|
+|---|---|
+|folytonos jel  |  diszkrét érték|
+|fokozott zavarérzékenység  |  kevésbé zavarérzékeny |
+|folyt. jelek feldolgozhatók | közvetlenül számokkal tud műveletet végezni |
+|kevésbé üzembiztos  |  jobban üzembiztos |</p><h3>A digitális rendszer leírásának matematikai alapjai</h3>
+<ul>
+<li>Analóg rendszerek - matematikai analízis</li>
+<li>Digitális rendszerek leírása - absztrakt algebra
+Absztrakt algebra George Boole általi implementációja: Boole algebra</li>
+</ul><p><img alt="digitális rendszer osztályozása" src="img/image_1.png" /></p><p><strong>Mintavételezési törvény</strong> - a legnagyobb frekvencia kétszeresével kell mintavételezni egy analóg jelet</p><h3>Digitális elektronikai tervezés alternatívák ma</h3>
+<ul>
+<li>mikrovezérlő + egyebek</li>
+<li>komplex funkcionális blokkok (építőkockák)</li>
+<li>mit tanulunk:<ul>
+<li>alapelvek</li>
+<li>alapfunkciók</li>
+<li>alapmegoldások</li>
+</ul>
+</li>
+</ul><h3>Kódolás, kódok</h3>
+<p><strong>Fogalma</strong>: 2 szimbólumrendszer elemeinek egymáshoz rendelése</p><p>Példák:
+    - óvodások jele
+    - Neptun-kód
+    - Hangjegyek és azok neve</p><h4>1. BCD kódok (bináris számsor decimális számokhoz rendelése)</h4>
+<p>NBCD kód (természetes BCD kód)</p><p>Tulajdonságai:
+- súlyozott
+- természetes
+- egyértelmű
+- 4 bites</p><p>nem hibatűrő <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>&#x02192;</mo></mrow></math> kiegészítő biteket adunk hozzá (pl paritásjelző bit)</p><p>léteznek egyéb súlyozások is</p><h4>2. Ciklikus kódok</h4>
+<p>Példa: DC motor forgó tengelyének pozíció érzékelése
+<img alt="alt text" src="img/image_2.png" /></p><p>Probléma: kiterjesztett NBCD-vel lehetséges nagyon nagy hiba</p><p><strong>Gray-kód</strong>: egymás mellett levő szektorokból mindig csak 1 cella változik
+<img alt="alt text" src="img/image_3.png" /></p><p>Előállítása:
+0-val kezdve mindig tükrözzük az addigi számokat (egymás alá írva), a tükörtengely alatt levők elé egyest a felette lévők elő 0-t írunk.</p><h3>Boole algebra</h3>
+    </div>
+    <div id="hover-page"></div>
+    <script src="script.js"></script>
+</body>
+</html>

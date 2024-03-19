@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hover Page Demo</title>
+</head>
+<body>
+    <div class="container">
+<h1>1. Labor</h1><h2>Mérési feladatok megoldása</h2><h3>Felkészülési kérdések</h3>
+<ol>
+<li><strong>Mi a kombinációs hálózat definíciója?</strong>
+<a href="./kombinacios-halozat.md">Kombinációs hálózat</a></li>
+</ol><ol>
+<li><strong>Hány lehetséges függvény állítható elő n bemeneti változó esetén?</strong>
+Talán <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mn>2</mn><mrow><msup><mn>2</mn><mi>n</mi></msup></mrow></msup></mrow></math></li>
+</ol><ol>
+<li><strong>Adja meg a DeMorgan azonosságokat 2 változó esetére.</strong>
+<a href="../analizis/de-morgan-azonossagok.md">De Morgan azonosságok</a></li>
+</ol><ol>
+<li><strong>Mit jelent az, hogy egy bemenet ponált vagy negált?</strong>
+<a href="./ponalt.md">ponált</a>, <a href="./negalt.md">negált</a></li>
+</ol><ol>
+<li><strong>Mit jelent az, hogy egy bemenet vagy kimenet aktív 0 vagy aktív 1 szintű? Hogyan látható ez a jel megnevezéséből?</strong>
+<a href="./aktiv-szint.md">aktív szint</a>, talán van egy vonás felette (negálás jele)</li>
+</ol><ol>
+<li><strong>Írja fel a 2-bemenetű ÉS, VAGY és KIZÁRÓ VAGY kapuk igazságtáblázatát.</strong>
+<a href="./logikai-es.md">és</a>, <a href="./logikai-vagy.md">vagy</a>, <a href="./logikai-kizaro-vagy.md">kizáró vagy</a></li>
+</ol><ol>
+<li><strong>Hogyan rendelhetők hozzá a logikai szintek az egyes feszültségszintekhez?</strong>
+A logikai 1 a magasabb feszültségszintnek felel meg, a logikai 0 az alacsonyabbnak.</li>
+</ol><ol>
+<li><strong>Hogyan valósítható meg egy <a href="./logikai-nem.md">inverter</a> egy <a href="./nemes.md">NEMÉS</a> vagy egy <a href="./nemvagy.md">NEMVAGY</a> kapuból?</strong>
+Mindkét kapunál a két bemenetre ugyanazt kötjük és így egy <a href="./logikai-nem.md">invertert</a> kapunk.</li>
+</ol><ol>
+<li><strong>Mi az összefüggés az ANTIVALENCIA (KIZÁRÓ VAGY) és EKVIVALENCIA függvény között. Igazolja állítását.</strong>
+Egymás <a href="./negalt.md">negáltjai</a>. 
+<a href="./logikai-kizaro-vagy.md">Kizáró vagy</a>: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>B</mi><mo>&#x0002B;</mo><mi>A</mi><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover></mrow></math>
+Ekvivalencia: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi><mi>B</mi><mo>&#x0002B;</mo><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>&#x000B7;</mi><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover></mrow></math>
+Kizáró vagy <a href="./negalt.md">negálva</a>: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mover><mrow><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>B</mi><mo>&#x0002B;</mo><mi>A</mi><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover></mrow><mo accent="true">&#x02015;</mo></mover></mrow></math>
+Ha ezt a <a href="../analizis/de-morgan-azonossagok.md">De Morgan azonosságot</a> felhasználva kibontjuk: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mover><mrow><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>&#x000B7;</mi><mover><mrow><mi>A</mi><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover></mrow><mo accent="true">&#x02015;</mo></mover><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mover><mrow><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover></mrow><mo accent="true">&#x02015;</mo></mover><mo>&#x0002B;</mo><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover><mo stretchy="false">&#x00029;</mo><mi>&#x000B7;</mi><mo stretchy="false">&#x00028;</mo><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mo>&#x0002B;</mo><mover><mrow><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover></mrow><mo accent="true">&#x02015;</mo></mover><mo stretchy="false">&#x00029;</mo></mrow></math>. Most a disztributivitást használjuk ki: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mo>&#x0002B;</mo><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>&#x000B7;</mi><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mo>&#x0002B;</mo><mi>A</mi><mi>B</mi><mo>&#x0002B;</mo><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>B</mi></mrow></math>. Mivel a <a href="boole-algebra-axiomai.md">Boole-algebra axiómáiból</a> következik, hogy bármilyen logikai változó vagy igaz, vagy hamis, ezért <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover></mrow></math> és <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover><mrow><mi>B</mi></mrow></mrow></math> mindenképp hamis. Így marad <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mover><mrow><mi>B</mi></mrow><mo accent="true">&#x02015;</mo></mover><mi>&#x000B7;</mi><mover><mrow><mi>A</mi></mrow><mo accent="true">&#x02015;</mo></mover><mo>&#x0002B;</mo><mi>A</mi><mi>B</mi></mrow></math>, ami pont az ekvivalencia.</li>
+</ol><ol>
+<li><strong>Mi a funkciója egy kódoló áramkörnek. Milyen jellegű bemenetei és kimenetei vannak?</strong>
+A dekóderrel éppen ellentétesen működik a kódoló áramkör, melynek bemenetei közül csak egy aktív és a kimenetein az aktív bemenetnek megfelelő binárisan kódolt érték nyerhető.</li>
+</ol><ol>
+<li><strong>Hány bit szükséges ahhoz, ha nemcsak számjegyeket, hanem betűket és írásjeleket is kódolni kívánunk?</strong>
+8 bit</li>
+</ol><ol>
+<li><strong>Mi a funkciója egy dekódoló áramkörnek. Milyen jellegű bemenetei és kimenetei vannak?</strong>
+A dekódoló áramkörök bemenetére bináris információ érkezik, míg a kimenetén csak bemeneti bináris értéknek megfelelő sorszámú kimeneten jelenik meg aktív jel, aktív érték. Az aktív 1 kimenetű változatnál az adott kimenet 1 értékű, ha a bemeneten az adott kimenet indexének (sorszámának) megfelelő érték van és 0, ha ez nem teljesül, míg az aktív 0 kimenetű változatnál az adott kimenet 0 értékű, ha a bemeneten az adott kimenet indexének (sorszámának) megfelelő érték van és 1, ha ez nem teljesül. Minden más kimenet ilyenkor inaktív (előző esetben 0, míg utóbbi esetben 1). A 22. ábra egy aktív 1 kimenetű „1 a 4-ből” (4 lehetséges bemeneti kombináció és mindig 1 aktív értékű kimenet) dekódoló áramkört és igazság táblázatát mutatja be (bemenetek: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mn>0</mn></msub></mrow></math>-<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mn>1</mn></msub></mrow></math>,  kimenetek: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>O</mi><mn>0</mn></msub></mrow></math>-<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>O</mi><mn>3</mn></msub></mrow></math>).</li>
+</ol><ol>
+<li><strong>Mondjon példát átkódoló áramkörre. Nevezze meg a bemeneteit és a kimeneteit.</strong>
+A gyakorlatban előfordul még az itt fel nem tüntetett ú.n átkódoló áramkör is, melynek mind bemenete, mind kimenete 4-bites bináris kód.  Ilyen lehet például egy NBCD - "3-többletes Gray kód" konverter (átkódoló), melynek bemenetére az NBCD kódnak megfelelő kódok érkeznek, míg minden bemeneti értéknél az illető decimális számnak megfelelő 3-többletes Gray kód jelenik meg a kimenetén.</li>
+</ol><ol>
+<li><strong>Mi az a multiplexer? Hány vezérlő bemenet szükséges egy multiplexernél n bemenet esetén?</strong>
+A harmadik, gyakran használt áramkörök az ú.n. multiplexerek. Ennek több bemenete van és csak egy kimenete. Erre a kimenetre a bemenetek közül csak annak a jele kerül ki, amelyet az ú.n. vezérlő bemenetekkel kiválasztottunk. Megkülönböztetésül előbbi bemeneteket szokás adat bemenetnek, utóbbiakat vezérlő bemeneteknek nevezni. A 24. ábrán egy 4-bemenetű multiplexer (MUX) és igazság táblázata látható. A vezérlő bemenetek kódolva tartalmazzák a kiválasztandó adatbemenet sorszámát, így n adatbemenet esetén a vezérlő bemenetek szükséges száma <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>log</mi><mn>2</mn></msub><mo stretchy="false">&#x00028;</mo><mi>n</mi><mo stretchy="false">&#x00029;</mo></mrow></math>. Így 4 kimenet esetén 2 vezérlő bemenetre van szükség.</li>
+</ol><ol>
+<li><strong>Mi az a demultiplexer? Hány vezérlő bemenet szükséges egy demultiplexernél n kimenet esetén?</strong>
+A harmadik, gyakran használt áramkörök az ú.n. multiplexerek. Ennek több bemenete van és csak egy kimenete. Erre a kimenetre a bemenetek közül csak annak a jele kerül ki, amelyet az ú.n. vezérlő bemenetekkel kiválasztottunk. Megkülönböztetésül előbbi bemeneteket szokás adat bemenetnek, utóbbiakat vezérlő bemeneteknek nevezni. A 24. ábrán egy 4-bemenetű multiplexer (MUX) és igazság táblázata látható. A vezérlő bemenetek kódolva tartalmazzák a kiválasztandó adatbemenet sorszámát, így n adatbemenet esetén a vezérlő bemenetek szükséges száma log2(n). Így 4 kimenet esetén 2 vezérlő bemenetre van szükség.</li>
+</ol>
+    </div>
+    <div id="hover-page"></div>
+    <script src="script.js"></script>
+</body>
+</html>

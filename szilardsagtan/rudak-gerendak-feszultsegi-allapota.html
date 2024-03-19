@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hover Page Demo</title>
+</head>
+<body>
+    <div class="container">
+<h1>Rudak gerendák feszültségi állapota</h1><h2>Normál igénybevétel</h2>
+<p>Idealizált húzókísérlet:</p><p><img alt="" src="img/584fbcfc-3c56-97ab-9232-0e2738f4db0c.svg" /></p>
+<div class="blockformula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x00394;</mi><mi>L</mi><mo>&#x0003D;</mo><mi>L</mi><mo>&#x02212;</mo><msub><mi>L</mi><mn>0</mn></msub><mi>\newline</mi><mi>&#x00394;</mi><mi>H</mi><mo>&#x0003D;</mo><mi>H</mi><mo>&#x02212;</mo><msub><mi>H</mi><mn>0</mn></msub><mi>\newline</mi><mi>&#x00394;</mi><mi>B</mi><mo>&#x0003D;</mo><mi>B</mi><mo>&#x02212;</mo><msub><mi>B</mi><mn>0</mn></msub></mrow></math></div>
+<p><strong>Fajlagos megnyúlás</strong> (mérnöki alakváltozás)</p>
+<div class="blockformula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B5;</mi><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x00394;</mi><mi>L</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub></mrow></mfrac></mrow></math></div>
+
+<div class="blockformula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo>&#x02212;</mo><mn>1</mn><mo>&#x0003C;</mo><mi>&#x003B5;</mi></mrow></math></div>
+<p>Keresztirányban:</p>
+<div class="blockformula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x003B5;</mi><mi>k</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x00394;</mi><mi>H</mi></mrow><mrow><msub><mi>H</mi><mn>0</mn></msub></mrow></mfrac></mrow></math></div>
+<p><a href="izotrop.md">Izotrop anyagi</a> viselkedés esetén - ez van csak sziltannál.</p>
+<div class="blockformula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x003B5;</mi><mi>k</mi></msub><mo>&#x0003D;</mo><mfrac><mrow><mi>&#x00394;</mi><mi>B</mi></mrow><mrow><msub><mi>B</mi><mn>0</mn></msub></mrow></mfrac></mrow></math></div>
+<p>Engineering strain <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B5;</mi></mrow></math> - sziltanban ez <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mo>&#x0003C;</mo><mn>0.05</mn><mo stretchy="false">&#x00029;</mo></mrow></math></p><p>Logaritmikus (valós) alakváltozás (logarithmic/true strain) </p>
+<div class="blockformula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>ln</mi><mo stretchy="false">[</mo><mn>1</mn><mo>&#x0002B;</mo><mi>&#x003B5;</mi><mo stretchy="false">]</mo></mrow></math></div>
+<h3>Mechanikus feszültség:</h3>
+<p>Gondolatban kettévágjuk a testet: anyagi kényszerkapcsolatokat megszüntettem. Ha teljesíteni szeretném az egyensúlyt, akkor elérek a <a href="normal-feszultseg.md">normál feszültség</a> fogalmához.</p><h3>2d ábrázolás</h3><p><img alt="" src="img/58cc8f5f-2986-bbbf-561c-e7ecdd444d1e.svg" /></p><p>Acél húzódiagramja</p><p><img alt="" src="img/feae3fb5-a5de-93b2-4631-d2cbf047e0f8.svg" /></p><p>&#x200b;<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>&#x003C3;</mi><mi>F</mi></msub></mrow></math> - folyáshatár (initial yield stress)</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>R</mi><mi>m</mi></msub></mrow></math>
+<ul>
+<li>szakítószilárdság (ultimate stress)
+* A szilárdságtan tárgyon belül mi a lineárisan rugalmas szakaszban vagyunk érdekeltek. Itt <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>&#x003B5;</mi><mo>&#x0003C;</mo><mo>&#x0003C;</mo><mn>5</mn></mrow></math>.</li>
+</ul><p><img alt="Egyszerű Hooke törvény" src="egyszeru-hooke-torveny.md" /></p><p><strong>Keresztirányú deformációk</strong></p><p><img alt="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;inline&quot;&gt;&lt;mrow&gt;&lt;mi&gt;&#x003BD;&lt;/mi&gt;&lt;/mrow&gt;&lt;/math&gt;: Poisson-tényező" src="poisson-tenyezo.md" /></p>
+<div class="blockformula"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mfrac><mrow><mi>V</mi></mrow><mrow><msub><mi>V</mi><mn>0</mn></msub></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>L</mi><mi>B</mi><mi>H</mi></mrow><mrow><msub><mi>L</mi><mn>0</mn></msub><msub><mi>B</mi><mn>0</mn></msub><msub><mi>H</mi><mn>0</mn></msub></mrow></mfrac><mo>&#x0003D;</mo><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo>&#x0002B;</mo><mi>&#x003B5;</mi><mo stretchy="false">&#x00029;</mo><mo stretchy="false">&#x00028;</mo><mn>1</mn><mo>&#x0002B;</mo><msub><mi>&#x003B5;</mi><mi>k</mi></msub><msup><mo stretchy="false">&#x00029;</mo><mn>2</mn></msup><mo>&#x0003D;</mo><mn>1</mn></mrow></math></div>
+<p>Ebből következnek a nemlineáris dolgok?</p><p>Saint-Venant féle elv: A ható erő módja (több pont, egy pont, egyenletes eloszlás) nem számít, ha elég távol van az erőhatás (Csak az összege számít)</p><p>Ökölszabály: </p><p>Optikai feszültségvizsgálat</p>
+    </div>
+    <div id="hover-page"></div>
+    <script src="script.js"></script>
+</body>
+</html>

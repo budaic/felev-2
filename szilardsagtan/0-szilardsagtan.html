@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hover Page Demo</title>
+</head>
+<body>
+    <div class="container">
+<h1>Szilárságtan</h1><h1>Tartalomjegyzék</h1>
+<ol>
+<li><a href="#általános-tudnivalók">Általános tudnivalók</a></li>
+<li><a href="#jelölések">Jelölések</a></li>
+<li><a href="#definiciók">Definíciók</a></li>
+<li><a href="#tételek-állítások">Tételek, állítások</a></li>
+<li><a href="#előadások">Előadások</a> \
+    5.1 <a href="#1-előadás">1. Előadás</a></li>
+</ol><h1>Általános tudnivalók</h1><p>Dr. Kossa Attila
+mm.bme.hu/~kossa/</p><p>Statika - merev testek
+Sziltan - deformálható testek</p><p>Cél: deformáció és feszültségek számítása</p><p>Téma: Lineárisan rugalmas anyagok, kis alakváltozások, rudak, gerendák</p><h2>Hasznos lehet</h2>
+<ul>
+<li>Gyakorlati anyagok példatár - Teamsen - nyomtassuk ki, vigyük gyakorlatra</li>
+<li>Konzultáció lehet, gyakvezzel egyeztetve.</li>
+<li>Alkalmazott mechanika szakosztály youtube videók</li>
+<li>A diákat Moodle-re tölti fel</li>
+<li>Muttnyánszky Ádám: Szilárdságtan 1981</li>
+<li>Csernák pdf - valahol fenn van</li>
+<li>Efficient engineer</li>
+</ul><h2>Követelmények</h2>
+<ul>
+<li>Gyakorlati órák 70%-a - katalógus van</li>
+<li>Vizsga van:<ul>
+<li>Írásbeli 100 pont (40 min)</li>
+<li>Szóbeli: fakultatív + infok a prezentáción?</li>
+</ul>
+</li>
+<li>HF: 04.08., 05.13. - kötelező, valami python van benne</li>
+<li>ZH 04.25. - féléves anyag 2/3-a (50 pont)</li>
+</ul><h1>Előadásokok</h1><h2>1. Előadás</h2><p>Statika - merev testek
+Sziltan - deformálható testek</p><p>Cél: deformáció és feszültségek számítása</p><p>Téma: Lineárisan rugalmas anyagok, kis alakváltozások, rudak, gerendák</p><h3><a href="rudak-gerendak-feszultsegi-allapota.md">Rudak gerendák feszültségi állapota</a></h3><h2>2. Előadás</h2><h3>Másodrendű nyomaték</h3><p>Hajlítás, nyírás, csavarás igénybevételnél</p><p>Keresztmetszethez tartozó tisztán geometriai mennyiség
+Mindig csak síkidomra számítjuk (a vizsgált rúd keresztmetszete pl)
+Súlypontszámítás ismerete elengedhetetlen</p><p>Koordináta rendszerben tetszőleges síkidomot nagyon kicsi felületelemekkel közelítem</p><p>Terület közelítése: </p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi><mo>&#x02248;</mo><msubsup><mo>&#x02211;</mo><mn>0</mn><mi>n</mi></msubsup><mi>&#x00394;</mi><mi>A</mi></mrow></math><p>ennek a határértéke (<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>n</mi><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></math>) lesz a terület</p><p>&#x200b;<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>A</mi><mo>&#x0003D;</mo><mi>l</mi><mi>i</mi><msub><mi>m</mi><mrow><mi>n</mi><mo>&#x02192;</mo><mo>&#x0221E;</mo></mrow></msub><mrow><msubsup><mo>&#x02211;</mo><mn>0</mn><mi>n</mi></msubsup><mrow><mi>&#x00394;</mi><mi>A</mi></mrow></mrow><mo>&#x0003D;</mo><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></msub><mrow><mi>d</mi><mi>A</mi></mrow></mrow></math></p><p>Felírjuk a távolságát mindkét tengelytől, a tengelyre számított másodrendű nyomaték alatt a tengelytávolság négyzetösszegét értjük
+<strong>Tengerlyre számított</strong> másodrendű nyomaték
+Jelölés: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>x</mi></msub></mrow></math></p><p>&#x200b;<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>x</mi></msub><mo>&#x0003D;</mo><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></msub><mrow><msup><mi>y</mi><mn>2</mn></msup><mi>d</mi><mi>A</mi></mrow></mrow></math></p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>y</mi></msub><mo>&#x0003D;</mo><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></msub><mrow><msup><mi>x</mi><mn>2</mn></msup><mi>d</mi><mi>A</mi></mrow></mrow></math><p>Minél nagyobb a másodrendű nyomaték annál kisebb a deformáció (azonos erőre)</p><p><strong>Tengelypárra számított</strong> másodrendű nyomaték</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mo>&#x0003D;</mo><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></msub><mrow><mi>x</mi><mi>y</mi><mi>d</mi><mi>A</mi></mrow></mrow></math><p>Fontos megfigyelés: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>x</mi></msub></mrow></math> biztosan nagyobb mint 0.</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>x</mi></msub><mo>&#x0003E;</mo><mn>0</mn><mo>&#x0003D;</mo><mo stretchy="false">[</mo><msup><mi>m</mi><mn>4</mn></msup><mo stretchy="false">]</mo></mrow></math>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>y</mi></msub><mo>&#x0003E;</mo><mn>0</mn><mo>&#x0003D;</mo><mo stretchy="false">[</mo><msup><mi>m</mi><mn>4</mn></msup><mo stretchy="false">]</mo></mrow></math>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mo>&#x02208;</mo><mi>&#x0211D;</mi><mo>&#x0003D;</mo><mo stretchy="false">[</mo><msup><mi>m</mi><mn>4</mn></msup><mo stretchy="false">]</mo></mrow></math><p><strong>Ez három független mennyiség !!</strong></p><p>Számítható a pontra számított (poláris) másodrendű nyomaték</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>p</mi></msub><mo>&#x0003D;</mo><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></msub><mrow><msup><mi>r</mi><mn>2</mn></msup><mi>d</mi><mi>A</mi></mrow><mo>&#x0003D;</mo><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></msub><mrow><mo stretchy="false">&#x00028;</mo><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><msup><mi>y</mi><mn>2</mn></msup><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>A</mi></mrow></mrow></math>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>p</mi></msub><mo>&#x0003D;</mo><msub><mi>I</mi><mi>y</mi></msub><mo>&#x0002B;</mo><msub><mi>I</mi><mi>x</mi></msub></mrow></math>
+<p>nem független mennyiség</p><p>Ha az egyik tengely szimmetriatengely, akkor biztosan <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mo>&#x0003D;</mo><mn>0</mn></mrow></math></p><p>A súlyponti (súlyponton átmenő) tengelyekre számított másodrendű nyomaték kifejezetten fontos.</p><p><strong>Példa</strong>:
+Téglalap keresztmetszet, illesztem a súlypontjához a tengelyeket (Origó a keresztmetszet súlypontja). Szélessége: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>a</mi></mrow></math>. Magassága: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>b</mi></mrow></math>.</p><p>&#x200b;<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>x</mi></msub><mo>&#x0003D;</mo><msub><mo>&#x0222B;</mo><mrow><mo stretchy="false">&#x00028;</mo><mi>A</mi><mo stretchy="false">&#x00029;</mo></mrow></msub><mrow><msup><mi>y</mi><mn>2</mn></msup><mi>d</mi><mi>A</mi></mrow></mrow></math></p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>d</mi><mi>A</mi><mo>&#x0003D;</mo><mi>d</mi><mi>x</mi><mi>d</mi><mi>y</mi></mrow></math>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msubsup><mo>&#x0222B;</mo><mrow><mo>&#x02212;</mo><mi>b</mi><mo>&#x0002F;</mo><mn>2</mn></mrow><mrow><mi>b</mi><mo>&#x0002F;</mo><mn>2</mn></mrow></msubsup><mrow><msubsup><mo>&#x0222B;</mo><mrow><mo>&#x02212;</mo><mi>a</mi><mo>&#x0002F;</mo><mn>2</mn></mrow><mrow><mi>a</mi><mo>&#x0002F;</mo><mn>2</mn></mrow></msubsup><mrow><msup><mi>y</mi><mn>2</mn></msup><mi>d</mi><mi>x</mi></mrow><mi>d</mi><mi>y</mi></mrow></mrow></math><p>&#x200b;<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>x</mi></msub><mo>&#x0003D;</mo><msubsup><mo>&#x0222B;</mo><mrow><mo>&#x02212;</mo><mi>b</mi><mo>&#x0002F;</mo><mn>2</mn></mrow><mrow><mi>b</mi><mo>&#x0002F;</mo><mn>2</mn></mrow></msubsup><mrow><mo stretchy="false">&#x00028;</mo><mi>a</mi><msup><mi>y</mi><mn>2</mn></msup><mo stretchy="false">&#x00029;</mo><mi>d</mi><mi>y</mi></mrow></mrow></math></p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>x</mi></msub><mo>&#x0003D;</mo><mi>a</mi><mo stretchy="false">[</mo><mfrac><mrow><msup><mi>y</mi><mn>3</mn></msup></mrow><mrow><mn>3</mn></mrow></mfrac><msubsup><mo stretchy="false">]</mo><mrow><mo>&#x02212;</mo><mi>b</mi><mo>&#x0002F;</mo><mn>2</mn></mrow><mrow><mi>b</mi><mo>&#x0002F;</mo><mn>2</mn></mrow></msubsup><mo>&#x0003D;</mo><mfrac><mrow><mi>a</mi><msup><mi>b</mi><mn>3</mn></msup></mrow><mrow><mn>12</mn></mrow></mfrac></mrow></math><p>&#x200b;<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>y</mi></msub><mo>&#x0003D;</mo><mi>b</mi><mo stretchy="false">[</mo><mfrac><mrow><msup><mi>x</mi><mn>3</mn></msup></mrow><mrow><mn>3</mn></mrow></mfrac><msubsup><mo stretchy="false">]</mo><mrow><mo>&#x02212;</mo><mi>a</mi><mo>&#x0002F;</mo><mn>2</mn></mrow><mrow><mi>a</mi><mo>&#x0002F;</mo><mn>2</mn></mrow></msubsup><mo>&#x0003D;</mo><mfrac><mrow><mi>b</mi><msup><mi>a</mi><mn>3</mn></msup></mrow><mrow><mn>12</mn></mrow></mfrac></mrow></math></p><p>Itt mivel <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi></mrow></math> és <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>y</mi></mrow></math> is szimmetriatengely:</p><p>&#x200b;<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mo>&#x0003D;</mo><mn>0</mn></mrow></math></p><p>Összetett keresztmetszet (síkidom) esetén: 
+Össze lehet adni egy közös koordinátarendszer esetén az egyes primitív síkidomok másodrendű nyomatékait (a terület előjeles figyelembe vételével). </p><p><strong>Steiner-tétel</strong> (párhuzamos tengelyek tétele)</p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>&#x003BE;</mi></msub><mo>&#x0003D;</mo><msub><mi>I</mi><mi>x</mi></msub><mo>&#x0002B;</mo><msup><mi>t</mi><mn>2</mn></msup><mi>A</mi></mrow></math>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mi>&#x003BE;</mi></msub><mo>&#x0003E;</mo><msub><mi>I</mi><mi>x</mi></msub></mrow></math><p>!!Csak akkor alkalmazható, ha a két párhuzamos tengely közül az egyik a súlyponton halad keresztül!!</p><p><strong>Tengelypár esetén</strong></p>
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msub><mi>I</mi><mrow><mi>&#x003BE;</mi><mi>&#x003B7;</mi></mrow></msub><mo>&#x0003D;</mo><msub><mi>I</mi><mrow><mi>x</mi><mi>y</mi></mrow></msub><mo>&#x0002B;</mo><mi>r</mi><mi>t</mi><mi>&#x000B7;</mi><mi>A</mi></mrow></math><p>Hogyan találom meg azt a tengelyt, amelyre a legnagyobb a másodrendű nyomaték</p><blockquote>
+<h3>Főmásodrendű nyomatékok</h3>
+</blockquote><p>Koordinátarendszer elforgatása
+Nem kell fejből tudni sem zhn sem vizsgán.
+Levezetés a ppt-ben</p><h1>TODO megcsinálni ezt a pptből</h1><p>Főirányok helyzetére adódik</p>
+    </div>
+    <div id="hover-page"></div>
+    <script src="script.js"></script>
+</body>
+</html>

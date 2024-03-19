@@ -18,20 +18,20 @@
 # Általános tudnivalók
 
 # Jelölések
-$\mathbb{R}^p$ - $p$ dimenziós valós tér \
-$A^C$ - $A$ halmaz komplementere \
-$\text{ext } A$ - $A$ halmaz [külső pontjainak](kulso-pont.md) halmaza \
-$\text{int } A$ - $A$ halmaz [belső pontjainak](belso-pont.md) halmaza \
-$\partial A$ - $A$ halmaz [határpontjainak](hatarpont.md) halmaza \
-$\bar{A}$ - $A$ halmaz [lezártja](halmaz-lezartja.md) \
-$\text{graph } f$ - $f$ [grafikonja](grafikon.md) \
-$\gamma_c$ - $f$ függvény $c$-hez tartozó [szintvonala](szintvonal.md) \
-$\Gamma_c$ - $f$ függvény $c$-hez tartozó [kontúrvonala](konturvonal.md) \
-$|\underline{x}|$ - $\underline{x}$ hossza \
-$d(\underline{x}, \underline{y})=|\underline{x}-\underline{y}|$ - $\underline{x}$ és $\underline{y}$ távolsága
-$\text{grad }{f}=\underline{\nabla}f$ - $f$ függvény [gradiens vektora](gradiens-vektor.md)
-$f'_x$ függvény $x$ szerinti [parciális deriváltja](parcialis-derivalt.md)
-$f'$ függvény [totális deriváltja](totalis-derivalt.md)
+- $\mathbb{R}^p$ - $p$ dimenziós valós tér 
+- $A^C$ - $A$ halmaz komplementere 
+- $\text{ext } A$ - $A$ halmaz [külső pontjainak](kulso-pont.md) halmaza 
+- $\text{int } A$ - $A$ halmaz [belső pontjainak](belso-pont.md) halmaza 
+- $\partial A$ - $A$ halmaz [határpontjainak](hatarpont.md) halmaza 
+- $\bar{A}$ - $A$ halmaz [lezártja](halmaz-lezartja.md) 
+- $\text{graph } f$ - $f$ [grafikonja](grafikon.md) 
+- $\gamma_c$ - $f$ függvény $c$-hez tartozó [szintvonala](szintvonal.md) 
+- $\Gamma_c$ - $f$ függvény $c$-hez tartozó [kontúrvonala](konturvonal.md) 
+- $|\underline{x}|$ - $\underline{x}$ hossza 
+- $d(\underline{x}, \underline{y})=|\underline{x}-\underline{y}|$ - $\underline{x}$ és $\underline{y}$ távolsága
+- $\text{grad }{f}=\underline{\nabla}f$ - $f$ függvény [gradiens vektora](gradiens-vektor.md)
+- $f'_x$ függvény $x$ szerinti [parciális deriváltja](parcialis-derivalt.md)
+- $f'$ - függvény [totális deriváltja](totalis-derivalt.md)
 
 # Definíciók
 * [Pont környezete](kornyezet.md)
