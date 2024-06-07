@@ -1,6 +1,7 @@
 # Iránymenti derivált
 
 Ugyanúgy ahogy a sima [parciális derviáltnál](parcialis-derivalt.md) egy adott $y=y_0$ egyenes mentén néztük úgy egy adott irány mentén is lehet.
+Akkor létezik csak, ha a határértékek léteznek és végesek
 
 ## Definíció 2 dimenzióban
 Tegyük fel, hogy $\underline{v} \in \mathbb{R}^2$ és $\underline{v} \neq \underline{0}$
