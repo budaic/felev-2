@@ -27,6 +27,41 @@
 
 **__Nem kötelezők a gyakok__**
 
+# Vizsga
+Az előadás anyagokban sorrendben előkerülő fogalmakat kilistáztam ide
+* [Villamos töltés](./villamos-toltes.md)
+* [Coulomb törvény](./coulomb-torveny.md)
+* [Villamos erőtér](./villamos-eroter.md)
+* [Villamos térerősség](./villamos-tererosseg.md)
+* [Villamos erővonal](./villamos-erovonal.md)
+* Pontszerű töltés villamos tere
+    - A [Coulomb törvény](./coulomb-torveny.md) alapján
+    - Q töltés [villamos tere](./villamos-tererosseg.md) gömbszimmetrikus
+    - nagysága a töltéstől $r$ távolságra: $\frac{Q}{4 \pi \varepsilon_0 r^2}$
+* Nyugvó töltések eloszlása
+    - **Elektromosan semleges** állapot: az anyag tetszpleges térfogatelemének, molekuláris méretekig, az eredő töltése 0
+    - **Feltöltött** állapot: az anyag nullától különböző eredő töltéssel rendelkezik
+    - **Elektrosztatikus egyensúlyi** állapot: a töltések nyugalomban vannak
+* [Villamos megosztás](./villamos-megosztas.md)
+* [Villamos potenciál](./villamos-potencial.md)
+* [Ekvipotenciális felület](./ekvipotencialis-felulet.md)
+* [Feszültség](./feszultseg.md)
+* [Eltolási vektor](./eltolasi-vektor.md)
+* [Villamos tér fluxusa](./villamos-ter-fluxusa.md)
+* [Gauss törvény](./gauss-torveny.md)
+* Ha egy felület adott pontjában a felületi töltéssűrűség (felületegységben található töltésmennyiség) $\rho_A$, akkor ott $D = \rho_A$
+* [Árnyékolás, földelés](./arnyekolas-foldeles.md)
+* Térerősség éleknél, koronakisülés
+    - Egyenetlen felületű töltött test esetén a felületi töltéssűrűség, így a [villamos térerősség](./villamos-tererosseg.md), a nagyobb [görbülettel](../tobbvaltozos-analizis/gorbulet.md) rendelkező felületrészeknél (élek, csúcsok) a legnagyobb
+
+    - Ha a [térerősség](./villamos-tererosseg.md) nagysága meghalad egy bizonyos szintet, akkor a levegő ionizálódik, [koronakisülés](https://www.youtube.com/watch?v=CkjFJtMG5oY) jön létre. Ezt a jelenséget több alkalmazás is kihasználja (pl. elektrosztatikus festékszórás, fénymásolás)
+
+* [Kapacitás](./kapacitas.md)
+* [Kondenzátor](./kondenzator.md)
+* [Villamos tér energiája](./villamos-eroter.md#energiája)
+* [Síkkondenzátor lemezei között ható erő](./kondenzator.md#síkkondenzátor-lemezei-között-ható-erő)
+* [Kondenzátorok kapcsolása](./kondenzator.md#kondenzátorok-kapcsolása)
+
 # Előadások
 
 ## 1. Előadás

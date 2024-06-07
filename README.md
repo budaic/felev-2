@@ -14,6 +14,9 @@ A BME Mechatronika Bsc második féléves jegyzetei Széles Tamás és Budai Csa
     
 
 # TODO
+* [feluleti-integral.md](./tobbvaltozos-analizis/feluleti-integral.md)-t megcsinálni
+* [divergencia.md](./tobbvaltozos-analizis/divergencia.md)-t megcsinálni
+* [gorbulet.md](./tobbvaltozos-analizis/gorbulet.md)-t megcsinálni
 * [függvény folytonossága második definició](tobbvaltozos-analizis/fuggveny-folytonossaga.md#definíció-2) kérdéses, hogy $\geq$ kell, vagy $>$
 * Analízisnél az alap fájlt megcsinálni
 
