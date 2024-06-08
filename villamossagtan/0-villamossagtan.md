@@ -61,6 +61,33 @@ Az előadás anyagokban sorrendben előkerülő fogalmakat kilistáztam ide
 * [Villamos tér energiája](./villamos-eroter.md#energiája)
 * [Síkkondenzátor lemezei között ható erő](./kondenzator.md#síkkondenzátor-lemezei-között-ható-erő)
 * [Kondenzátorok kapcsolása](./kondenzator.md#kondenzátorok-kapcsolása)
+* Elektromos áram kialakulása
+    - A termelőben valamilyen erőhatás szétválasztja a pozitív és negatív elektromos töltéseket, melynek hatására a termelő egyik kapcsa pozitívan, a másik negatívan lesz töltött. A szétválasztó erő lehet például kémiai (elem, akkumulátor), mozgás hatűsűra fellépő elektromágneses erő (generátor), illetve fény (napelem).
+    - Ha a termelő kapcsait vezetővel kötjük össze, a vezetőben lévő mobilis töltések a térerősség hatására mozgásba jönnek, elektromos áram alakul ki a vezetőben. Az áram pozitív iránya megállapodás szerint a pozitív töltések áramlásának iránya
+* [Eletromotors erő](./elektromotoros-ero.md)
+* [Áramerősség](./aramerosseg.md)
+* [Ohmos ellenállás](./ellenallas.md)
+* [Vezetőképesség](./vezetokepesseg.md)
+* [Ohm törvény](./ohm-torveny.md)
+* [Teljesítmény](./teljesitmeny.md)
+* [Termelő modellezése](./termelo-modellezese.md)
+* [Kirchhoff csomóponti törvénye](./kirchhoff-csomoponti-torvenye.md)
+* [Kirchhoff hurok törvénye](./kirchhoff-hurok-torvenye.md)
+* [Csomóponti potenciálok módszere](./csomoponti-potencialok-modszere.md)
+* [Hurok áramok módszere](./hurok-aramok-modszere.md)
+* [Feszültségforrás jelleggörbéje](./feszultsegforras-jelleggorbeje.md)
+* [Ellenállások soros kapcsolása](./ellenallasok-soros-kapcsolasa.md)
+* [Ellenállások párhuzamos kapcsolása](./ellenallasok-parhuzamos-kapcsolasa.md)
+* [Csillag-delta átalakítás](./csillag-delta-atalakitas.md)
+* [Feszültségosztó](./feszultsegoszto.md)
+* [Áramosztó](./aramoszto.md)
+* [Kapacitás](./kapacitas.md#mint-áramköri-elem)
+* [Induktivitás](./induktivitas.md)
+* [Passzív áramköri elemek](./passziv-aramkori-elemek.md)
+* [Komplex időfüggvény](./komplex-idofuggveny.md)
+* [Effektív érték]()
+
+
 
 # Előadások
 
