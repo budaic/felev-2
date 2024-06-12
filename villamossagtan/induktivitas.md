@@ -8,6 +8,15 @@ Koncentrált paraméterű áramköri jelei:
 
 **Jele**: L
 **Mértékegysége**: [L] = henry = H
-**Feszültség-áram karakterisztikája tetszőleges időfüggő esetben**: $$u = L \frac{di}{dt}$$
-
+**Feszültség-áram karakterisztikája tetszőleges időfüggő esetben**: 
 Egyenáramú esetben rövidzár.
+$$u = L \frac{d\bm{i}}{dt}$$
+A $\frac{d}{dt} = j\omega$ helyettesítéssel élve
+$$u = j\omega L \bm{i}$$
+
+[impedancia](./impedancia.md): $\bm{Z_L} = j L \omega$
+[reaktancia](./reaktancia.md): $\bm{X_L} = L \omega$
+[admittancia](./admittancia.md): $\bm{Y_L} = \frac{1}{\bm{Z_L}} = -\frac{j}{L\omega}$
+
+
+![Vektorábrája](./vektorabra.md#induktivitás-vektorábrája)

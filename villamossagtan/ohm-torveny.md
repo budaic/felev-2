@@ -10,3 +10,6 @@ $$R = \rho\frac{l}{A}$$
 A **differenciális Ohm törvény** a következő:
 $$\textbf{E} = \rho \textbf{s}$$
 $\textbf{s}$ : áramsűrűség, iránya egyezik a pozitív töltések irányával az adott pontban. Nagysága: $s = \frac{l}{A}$
+
+## Általánosított Ohm törvény
+A [feszültség](./feszultseg.md) és az áram hányadosát elnevezzük **impedanciának**

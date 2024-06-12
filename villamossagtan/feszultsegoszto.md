@@ -4,6 +4,6 @@ Abban az esetben, ha egy fogyasztó a tápfeszültségnél kisebb [feszültsége
 A feszültségosztó két, sorba kapcsolt [ellenállásból](./ellenallas.md) áll. A körre kapcsolt [feszültség](./feszultseg.md) az [ellenállásokon](./ellenallas.md), azok értékeinek megfelelően, megoszlik. 
 A képlet ismerete áramkörök modellezésénél is hasznos.
 
-![alt text](image.png)
+![alt text](./img/feszultsegoszto.png)
 
 $$U_2 = IR_2 = U\frac{R_2}{R_1+R_2}$$

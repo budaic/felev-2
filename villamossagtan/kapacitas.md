@@ -16,6 +16,26 @@ Koncentrált paraméterű áramköri jelei:
 ![alt text](./img/kapacitas2.png)
 
 **Feszültség-áram karakterisztikája tetszőleges időfüggő esetben**:
+Egyenáramú esetben szakadás.
 $$i = C \frac{du}{dt}$$
 
-Egyenáramú esetben szakadás.
+Ez a [differenciálegyenlet](../tobbvaltozos-analizis/differencial-egyenlet.html) szinuszos táplású esetben a [komplex időfüggvény](./komplex-idofuggveny.md) alkalmazásával lineárissá válik:
+
+\[
+\bm{i} = C \frac{d\bm{u}}{dt}
+\]
+
+A $\frac{d}{dt} = j\omega$ helyettesítéssel élve
+\[
+\bm{i} = j\omega C \bm{u}
+\]
+
+\[
+\bm{u} = -\frac{j}{\omega C} \bm{i}
+\]
+
+[impedancia](./impedancia.md): $\bm{Z_C} = -\frac{j}{C \omega}$
+[reaktancia](./reaktancia.md): $\bm{X_C} = \frac{1}{C \omega}$
+[admittancia](./admittancia.md): $\bm{Y_C} = \frac{1}{\bm{Z_C}} = jC\omega$
+
+![Vektorábrája](./vektorabra.md#kapacitás-vektorábrája)

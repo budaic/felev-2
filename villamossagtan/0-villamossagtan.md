@@ -85,8 +85,20 @@ Az előadás anyagokban sorrendben előkerülő fogalmakat kilistáztam ide
 * [Induktivitás](./induktivitas.md)
 * [Passzív áramköri elemek](./passziv-aramkori-elemek.md)
 * [Komplex időfüggvény](./komplex-idofuggveny.md)
-* [Effektív érték]()
-
+* [Effektív érték](./effektiv-ertek.md)
+* [Általánosított Ohm törvény](./ohm-torveny.md#általánosított-ohm-törvény)
+* [Vektorábra](./vektorabra.md)
+* [Fázisszög](./fazisszog.md)
+* Szinuszos táplálású áramkörök modellezése
+    - Az egyenáramú áramköröknél megtanult törvényszerűségek(Kirchhoff törvények ([hurok](./kirchhoff-hurok-torvenye.md), [csomoponti](./kirchhoff-csomoponti-torvenye.md)), [csomóponti potenciálok módszere](./csomoponti-potencialok-modszere.md), [hurokáramok módszere](./hurok-aramok-modszere.md), soros és párhuzamos kapcsolás egyszerűsítése, [feszültségosztó](./feszultsegoszto.md), [áramosztó](./aramoszto.md)) itt is ugyanúgy alkalmazhatóak, csak itt [impedanciákkal](./impedancia.md) és [komplex időfüggvényekkel](./komplex-idofuggveny.md) kell számolni.
+    - Egymással sorba kapcsolt [impedanciák](./impedancia.md) helyettesíthetőek egyetlen $\bm{Z_s}$ [impedanciával](./impedancia.md), ahol $\bm{Z_s} = \sum_{i=1}^n \bm{Z_i}$.
+    - Egymással párhuzamosan kapcsolt [impendaciák](./impedancia.md) helyettesíthetőek egyetlen $\bm{Z_p}$ [impedanciával](./impedancia.md), ahol $\frac{1}{\bm{Z_p}} = \sum_{i=1}^n \frac{1}{\bm{Z_i}}$
+* [Soros R-L kör](./soros-rl-kor.md)
+* [Soros R-L-C kör](./soros-rlc-kor.md)
+* [Párhuzamos R-L-C kör](./parhuzamos-rlc-kor.md)
+* [Teljesítményfajták szinuszos hálózatokban](./teljesitmenyfajtak-szinuszos-halozatokban.md)
+* [Thévenin tétel](./thevenin-tetel.md)
+* [Norton tétel](./norton-tetel.md)
 
 
 # Előadások
